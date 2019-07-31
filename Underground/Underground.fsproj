@@ -9,4 +9,8 @@
     <Compile Include="Program.fs" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Include="LU_Data.json" />
+  </ItemGroup>
+
 </Project>
