@@ -13,6 +13,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="LU_Data.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="LU_Data.yml" />
   </ItemGroup>
 
