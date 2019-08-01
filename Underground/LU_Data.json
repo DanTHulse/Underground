@@ -37,7 +37,7 @@
         "line": "District"
       },
       {
-        "line": "HammersmithAndCity"
+        "line": "HammersmithCity"
       }
     ]
   },
@@ -121,7 +121,7 @@
         "line": "Jubilee"
       },
       {
-        "line": "HammersmithAndCity"
+        "line": "HammersmithCity"
       }
     ]
   },
@@ -142,7 +142,7 @@
         "line": "Northern"
       },
       {
-        "line": "WaterlooAndCity"
+        "line": "WaterlooCity"
       },
       {
         "line": "Central"
@@ -160,7 +160,7 @@
         "line": "Metropolitan"
       },
       {
-        "line": "HammersmithAndCity"
+        "line": "HammersmithCity"
       },
       {
         "line": "Circle"
@@ -175,7 +175,7 @@
         "line": "District"
       },
       {
-        "line": "HammersmithAndCity"
+        "line": "HammersmithCity"
       }
     ]
   },
@@ -352,7 +352,7 @@
         "line": "District"
       },
       {
-        "line": "HammersmithAndCity"
+        "line": "HammersmithCity"
       }
     ]
   },
@@ -382,7 +382,7 @@
         "line": "District"
       },
       {
-        "line": "HammersmithAndCity"
+        "line": "HammersmithCity"
       }
     ]
   },
@@ -781,7 +781,7 @@
         "line": "District"
       },
       {
-        "line": "HammersmithAndCity"
+        "line": "HammersmithCity"
       }
     ]
   },
@@ -838,7 +838,7 @@
     "name": "Edgware Road",
     "lines": [
       {
-        "line": "HammersmithAndCity"
+        "line": "HammersmithCity"
       },
       {
         "line": "District"
@@ -910,46 +910,10 @@
     "name": "Euston",
     "lines": [
       {
-        "line": "Northern",
-        "stations": [
-          {
-            "branch": "n/High Barnet",
-            "id": 13,
-            "name": "Mornington Cresent",
-            "runningTime": 90
-          },
-          {
-            "branch": "n/Edgeware",
-            "id": 12,
-            "name": "Camden Town",
-            "runningTime": 210
-          },
-          {
-            "branch": "s/Morden",
-            "id": 15,
-            "name": "King's Cross St. Pancras"
-          },
-          {
-            "branch": "s/Kennington",
-            "id": 16,
-            "name": "Warren Street"
-          }
-        ]
+        "line": "Northern"
       },
       {
-        "line": "Piccadilly",
-        "stations": [
-          {
-            "branch": "e/",
-            "id": 15,
-            "name": "King's Cross St. Pancras"
-          },
-          {
-            "branch": "w/",
-            "id": 16,
-            "name": "Warren Street"
-          }
-        ]
+        "line": "Piccadilly"
       }
     ]
   },
@@ -964,7 +928,7 @@
         "line": "Circle"
       },
       {
-        "line": "HammersmithAndCity"
+        "line": "HammersmithCity"
       }
     ]
   },
@@ -988,7 +952,7 @@
         "line": "Circle"
       },
       {
-        "line": "HammersmithAndCity"
+        "line": "HammersmithCity"
       }
     ]
   },
@@ -1081,7 +1045,7 @@
     "name": "Goldhawk Road",
     "lines": [
       {
-        "line": "HammersmithAndCity"
+        "line": "HammersmithCity"
       },
       {
         "line": "Circle"
@@ -1117,7 +1081,7 @@
         "line": "Circle"
       },
       {
-        "line": "HammersmithAndCity"
+        "line": "HammersmithCity"
       }
     ]
   },
@@ -1189,7 +1153,7 @@
     "name": "Hammersmith",
     "lines": [
       {
-        "line": "HammersmithAndCity"
+        "line": "HammersmithCity"
       },
       {
         "line": "Circle"
@@ -1543,7 +1507,7 @@
         "line": "Victoria"
       },
       {
-        "line": "HammersmithAndCity"
+        "line": "HammersmithCity"
       }
     ]
   },
@@ -1561,7 +1525,7 @@
     "name": "Ladbroke Grove",
     "lines": [
       {
-        "line": "HammersmithAndCity"
+        "line": "HammersmithCity"
       },
       {
         "line": "Circle"
@@ -1591,7 +1555,7 @@
     "name": "Latimer Road",
     "lines": [
       {
-        "line": "HammersmithAndCity"
+        "line": "HammersmithCity"
       },
       {
         "line": "Circle"
@@ -1660,7 +1624,7 @@
         "line": "Circle"
       },
       {
-        "line": "HammersmithAndCity"
+        "line": "HammersmithCity"
       }
     ]
   },
@@ -1750,7 +1714,7 @@
         "line": "District"
       },
       {
-        "line": "HammersmithAndCity"
+        "line": "HammersmithCity"
       },
       {
         "line": "Central"
@@ -2005,7 +1969,7 @@
     "name": "Paddington",
     "lines": [
       {
-        "line": "HammersmithAndCity"
+        "line": "HammersmithCity"
       },
       {
         "line": "District"
@@ -2074,7 +2038,7 @@
         "line": "District"
       },
       {
-        "line": "HammersmithAndCity"
+        "line": "HammersmithCity"
       }
     ]
   },
@@ -2239,7 +2203,7 @@
     "name": "Royal Oak",
     "lines": [
       {
-        "line": "HammersmithAndCity"
+        "line": "HammersmithCity"
       },
       {
         "line": "Circle"
@@ -2347,7 +2311,7 @@
     "name": "Shepherd's Bush Market",
     "lines": [
       {
-        "line": "HammersmithAndCity"
+        "line": "HammersmithCity"
       },
       {
         "line": "Circle"
@@ -2497,7 +2461,7 @@
         "line": "District"
       },
       {
-        "line": "HammersmithAndCity"
+        "line": "HammersmithCity"
       }
     ]
   },
@@ -2719,7 +2683,7 @@
         "line": "District"
       },
       {
-        "line": "HammersmithAndCity"
+        "line": "HammersmithCity"
       }
     ]
   },
@@ -2803,7 +2767,7 @@
     "name": "Waterloo",
     "lines": [
       {
-        "line": "WaterlooAndCity"
+        "line": "WaterlooCity"
       },
       {
         "line": "Bakerloo"
@@ -2881,7 +2845,7 @@
         "line": "District"
       },
       {
-        "line": "HammersmithAndCity"
+        "line": "HammersmithCity"
       },
       {
         "line": "Jubilee"
@@ -2947,7 +2911,7 @@
     "name": "Westbourne Park",
     "lines": [
       {
-        "line": "HammersmithAndCity"
+        "line": "HammersmithCity"
       },
       {
         "line": "Circle"
@@ -2995,7 +2959,7 @@
         "line": "District"
       },
       {
-        "line": "HammersmithAndCity"
+        "line": "HammersmithCity"
       }
     ]
   },
@@ -3049,7 +3013,7 @@
     "name": "Wood Lane",
     "lines": [
       {
-        "line": "HammersmithAndCity"
+        "line": "HammersmithCity"
       },
       {
         "line": "Circle"

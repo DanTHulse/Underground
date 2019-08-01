@@ -395,29 +395,7 @@
   name: Euston
   lines:
   - line: Northern
-    stations:
-    - branch: n/High Barnet
-      id: 13
-      name: Mornington Cresent
-      runningTime: 90
-    - branch: n/Edgeware
-      id: 12
-      name: Camden Town
-      runningTime: 210
-    - branch: s/Morden
-      id: 15
-      name: King's Cross St. Pancras
-    - branch: s/Kennington
-      id: 16
-      name: Warren Street
   - line: Piccadilly
-    stations:
-    - branch: e/
-      id: 15
-      name: King's Cross St. Pancras
-    - branch: w/
-      id: 16
-      name: Warren Street
 - id: 0
   name: Euston Square
   lines:

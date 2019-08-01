@@ -3,7 +3,7 @@
 [<AutoOpen>]
 module DomainTypes =
     type Lines =
-        Northern = 0
+      | Northern = 0
       | Circle = 1
       | District = 2
       | HammersmithCity = 3
@@ -12,7 +12,7 @@ module DomainTypes =
       | Jubilee = 6
       | Bakerloo = 7
       | Victoria = 8
-      | Piccadily = 9
+      | Piccadilly = 9
       | WaterlooCity = 10
       | Elizabeth = 11
       | DLR = 12
@@ -22,7 +22,24 @@ module DomainTypes =
       | Walking = 16
     
     type Directions =
-        Northbound = 'n'
+      | Northbound = 'n'
       | Southbound = 's'
       | Eastbound = 'e'
       | Westbound = 'w'
+
+    type Route = {
+      branch: string
+      id: int
+      weight: int
+    }
+
+    type Line = {
+      line: Lines
+      // routes: Route list
+    }
+
+    type Station = {
+      id: int
+      name: string
+      lines: Line list
+    }
