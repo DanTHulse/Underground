@@ -1,10 +1,11 @@
 ﻿namespace Underground
 
 open System
-open DataParse
+open Data
 
 module Entry =
     [<EntryPoint>]
-    let main argv =
+    let main _ =
         let luData = loadData
+        let result = findStation(luData, 5)
         0;
