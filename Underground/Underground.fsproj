@@ -6,6 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="DomainTypes.fs" />
+    <Compile Include="Helpers.fs" />
+    <Compile Include="DataParse.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
