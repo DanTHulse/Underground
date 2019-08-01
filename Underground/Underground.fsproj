@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="LU_Data.json" />
+    <None Include="LU_Data.yml" />
   </ItemGroup>
 
 </Project>
