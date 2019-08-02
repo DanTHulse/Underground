@@ -1,0 +1,67 @@
+Northern
+    >> n/HighBarnet
+    >> n/Edgeware
+    >> s/Morden
+    >> s/Kennington
+
+District
+    >> e/Upminster
+    >> e/EdgewareRoad
+    >> w/Wimbledon
+    >> w/EalingBroadway
+    >> w/Richmond
+
+Circle
+    >> x/EdgewareRoad
+    >> w/Hammersmith
+
+HammersmithCity
+    >> e/Barking
+    >> w/Hammersmith
+
+Metropolitan
+    >> s/Aldgate
+    >> n/Uxbridge
+    >> n/Amersham
+    >> n/Chesham
+    >> n/Watford
+
+Bakerloo
+    >> s/ElephantAndCastle
+    >> n/HarrowAndWealdstone
+
+Jubilee
+    >> e/Stratford
+    >> n/Stanmore
+
+Victoria
+    >> n/WalthamstowCentral
+    >> s/Brixton
+
+Piccadilly
+    >> w/HeathrowT423
+    >> w/HeathrowT235
+    >> w/Uxbridge
+    >> e/Cockfosters
+
+WaterlooCity
+    >> e/Bank
+    >> w/Waterloo
+
+Central
+    >> e/Epping
+    >> e/WoodfordHainault
+    >> w/EalingBroadway
+    >> w/WestRuislip
+
+DLR
+    >> e/Beckton
+    >> e/WoolwichArsenal
+    >> w/TowerGateway
+    >> w/Bank
+
+    >> n/Stratford
+    >> s/Lewisham
+
+    >> n/StratfordInternational
+    >> s/CanningTown
