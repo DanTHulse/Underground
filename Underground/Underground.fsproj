@@ -6,6 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="Data\DLR_Branches.txt" />
+    <Content Include="Data\LU_Data.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\LU_Stations_Short.json" />
+    <None Include="Data\LU_Data.yml" />
     <Compile Include="DomainTypes.fs" />
     <Compile Include="Helpers.fs" />
     <Compile Include="Data.fs" />
@@ -13,15 +19,9 @@
     <Compile Include="Program.fs" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Content Include="LU_Data.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
+  <ItemGroup />
 
-  <ItemGroup>
-    <None Include="LU_Data.yml" />
-  </ItemGroup>
+  <ItemGroup />
 
   <ItemGroup>
     <PackageReference Include="FSharp.Data" Version="3.1.1" />
