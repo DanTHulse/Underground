@@ -16,7 +16,7 @@
   name: Aldgate East
   lines:
   - line: District
-  - line: HammersmithAndCity
+  - line: HammersmithCity
 - id: 5
   name: All Saints
   lines:
@@ -52,7 +52,7 @@
   - line: Bakerloo
   - line: Circle
   - line: Jubilee
-  - line: HammersmithAndCity
+  - line: HammersmithCity
 - id: 12
   name: Balham
   lines:
@@ -61,20 +61,20 @@
   name: Bank
   lines:
   - line: Northern
-  - line: WaterlooAndCity
+  - line: WaterlooCity
   - line: Central
   - line: DLR
 - id: 14
   name: Barbican
   lines:
   - line: Metropolitan
-  - line: HammersmithAndCity
+  - line: HammersmithCity
   - line: Circle
 - id: 15
   name: Barking
   lines:
   - line: District
-  - line: HammersmithAndCity
+  - line: HammersmithCity
 - id: 16
   name: Barkingside
   lines:
@@ -151,7 +151,7 @@
   name: Bow Road
   lines:
   - line: District
-  - line: HammersmithAndCity
+  - line: HammersmithCity
 - id: 34
   name: Brent Cross
   lines:
@@ -164,7 +164,7 @@
   name: Bromley-by-Bow
   lines:
   - line: District
-  - line: HammersmithAndCity
+  - line: HammersmithCity
 - id: 37
   name: Buckhurst Hill
   lines:
@@ -339,7 +339,7 @@
   name: East Ham
   lines:
   - line: District
-  - line: HammersmithAndCity
+  - line: HammersmithCity
 - id: 79
   name: East India
   lines:
@@ -364,7 +364,7 @@
 - id: 84
   name: Edgware Road
   lines:
-  - line: HammersmithAndCity
+  - line: HammersmithCity
   - line: District
   - line: Circle
 - id: 85
@@ -401,7 +401,7 @@
   lines:
   - line: Metropolitan
   - line: Circle
-  - line: HammersmithAndCity
+  - line: HammersmithCity
 - id: 92
   name: Fairlop
   lines:
@@ -411,7 +411,7 @@
   lines:
   - line: Metropolitan
   - line: Circle
-  - line: HammersmithAndCity
+  - line: HammersmithCity
 - id: 94
   name: Finchley Central
   lines:
@@ -451,7 +451,7 @@
 - id: 102
   name: Goldhawk Road
   lines:
-  - line: HammersmithAndCity
+  - line: HammersmithCity
   - line: Circle
 - id: 103
   name: Goodge Stret
@@ -466,7 +466,7 @@
   lines:
   - line: Metropolitan
   - line: Circle
-  - line: HammersmithAndCity
+  - line: HammersmithCity
 - id: 106
   name: Greenford
   lines:
@@ -497,7 +497,7 @@
 - id: 112
   name: Hammersmith
   lines:
-  - line: HammersmithAndCity
+  - line: HammersmithCity
   - line: Circle
 - id: 113
   name: Hampstead
@@ -651,7 +651,7 @@
   - line: Piccadilly
   - line: Circle
   - line: Victoria
-  - line: HammersmithAndCity
+  - line: HammersmithCity
 - id: 149
   name: Knightsbridge
   lines:
@@ -659,7 +659,7 @@
 - id: 150
   name: Ladbroke Grove
   lines:
-  - line: HammersmithAndCity
+  - line: HammersmithCity
   - line: Circle
 - id: 151
   name: Lambeth North
@@ -672,7 +672,7 @@
 - id: 153
   name: Latimer Road
   lines:
-  - line: HammersmithAndCity
+  - line: HammersmithCity
   - line: Circle
 - id: 154
   name: Leicester Square
@@ -701,7 +701,7 @@
   - line: Metropolitan
   - line: Central
   - line: Circle
-  - line: HammersmithAndCity
+  - line: HammersmithCity
 - id: 160
   name: London Bridge
   lines:
@@ -740,7 +740,7 @@
   name: Mile End
   lines:
   - line: District
-  - line: HammersmithAndCity
+  - line: HammersmithCity
   - line: Central
 - id: 169
   name: Mill Hill East
@@ -851,7 +851,7 @@
 - id: 194
   name: Paddington
   lines:
-  - line: HammersmithAndCity
+  - line: HammersmithCity
   - line: District
   - line: Circle
   - line: Bakerloo
@@ -880,7 +880,7 @@
   name: Plaistow
   lines:
   - line: District
-  - line: HammersmithAndCity
+  - line: HammersmithCity
 - id: 201
   name: Pontoon Dock
   lines:
@@ -953,7 +953,7 @@
 - id: 218
   name: Royal Oak
   lines:
-  - line: HammersmithAndCity
+  - line: HammersmithCity
   - line: Circle
 - id: 219
   name: Royal Victoria
@@ -1000,7 +1000,7 @@
 - id: 229
   name: Shepherd's Bush Market
   lines:
-  - line: HammersmithAndCity
+  - line: HammersmithCity
   - line: Circle
 - id: 230
   name: Sloane Square
@@ -1065,7 +1065,7 @@
   name: Stepney Green
   lines:
   - line: District
-  - line: HammersmithAndCity
+  - line: HammersmithCity
 - id: 245
   name: Stockwell
   lines:
@@ -1161,7 +1161,7 @@
   name: Upton Park
   lines:
   - line: District
-  - line: HammersmithAndCity
+  - line: HammersmithCity
 - id: 267
   name: Uxbridge
   lines:
@@ -1197,7 +1197,7 @@
 - id: 274
   name: Waterloo
   lines:
-  - line: WaterlooAndCity
+  - line: WaterlooCity
   - line: Bakerloo
   - line: Northern
   - line: Jubilee
@@ -1230,7 +1230,7 @@
   name: West Ham
   lines:
   - line: District
-  - line: HammersmithAndCity
+  - line: HammersmithCity
   - line: Jubilee
 - id: 282
   name: West Hampstead
@@ -1259,7 +1259,7 @@
 - id: 288
   name: Westbourne Park
   lines:
-  - line: HammersmithAndCity
+  - line: HammersmithCity
   - line: Circle
 - id: 289
   name: Westferry
@@ -1279,7 +1279,7 @@
   name: Whitechapel
   lines:
   - line: District
-  - line: HammersmithAndCity
+  - line: HammersmithCity
 - id: 293
   name: Willesden Green
   lines:
@@ -1303,7 +1303,7 @@
 - id: 298
   name: Wood Lane
   lines:
-  - line: HammersmithAndCity
+  - line: HammersmithCity
   - line: Circle
 - id: 299
   name: Woodford
