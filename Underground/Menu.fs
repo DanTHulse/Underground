@@ -3,9 +3,6 @@
 open System
 
 module Menu =
-    let stationMenu (line: string) =
-        Data.findStations(Enum.Parse(typeof<Lines>, line) :?> Lines)
-
     let menu =
         let lines = enumToList<Lines>
 
