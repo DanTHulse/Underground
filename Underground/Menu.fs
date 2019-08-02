@@ -23,6 +23,6 @@ module Menu =
 
         let selectedStation = Console.ReadLine()
         
-        let station = Data.findStationById(int selectedStation)
+        let station = Data.findStationById(stations.[int selectedStation].id)
         
         ()
