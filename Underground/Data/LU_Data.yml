@@ -4300,29 +4300,38 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: e/Upminster
+      id: 200
       weight: 0
-    - branch: 
-      id: 
+    - branch: w/
+      id: 36
       weight: 0
   - line: HammersmithCity
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: e/Barking
+      id: 200
       weight: 0
-    - branch: 
-      id: 
+    - branch: w/Hammersmith
+      id: 36
       weight: 0
   - line: Jubilee
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: e/Stratford
+      id: 247
       weight: 0
-    - branch: 
-      id: 
+    - branch: n/Stanmore
+      id: 44
+      weight: 0
+  - line: DLR
+    nightTube: false
+    stations:
+    - branch: e/
+      id: 305
+      weight: 0
+    - branch: n/
+      id: 1
       weight: 0
 - id: 282
   name: West Hampstead
@@ -4330,11 +4339,11 @@
   - line: Jubilee
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: n/Stanmore
+      id: 144
       weight: 0
-    - branch: 
-      id: 
+    - branch: e/Stratford
+      id: 95
       weight: 0 
 - id: 283
   name: West Harrow
@@ -4342,11 +4351,11 @@
   - line: Metropolitan
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: n/Uxbridge
+      id: 211
       weight: 0
-    - branch: 
-      id: 
+    - branch: s/Aldgate
+      id: 304
       weight: 0
 - id: 284
   name: West India Quay
@@ -4354,11 +4363,14 @@
   - line: DLR
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: s/Lewisham
+      id: 43
       weight: 0
-    - branch: 
-      id: 
+    - branch: w/
+      id: 289
+      weight: 0
+    - branch: n/StratfordInternational
+      id: 202
       weight: 0
 - id: 285
   name: West Kensington
@@ -4366,11 +4378,14 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: w/EalingBroadway
+      id: 111
       weight: 0
-    - branch: 
-      id: 
+    - branch: w/Richmond
+      id: 111
+      weight: 0
+    - branch: e/
+      id: 75
       weight: 0
 - id: 286
   name: West Ruislip
@@ -4378,11 +4393,8 @@
   - line: Central
     nightTube: false
     stations:
-    - branch: 
-      id: 
-      weight: 0
-    - branch: 
-      id: 
+    - branch: e/
+      id: 221
       weight: 0
 - id: 287
   name: West Silvertown
@@ -4390,11 +4402,14 @@
   - line: DLR
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: w/
+      id: 44
       weight: 0
-    - branch: 
-      id: 
+    - branch: n/StratfordInternational
+      id: 44
+      weight: 0
+    - branch: e/WoolwichArsenal
+      id: 201
       weight: 0
 - id: 288
   name: Westbourne Park
@@ -4402,20 +4417,20 @@
   - line: HammersmithCity
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: e/EdgewareRoad
+      id: 218
       weight: 0
-    - branch: 
-      id: 
+    - branch: w/Hammersmith
+      id: 150
       weight: 0
   - line: Circle
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: e/EdgewareRoad
+      id: 218
       weight: 0
-    - branch: 
-      id: 
+    - branch: w/Hammersmith
+      id: 150
       weight: 0
 - id: 289
   name: Westferry
@@ -4423,11 +4438,14 @@
   - line: DLR
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: e/WoolwichArsenal
+      id: 202
       weight: 0
-    - branch: 
-      id: 
+    - branch: s/Lewisham
+      id: 284
+      weight: 0
+    - branch: w/
+      id: 158
       weight: 0
 - id: 290
   name: Westminster
@@ -4435,41 +4453,41 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: w/
+      id: 223
       weight: 0
-    - branch: 
-      id: 
+    - branch: e/
+      id: 88
       weight: 0
   - line: Circle
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: w/Hammersmith
+      id: 223
       weight: 0
-    - branch: 
-      id: 
+    - branch: e/EdgewareRoad
+      id: 88
       weight: 0
   - line: Jubilee
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: e/Stratford
+      id: 274
       weight: 0
-    - branch: 
-      id: 
+    - branch: n/Stanmore
+      id: 107
       weight: 0
 - id: 291
-  name: White Ciry
+  name: White City
   lines:
   - line: Central
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: w/
+      id: 76
       weight: 0
-    - branch: 
-      id: 
+    - branch: e/
+      id: 228
       weight: 0
 - id: 292
   name: Whitechapel
@@ -4477,20 +4495,20 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: e/Upminster
+      id: 244
       weight: 0
-    - branch: 
-      id: 
+    - branch: w/
+      id: 4
       weight: 0
   - line: HammersmithCity
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: w/Hammersmith
+      id: 4
       weight: 0
-    - branch: 
-      id: 
+    - branch: e/Barking
+      id: 244
       weight: 0
 - id: 293
   name: Willesden Green
@@ -4498,11 +4516,11 @@
   - line: Jubilee
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: e/Stratford
+      id: 144
       weight: 0
-    - branch: 
-      id: 
+    - branch: n/Stanmore
+      id: 72
       weight: 0
 - id: 294
   name: Willesden Junction
@@ -4510,11 +4528,11 @@
   - line: Bakerloo
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: s/ElephantAndCastle
+      id: 139
       weight: 0
-    - branch: 
-      id: 
+    - branch: n/HarrowAndWealdstone
+      id: 115
       weight: 0
 - id: 295
   name: Wimbledon
@@ -4522,11 +4540,8 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
-      weight: 0
-    - branch: 
-      id: 
+    - branch: e/EdgewareRoad
+      id: 296
       weight: 0
 - id: 296
   name: Wimbledon Park
@@ -4534,11 +4549,11 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: w/Wimbledon
+      id: 295
       weight: 0
-    - branch: 
-      id: 
+    - branch: e/EdgewareRoad
+      id: 240
       weight: 0
 - id: 297
   name: Wood Green
@@ -4546,11 +4561,11 @@
   - line: Piccadilly
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: e/Cockfosters
+      id: 58
       weight: 0
-    - branch: 
-      id: 
+    - branch: w/
+      id: 262
       weight: 0
 - id: 298
   name: Wood Lane
@@ -4558,20 +4573,20 @@
   - line: HammersmithCity
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: w/Hammersmith
+      id: 229
       weight: 0
-    - branch: 
-      id: 
+    - branch: e/Barking 
+      id: 153
       weight: 0
   - line: Circle
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: e/EdgewareRoad
+      id: 153
       weight: 0
-    - branch: 
-      id: 
+    - branch: w/Hammersmith 
+      id: 229
       weight: 0
 - id: 299
   name: Woodford
@@ -4579,11 +4594,11 @@
   - line: Central
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: e/Epping
+      id: 37
       weight: 0
-    - branch: 
-      id: 
+    - branch: w/
+      id: 239
       weight: 0
 - id: 300
   name: Woodside Park
@@ -4626,4 +4641,37 @@
       weight: 0
     - branch: s/CanningTown
       id: 1
+      weight: 0
+- id: 304
+  name: Harrow-on-the-Hill
+  lines:
+  - line: Metropolitan
+    nightTube: false
+    stations:
+    - branch: s/Aldgate
+      id: 185
+      weight: 0
+    - branch: n/Uxbridge
+      id: 283
+      weight: 0
+    - branch: n/Watford
+      id: 181
+      weight: 0      
+    - branch: n/Amersham
+      id: 181
+      weight: 0
+    - branch: n/Chesham
+      id: 181
+      weight: 0
+- id: 305
+  name: Star Lane
+  lines:
+  - line: DLR
+    nightTube: false
+    stations:
+    - branch: n/
+      id: 281
+      weight: 0
+    - branch: e/
+      id: 44
       weight: 0

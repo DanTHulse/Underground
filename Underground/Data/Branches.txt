@@ -12,7 +12,7 @@ District
     >> w/Richmond
 
 Circle
-    >> x/EdgewareRoad
+    >> e/EdgewareRoad
     >> w/Hammersmith
 
 HammersmithCity
