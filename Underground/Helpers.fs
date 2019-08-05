@@ -14,3 +14,6 @@ module Helpers =
     let cprintfn color str = Printf.kprintf (fun s -> use c = consoleColor color in printfn "%s" s) str
 
     let enumToList<'a> = (Enum.GetValues(typeof<'a>) :?> ('a [])) |> Array.toList
+
+    type System.String with
+        member x.removePunctuation = x.Replace("'", "").Replace(",", "").Replace(".", "")

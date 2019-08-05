@@ -6,8 +6,6 @@ open Data
 module Entry =
     [<EntryPoint>]
     let main _ =
-        let statingStation = Menu.selectStation()
-        Console.Clear()
-        let endingStation = Menu.selectStation()
+        let start = Menu.searchStation()
         Console.Clear()
         0;
