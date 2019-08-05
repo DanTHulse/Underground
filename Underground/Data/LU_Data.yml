@@ -44,6 +44,15 @@
     - branch: 
       id: 
       weight: 0
+  - line: Circle
+    nightTube: false
+    stations:
+    - branch: 
+      id: 
+      weight: 0
+    - branch: 
+      id: 
+      weight: 0
 - id: 4
   name: Aldgate East
   lines:
@@ -2676,6 +2685,24 @@
       id: 
       weight: 0
   - line: Circle
+    nightTube: false
+    stations:
+    - branch: 
+      id: 
+      weight: 0
+    - branch: 
+      id: 
+      weight: 0
+  - line: HammersmithCity
+    nightTube: false
+    stations:
+    - branch: 
+      id: 
+      weight: 0
+    - branch: 
+      id: 
+      weight: 0
+  - line: Northern
     nightTube: false
     stations:
     - branch: 

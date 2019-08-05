@@ -16,6 +16,7 @@ module Menu =
         let stations = Data.findStations(Enum.Parse(typeof<Lines>, selectedLine) :?> Lines)
 
         stations
+        |> List.sortBy (fun x -> x.name)
         |> (fun x -> x |> List.iteri(fun i j -> printfn "%d: %s" i j.name))
 
         let selectedStation = Console.ReadLine()

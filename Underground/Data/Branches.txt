@@ -1,60 +1,60 @@
-Northern
+Northern (x)
     >> n/HighBarnet
     >> n/Edgeware
     >> s/Morden
     >> s/Kennington
 
-District
+District (+1)
     >> e/Upminster
     >> e/EdgewareRoad
     >> w/Wimbledon
     >> w/EalingBroadway
     >> w/Richmond
 
-Circle
+Circle (x)
     >> e/EdgewareRoad
     >> w/Hammersmith
 
-HammersmithCity
+HammersmithCity (x)
     >> e/Barking
     >> w/Hammersmith
 
-Metropolitan
+Metropolitan (-2)
     >> s/Aldgate
     >> n/Uxbridge
     >> n/Amersham
     >> n/Chesham
     >> n/Watford
 
-Bakerloo
+Bakerloo (x)
     >> s/ElephantAndCastle
     >> n/HarrowAndWealdstone
 
-Jubilee
+Jubilee (x)
     >> e/Stratford
     >> n/Stanmore
 
-Victoria
+Victoria (-1)
     >> n/WalthamstowCentral
     >> s/Brixton
 
-Piccadilly
+Piccadilly (x)
     >> w/HeathrowT423
     >> w/HeathrowT235
     >> w/Uxbridge
     >> e/Cockfosters
 
-WaterlooCity
+WaterlooCity (x)
     >> e/Bank
     >> w/Waterloo
 
-Central
+Central (-1)
     >> e/Epping
     >> e/WoodfordHainault
     >> w/EalingBroadway
     >> w/WestRuislip
 
-DLR
+DLR (x)
     >> e/Beckton
     >> e/WoolwichArsenal
     >> w/TowerGateway

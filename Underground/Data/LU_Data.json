@@ -4,7 +4,20 @@
     "name": "Abbey Road",
     "lines": [
       {
-        "line": "DLR"
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": "n/StratfordInternational",
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -13,10 +26,36 @@
     "name": "Acton Town",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -25,7 +64,36 @@
     "name": "Aldgate",
     "lines": [
       {
-        "line": "Metropolitan"
+        "line": "Metropolitan",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
+      },
+      {
+        "line": "Circle",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -34,10 +102,36 @@
     "name": "Aldgate East",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "HammersmithCity"
+        "line": "HammersmithCity",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -46,7 +140,20 @@
     "name": "All Saints",
     "lines": [
       {
-        "line": "DLR"
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -55,7 +162,20 @@
     "name": "Alperton",
     "lines": [
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -64,7 +184,20 @@
     "name": "Amersham",
     "lines": [
       {
-        "line": "Metropolitan"
+        "line": "Metropolitan",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -73,7 +206,20 @@
     "name": "Angel",
     "lines": [
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -82,7 +228,20 @@
     "name": "Archway",
     "lines": [
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -91,7 +250,20 @@
     "name": "Arnos Grove",
     "lines": [
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -100,7 +272,20 @@
     "name": "Arsenal",
     "lines": [
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -109,19 +294,84 @@
     "name": "Baker Street",
     "lines": [
       {
-        "line": "Metropolitan"
+        "line": "Metropolitan",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Bakerloo"
+        "line": "Bakerloo",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Circle"
+        "line": "Circle",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Jubilee"
+        "line": "Jubilee",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "HammersmithCity"
+        "line": "HammersmithCity",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -130,7 +380,20 @@
     "name": "Balham",
     "lines": [
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -139,16 +402,68 @@
     "name": "Bank",
     "lines": [
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "WaterlooCity"
+        "line": "WaterlooCity",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "DLR"
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -157,13 +472,52 @@
     "name": "Barbican",
     "lines": [
       {
-        "line": "Metropolitan"
+        "line": "Metropolitan",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "HammersmithCity"
+        "line": "HammersmithCity",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Circle"
+        "line": "Circle",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -172,10 +526,36 @@
     "name": "Barking",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "HammersmithCity"
+        "line": "HammersmithCity",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -184,7 +564,20 @@
     "name": "Barkingside",
     "lines": [
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -193,10 +586,36 @@
     "name": "Barons Court",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -205,10 +624,36 @@
     "name": "Bayswater",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Circle"
+        "line": "Circle",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -217,7 +662,20 @@
     "name": "Beckton",
     "lines": [
       {
-        "line": "DLR"
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -226,7 +684,20 @@
     "name": "Beckton Park",
     "lines": [
       {
-        "line": "DLR"
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -235,7 +706,20 @@
     "name": "Becontree",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -244,7 +728,20 @@
     "name": "Belsize Park",
     "lines": [
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -253,7 +750,20 @@
     "name": "Bermondsey",
     "lines": [
       {
-        "line": "Jubilee"
+        "line": "Jubilee",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -262,7 +772,20 @@
     "name": "Bethnal Green",
     "lines": [
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -271,10 +794,36 @@
     "name": "Blackfriars",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Circle"
+        "line": "Circle",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -283,7 +832,20 @@
     "name": "Blackhorse Road",
     "lines": [
       {
-        "line": "Victoria"
+        "line": "Victoria",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -292,7 +854,20 @@
     "name": "Blackwall",
     "lines": [
       {
-        "line": "DLR"
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -301,10 +876,36 @@
     "name": "Bond Street",
     "lines": [
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Jubilee"
+        "line": "Jubilee",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -313,7 +914,20 @@
     "name": "Borough",
     "lines": [
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -322,7 +936,20 @@
     "name": "Boston Manor",
     "lines": [
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -331,7 +958,20 @@
     "name": "Bounds Green",
     "lines": [
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -340,7 +980,20 @@
     "name": "Bow Church",
     "lines": [
       {
-        "line": "DLR"
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -349,10 +1002,36 @@
     "name": "Bow Road",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "HammersmithCity"
+        "line": "HammersmithCity",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -361,7 +1040,20 @@
     "name": "Brent Cross",
     "lines": [
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -370,7 +1062,20 @@
     "name": "Brixton",
     "lines": [
       {
-        "line": "Victoria"
+        "line": "Victoria",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -379,10 +1084,36 @@
     "name": "Bromley-by-Bow",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "HammersmithCity"
+        "line": "HammersmithCity",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -391,7 +1122,20 @@
     "name": "Buckhurst Hill",
     "lines": [
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -400,7 +1144,20 @@
     "name": "Burnt Oak",
     "lines": [
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -409,7 +1166,20 @@
     "name": "Caledonian Road",
     "lines": [
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -418,7 +1188,20 @@
     "name": "Camden Town",
     "lines": [
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -427,7 +1210,20 @@
     "name": "Canada Water",
     "lines": [
       {
-        "line": "Jubilee"
+        "line": "Jubilee",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -436,7 +1232,20 @@
     "name": "Canary Wharf",
     "lines": [
       {
-        "line": "Jubilee"
+        "line": "Jubilee",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -445,7 +1254,20 @@
     "name": "Canary Wharf",
     "lines": [
       {
-        "line": "DLR"
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -454,10 +1276,36 @@
     "name": "Canning Town",
     "lines": [
       {
-        "line": "DLR"
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Jubilee"
+        "line": "Jubilee",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -466,10 +1314,36 @@
     "name": "Cannon Street",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Circle"
+        "line": "Circle",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -478,7 +1352,20 @@
     "name": "Canons Park",
     "lines": [
       {
-        "line": "Jubilee"
+        "line": "Jubilee",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -487,7 +1374,20 @@
     "name": "Chalfont & Latimer",
     "lines": [
       {
-        "line": "Metropolitan"
+        "line": "Metropolitan",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -496,7 +1396,20 @@
     "name": "Chalk Farm",
     "lines": [
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -505,7 +1418,20 @@
     "name": "Chancery Lane",
     "lines": [
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -514,10 +1440,36 @@
     "name": "Charing Cross",
     "lines": [
       {
-        "line": "Bakerloo"
+        "line": "Bakerloo",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -526,7 +1478,20 @@
     "name": "Chesham",
     "lines": [
       {
-        "line": "Metropolitan"
+        "line": "Metropolitan",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -535,7 +1500,20 @@
     "name": "Chigwell",
     "lines": [
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -544,7 +1522,20 @@
     "name": "Chiswick Park",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -553,7 +1544,20 @@
     "name": "Chorleywood",
     "lines": [
       {
-        "line": "Metropolitan"
+        "line": "Metropolitan",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -562,7 +1566,20 @@
     "name": "Clapham Common",
     "lines": [
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -571,7 +1588,20 @@
     "name": "Clapham North",
     "lines": [
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -580,7 +1610,20 @@
     "name": "Clapham South",
     "lines": [
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -589,7 +1632,20 @@
     "name": "Cockfosters",
     "lines": [
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -598,7 +1654,20 @@
     "name": "Colindale",
     "lines": [
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -607,7 +1676,20 @@
     "name": "Colliers Wood",
     "lines": [
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -616,7 +1698,20 @@
     "name": "Covent Garden",
     "lines": [
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -625,7 +1720,20 @@
     "name": "Crossharbour",
     "lines": [
       {
-        "line": "DLR"
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -634,7 +1742,20 @@
     "name": "Croxley",
     "lines": [
       {
-        "line": "Metropolitan"
+        "line": "Metropolitan",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -643,7 +1764,20 @@
     "name": "Custom House",
     "lines": [
       {
-        "line": "DLR"
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -652,7 +1786,20 @@
     "name": "Cutty Sark for Maritime Greenwich",
     "lines": [
       {
-        "line": "DLR"
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -661,7 +1808,20 @@
     "name": "Cyprus",
     "lines": [
       {
-        "line": "DLR"
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -670,7 +1830,20 @@
     "name": "Dagenham East",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -679,7 +1852,20 @@
     "name": "Dagenham Heathway",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -688,7 +1874,20 @@
     "name": "Debden",
     "lines": [
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -697,7 +1896,20 @@
     "name": "Deptford Bridge",
     "lines": [
       {
-        "line": "DLR"
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -706,7 +1918,20 @@
     "name": "Devons Road",
     "lines": [
       {
-        "line": "DLR"
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -715,7 +1940,20 @@
     "name": "Dollis Hill",
     "lines": [
       {
-        "line": "Jubilee"
+        "line": "Jubilee",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -724,10 +1962,36 @@
     "name": "Ealing Broadway",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -736,10 +2000,36 @@
     "name": "Ealing Common",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -748,10 +2038,36 @@
     "name": "Earl's Court",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -760,7 +2076,20 @@
     "name": "East Acton",
     "lines": [
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -769,7 +2098,20 @@
     "name": "East Finchley",
     "lines": [
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -778,10 +2120,36 @@
     "name": "East Ham",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "HammersmithCity"
+        "line": "HammersmithCity",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -790,7 +2158,20 @@
     "name": "East India",
     "lines": [
       {
-        "line": "DLR"
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -799,7 +2180,20 @@
     "name": "East Putney",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -808,10 +2202,36 @@
     "name": "Eastcote",
     "lines": [
       {
-        "line": "Metropolitan"
+        "line": "Metropolitan",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -820,7 +2240,20 @@
     "name": "Edgware",
     "lines": [
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -829,7 +2262,20 @@
     "name": "Edgware Road",
     "lines": [
       {
-        "line": "Bakerloo"
+        "line": "Bakerloo",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -838,13 +2284,52 @@
     "name": "Edgware Road",
     "lines": [
       {
-        "line": "HammersmithCity"
+        "line": "HammersmithCity",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Circle"
+        "line": "Circle",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -853,10 +2338,36 @@
     "name": "Elephant & Castle",
     "lines": [
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Bakerloo"
+        "line": "Bakerloo",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -865,7 +2376,20 @@
     "name": "Elm Park",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -874,7 +2398,20 @@
     "name": "Elverson Road",
     "lines": [
       {
-        "line": "DLR"
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -883,16 +2420,68 @@
     "name": "Embankment",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Bakerloo"
+        "line": "Bakerloo",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Circle"
+        "line": "Circle",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -901,7 +2490,20 @@
     "name": "Epping",
     "lines": [
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -910,10 +2512,36 @@
     "name": "Euston",
     "lines": [
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -922,13 +2550,52 @@
     "name": "Euston Square",
     "lines": [
       {
-        "line": "Metropolitan"
+        "line": "Metropolitan",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Circle"
+        "line": "Circle",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "HammersmithCity"
+        "line": "HammersmithCity",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -937,7 +2604,20 @@
     "name": "Fairlop",
     "lines": [
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -946,13 +2626,52 @@
     "name": "Farringdon",
     "lines": [
       {
-        "line": "Metropolitan"
+        "line": "Metropolitan",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Circle"
+        "line": "Circle",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "HammersmithCity"
+        "line": "HammersmithCity",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -961,7 +2680,20 @@
     "name": "Finchley Central",
     "lines": [
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -970,10 +2702,36 @@
     "name": "Finchley Road",
     "lines": [
       {
-        "line": "Metropolitan"
+        "line": "Metropolitan",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Jubilee"
+        "line": "Jubilee",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -982,10 +2740,36 @@
     "name": "Finsbury Park",
     "lines": [
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Victoria"
+        "line": "Victoria",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -994,7 +2778,20 @@
     "name": "Fulham Broadway",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1003,7 +2800,20 @@
     "name": "Gallions Reach",
     "lines": [
       {
-        "line": "DLR"
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1012,7 +2822,20 @@
     "name": "Gants Hill",
     "lines": [
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1021,13 +2844,52 @@
     "name": "Gloucester Road",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Circle"
+        "line": "Circle",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1036,7 +2898,20 @@
     "name": "Golders Green",
     "lines": [
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1045,10 +2920,36 @@
     "name": "Goldhawk Road",
     "lines": [
       {
-        "line": "HammersmithCity"
+        "line": "HammersmithCity",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Circle"
+        "line": "Circle",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1057,7 +2958,20 @@
     "name": "Goodge Stret",
     "lines": [
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1066,7 +2980,20 @@
     "name": "Grange Hill",
     "lines": [
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1075,13 +3002,52 @@
     "name": "Great Portland Street",
     "lines": [
       {
-        "line": "Metropolitan"
+        "line": "Metropolitan",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Circle"
+        "line": "Circle",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "HammersmithCity"
+        "line": "HammersmithCity",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1090,7 +3056,20 @@
     "name": "Greenford",
     "lines": [
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1099,13 +3078,52 @@
     "name": "Green Park",
     "lines": [
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Victoria"
+        "line": "Victoria",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Jubilee"
+        "line": "Jubilee",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1114,7 +3132,20 @@
     "name": "Greenwich",
     "lines": [
       {
-        "line": "DLR"
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1123,7 +3154,20 @@
     "name": "Gunnersbury",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1132,7 +3176,20 @@
     "name": "Hainault",
     "lines": [
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1141,10 +3198,36 @@
     "name": "Hammersmith",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1153,10 +3236,36 @@
     "name": "Hammersmith",
     "lines": [
       {
-        "line": "HammersmithCity"
+        "line": "HammersmithCity",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Circle"
+        "line": "Circle",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1165,7 +3274,20 @@
     "name": "Hampstead",
     "lines": [
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1174,7 +3296,20 @@
     "name": "Hanger Lane",
     "lines": [
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1183,7 +3318,20 @@
     "name": "Harlesden",
     "lines": [
       {
-        "line": "Bakerloo"
+        "line": "Bakerloo",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1192,7 +3340,20 @@
     "name": "Harrow & Wealdstone",
     "lines": [
       {
-        "line": "Bakerloo"
+        "line": "Bakerloo",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1201,7 +3362,20 @@
     "name": "Hatton Cross",
     "lines": [
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1210,7 +3384,20 @@
     "name": "Heathrow Terminals 2 & 3",
     "lines": [
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1219,7 +3406,20 @@
     "name": "Heathrow Terminal 4",
     "lines": [
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1228,7 +3428,20 @@
     "name": "Heathrow Terminal 5",
     "lines": [
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1237,7 +3450,20 @@
     "name": "Hendon Central",
     "lines": [
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1246,7 +3472,20 @@
     "name": "Heron Quays",
     "lines": [
       {
-        "line": "DLR"
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1255,7 +3494,20 @@
     "name": "High Barnet",
     "lines": [
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1264,7 +3516,20 @@
     "name": "Highbury & Inslington",
     "lines": [
       {
-        "line": "Victoria"
+        "line": "Victoria",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1273,7 +3538,20 @@
     "name": "Highgate",
     "lines": [
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1282,10 +3560,36 @@
     "name": "High Street Kensington",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Circle"
+        "line": "Circle",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1294,10 +3598,36 @@
     "name": "Hillingdon",
     "lines": [
       {
-        "line": "Metropolitan"
+        "line": "Metropolitan",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1306,10 +3636,36 @@
     "name": "Holborn",
     "lines": [
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1318,7 +3674,20 @@
     "name": "Holland Park",
     "lines": [
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1327,7 +3696,20 @@
     "name": "Holloway Road",
     "lines": [
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1336,7 +3718,20 @@
     "name": "Hornchurch",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1345,7 +3740,20 @@
     "name": "Hounslow Central",
     "lines": [
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1354,7 +3762,20 @@
     "name": "Hounslow East",
     "lines": [
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1363,7 +3784,20 @@
     "name": "Hounslow West",
     "lines": [
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1372,7 +3806,20 @@
     "name": "Hyde Park Corner",
     "lines": [
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1381,10 +3828,36 @@
     "name": "Ickenham",
     "lines": [
       {
-        "line": "Metropolitan"
+        "line": "Metropolitan",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1393,7 +3866,20 @@
     "name": "Island Gardens",
     "lines": [
       {
-        "line": "DLR"
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1402,7 +3888,20 @@
     "name": "Kennington",
     "lines": [
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1411,7 +3910,20 @@
     "name": "Kensal Green",
     "lines": [
       {
-        "line": "Bakerloo"
+        "line": "Bakerloo",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1420,7 +3932,20 @@
     "name": "Kensington (Olympia)",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1429,7 +3954,20 @@
     "name": "Kentish Town",
     "lines": [
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1438,7 +3976,20 @@
     "name": "Kenton",
     "lines": [
       {
-        "line": "Bakerloo"
+        "line": "Bakerloo",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1447,7 +3998,20 @@
     "name": "Kew Gardens",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1456,7 +4020,20 @@
     "name": "Kilburn",
     "lines": [
       {
-        "line": "Jubilee"
+        "line": "Jubilee",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1465,7 +4042,20 @@
     "name": "Kilburn Park",
     "lines": [
       {
-        "line": "Bakerloo"
+        "line": "Bakerloo",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1474,7 +4064,20 @@
     "name": "King George V",
     "lines": [
       {
-        "line": "DLR"
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1483,7 +4086,20 @@
     "name": "Kingsbury",
     "lines": [
       {
-        "line": "Jubilee"
+        "line": "Jubilee",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1492,22 +4108,100 @@
     "name": "King's Cross St. Pancras",
     "lines": [
       {
-        "line": "Metropolitan"
+        "line": "Metropolitan",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Circle"
+        "line": "Circle",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Victoria"
+        "line": "Victoria",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "HammersmithCity"
+        "line": "HammersmithCity",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1516,7 +4210,20 @@
     "name": "Knightsbridge",
     "lines": [
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1525,10 +4232,36 @@
     "name": "Ladbroke Grove",
     "lines": [
       {
-        "line": "HammersmithCity"
+        "line": "HammersmithCity",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Circle"
+        "line": "Circle",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1537,7 +4270,20 @@
     "name": "Lambeth North",
     "lines": [
       {
-        "line": "Bakerloo"
+        "line": "Bakerloo",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1546,7 +4292,20 @@
     "name": "Langdon Park",
     "lines": [
       {
-        "line": "DLR"
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1555,10 +4314,36 @@
     "name": "Latimer Road",
     "lines": [
       {
-        "line": "HammersmithCity"
+        "line": "HammersmithCity",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Circle"
+        "line": "Circle",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1567,10 +4352,36 @@
     "name": "Leicester Square",
     "lines": [
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1579,7 +4390,20 @@
     "name": "Lewisham",
     "lines": [
       {
-        "line": "DLR"
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1588,7 +4412,20 @@
     "name": "Leyton",
     "lines": [
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1597,7 +4434,20 @@
     "name": "Leytonstone",
     "lines": [
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1606,7 +4456,20 @@
     "name": "Limehouse",
     "lines": [
       {
-        "line": "DLR"
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1615,16 +4478,68 @@
     "name": "Liverpool Street",
     "lines": [
       {
-        "line": "Metropolitan"
+        "line": "Metropolitan",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Circle"
+        "line": "Circle",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "HammersmithCity"
+        "line": "HammersmithCity",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1633,10 +4548,36 @@
     "name": "London Bridge",
     "lines": [
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Jubilee"
+        "line": "Jubilee",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1645,7 +4586,20 @@
     "name": "London City Airport",
     "lines": [
       {
-        "line": "DLR"
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1654,7 +4608,20 @@
     "name": "Loughton",
     "lines": [
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1663,7 +4630,20 @@
     "name": "Maida Vale",
     "lines": [
       {
-        "line": "Bakerloo"
+        "line": "Bakerloo",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1672,7 +4652,20 @@
     "name": "Manor House",
     "lines": [
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1681,10 +4674,36 @@
     "name": "Mansion House",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Circle"
+        "line": "Circle",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1693,7 +4712,20 @@
     "name": "Marble Arch",
     "lines": [
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1702,7 +4734,20 @@
     "name": "Marylebone",
     "lines": [
       {
-        "line": "Bakerloo"
+        "line": "Bakerloo",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1711,13 +4756,52 @@
     "name": "Mile End",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "HammersmithCity"
+        "line": "HammersmithCity",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1726,7 +4810,20 @@
     "name": "Mill Hill East",
     "lines": [
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1735,10 +4832,36 @@
     "name": "Monument",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Circle"
+        "line": "Circle",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1747,10 +4870,68 @@
     "name": "Moorgate",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Circle"
+        "line": "Circle",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
+      },
+      {
+        "line": "HammersmithCity",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
+      },
+      {
+        "line": "Northern",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1759,7 +4940,20 @@
     "name": "Moor Park",
     "lines": [
       {
-        "line": "Metropolitan"
+        "line": "Metropolitan",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1768,7 +4962,20 @@
     "name": "Morden",
     "lines": [
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1777,7 +4984,20 @@
     "name": "Mornington Crescent",
     "lines": [
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1786,7 +5006,20 @@
     "name": "Mudchute",
     "lines": [
       {
-        "line": "DLR"
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1795,7 +5028,20 @@
     "name": "Neasden",
     "lines": [
       {
-        "line": "Jubilee"
+        "line": "Jubilee",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1804,7 +5050,20 @@
     "name": "Newbury Park",
     "lines": [
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1813,7 +5072,20 @@
     "name": "North Acton",
     "lines": [
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1822,7 +5094,20 @@
     "name": "North Ealing",
     "lines": [
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1831,7 +5116,20 @@
     "name": "North Greenwich",
     "lines": [
       {
-        "line": "Jubilee"
+        "line": "Jubilee",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1840,7 +5138,20 @@
     "name": "North Harrow",
     "lines": [
       {
-        "line": "Metropolitan"
+        "line": "Metropolitan",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1849,7 +5160,20 @@
     "name": "North Wembley",
     "lines": [
       {
-        "line": "Bakerloo"
+        "line": "Bakerloo",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1858,7 +5182,20 @@
     "name": "Northfields",
     "lines": [
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1867,7 +5204,20 @@
     "name": "Northolt",
     "lines": [
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1876,7 +5226,20 @@
     "name": "Northwick Park",
     "lines": [
       {
-        "line": "Metropolitan"
+        "line": "Metropolitan",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1885,7 +5248,20 @@
     "name": "Northwood",
     "lines": [
       {
-        "line": "Metropolitan"
+        "line": "Metropolitan",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1894,7 +5270,20 @@
     "name": "Northwood Hills",
     "lines": [
       {
-        "line": "Metropolitan"
+        "line": "Metropolitan",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1903,13 +5292,52 @@
     "name": "Notting Hill Gate",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Circle"
+        "line": "Circle",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1918,7 +5346,20 @@
     "name": "Oakwood",
     "lines": [
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1927,7 +5368,20 @@
     "name": "Old Street",
     "lines": [
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1936,7 +5390,20 @@
     "name": "Osterley",
     "lines": [
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1945,7 +5412,20 @@
     "name": "Oval",
     "lines": [
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1954,13 +5434,52 @@
     "name": "Oxford Circus",
     "lines": [
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Bakerloo"
+        "line": "Bakerloo",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Victoria"
+        "line": "Victoria",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1969,16 +5488,68 @@
     "name": "Paddington",
     "lines": [
       {
-        "line": "HammersmithCity"
+        "line": "HammersmithCity",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Circle"
+        "line": "Circle",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Bakerloo"
+        "line": "Bakerloo",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1987,7 +5558,20 @@
     "name": "Park Royal",
     "lines": [
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -1996,7 +5580,20 @@
     "name": "Parsons Green",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2005,10 +5602,36 @@
     "name": "Piccadilly Circus",
     "lines": [
       {
-        "line": "Bakerloo"
+        "line": "Bakerloo",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2017,7 +5640,20 @@
     "name": "Pimlico",
     "lines": [
       {
-        "line": "Victoria"
+        "line": "Victoria",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2026,7 +5662,20 @@
     "name": "Pinner",
     "lines": [
       {
-        "line": "Metropolitan"
+        "line": "Metropolitan",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2035,10 +5684,36 @@
     "name": "Plaistow",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "HammersmithCity"
+        "line": "HammersmithCity",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2047,7 +5722,20 @@
     "name": "Pontoon Dock",
     "lines": [
       {
-        "line": "DLR"
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2056,7 +5744,20 @@
     "name": "Poplar",
     "lines": [
       {
-        "line": "DLR"
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2065,7 +5766,20 @@
     "name": "Preston Road",
     "lines": [
       {
-        "line": "Metropolitan"
+        "line": "Metropolitan",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2074,7 +5788,20 @@
     "name": "Prince Regent",
     "lines": [
       {
-        "line": "DLR"
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2083,7 +5810,20 @@
     "name": "Pudding Mill Lane",
     "lines": [
       {
-        "line": "DLR"
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2092,7 +5832,20 @@
     "name": "Putney Bridge",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2101,7 +5854,20 @@
     "name": "Queen's Park",
     "lines": [
       {
-        "line": "Bakerloo"
+        "line": "Bakerloo",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2110,7 +5876,20 @@
     "name": "Queensbury",
     "lines": [
       {
-        "line": "Jubilee"
+        "line": "Jubilee",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2119,7 +5898,20 @@
     "name": "Queensway",
     "lines": [
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2128,7 +5920,20 @@
     "name": "Ravenscourt Park",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2137,10 +5942,36 @@
     "name": "Rayners Lane",
     "lines": [
       {
-        "line": "Metropolitan"
+        "line": "Metropolitan",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2149,7 +5980,20 @@
     "name": "Redbridge",
     "lines": [
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2158,7 +6002,20 @@
     "name": "Regents Park",
     "lines": [
       {
-        "line": "Bakerloo"
+        "line": "Bakerloo",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2167,7 +6024,20 @@
     "name": "Richmond",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2176,7 +6046,20 @@
     "name": "Rickmansworth",
     "lines": [
       {
-        "line": "Metropolitan"
+        "line": "Metropolitan",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2185,7 +6068,20 @@
     "name": "Roding Valley",
     "lines": [
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2194,7 +6090,20 @@
     "name": "Royal Albert",
     "lines": [
       {
-        "line": "DLR"
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2203,10 +6112,36 @@
     "name": "Royal Oak",
     "lines": [
       {
-        "line": "HammersmithCity"
+        "line": "HammersmithCity",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Circle"
+        "line": "Circle",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2215,7 +6150,20 @@
     "name": "Royal Victoria",
     "lines": [
       {
-        "line": "DLR"
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2224,10 +6172,36 @@
     "name": "Ruislip",
     "lines": [
       {
-        "line": "Metropolitan"
+        "line": "Metropolitan",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2236,7 +6210,20 @@
     "name": "Ruislip Gardens",
     "lines": [
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2245,7 +6232,20 @@
     "name": "Russell Square",
     "lines": [
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2254,10 +6254,36 @@
     "name": "St. James's Park",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Circle"
+        "line": "Circle",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2266,7 +6292,20 @@
     "name": "St. John's Wood",
     "lines": [
       {
-        "line": "Jubilee"
+        "line": "Jubilee",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2275,7 +6314,20 @@
     "name": "St. Paul's",
     "lines": [
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2284,7 +6336,20 @@
     "name": "Seven Sisters",
     "lines": [
       {
-        "line": "Victoria"
+        "line": "Victoria",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2293,7 +6358,20 @@
     "name": "Shadwell",
     "lines": [
       {
-        "line": "DLR"
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2302,7 +6380,20 @@
     "name": "Shepherd's Bush",
     "lines": [
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2311,10 +6402,36 @@
     "name": "Shepherd's Bush Market",
     "lines": [
       {
-        "line": "HammersmithCity"
+        "line": "HammersmithCity",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Circle"
+        "line": "Circle",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2323,10 +6440,36 @@
     "name": "Sloane Square",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Circle"
+        "line": "Circle",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2335,7 +6478,20 @@
     "name": "Snaresbrook",
     "lines": [
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2344,7 +6500,20 @@
     "name": "South Ealing",
     "lines": [
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2353,7 +6522,20 @@
     "name": "South Harrow",
     "lines": [
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2362,13 +6544,52 @@
     "name": "South Kensington",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Circle"
+        "line": "Circle",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2377,7 +6598,20 @@
     "name": "South Kenton",
     "lines": [
       {
-        "line": "Bakerloo"
+        "line": "Bakerloo",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2386,7 +6620,20 @@
     "name": "South Quay",
     "lines": [
       {
-        "line": "DLR"
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2395,7 +6642,20 @@
     "name": "South Ruislip",
     "lines": [
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2404,7 +6664,20 @@
     "name": "South Wimbledon",
     "lines": [
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2413,7 +6686,20 @@
     "name": "South Woodford",
     "lines": [
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2422,7 +6708,20 @@
     "name": "Southfields",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2431,7 +6730,20 @@
     "name": "Southwark",
     "lines": [
       {
-        "line": "Jubilee"
+        "line": "Jubilee",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2440,7 +6752,20 @@
     "name": "Stamford Brook",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2449,7 +6774,20 @@
     "name": "Stanmore",
     "lines": [
       {
-        "line": "Jubilee"
+        "line": "Jubilee",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2458,10 +6796,36 @@
     "name": "Stepney Green",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "HammersmithCity"
+        "line": "HammersmithCity",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2470,10 +6834,36 @@
     "name": "Stockwell",
     "lines": [
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Victoria"
+        "line": "Victoria",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2482,7 +6872,20 @@
     "name": "Stonebridge Park",
     "lines": [
       {
-        "line": "Bakerloo"
+        "line": "Bakerloo",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2491,13 +6894,52 @@
     "name": "Stratford",
     "lines": [
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "DLR"
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Jubilee"
+        "line": "Jubilee",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2506,7 +6948,20 @@
     "name": "Sudbury Hill",
     "lines": [
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2515,7 +6970,20 @@
     "name": "Sudbury Town",
     "lines": [
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2524,7 +6992,20 @@
     "name": "Swiss Cottage",
     "lines": [
       {
-        "line": "Jubilee"
+        "line": "Jubilee",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2533,10 +7014,36 @@
     "name": "Temple",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Circle"
+        "line": "Circle",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2545,7 +7052,20 @@
     "name": "Theydon Bois",
     "lines": [
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2554,7 +7074,20 @@
     "name": "Tooting Bec",
     "lines": [
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2563,7 +7096,20 @@
     "name": "Tooting Broadway",
     "lines": [
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2572,10 +7118,36 @@
     "name": "Tottenham Court Road",
     "lines": [
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2584,7 +7156,20 @@
     "name": "Tottenham Hale",
     "lines": [
       {
-        "line": "Victoria"
+        "line": "Victoria",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2593,7 +7178,20 @@
     "name": "Totteridge & Whetstone",
     "lines": [
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2602,7 +7200,20 @@
     "name": "Tower Gateway",
     "lines": [
       {
-        "line": "DLR"
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2611,10 +7222,36 @@
     "name": "Tower Hill",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Circle"
+        "line": "Circle",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2623,7 +7260,20 @@
     "name": "Tufnell Park",
     "lines": [
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2632,10 +7282,36 @@
     "name": "Turnham Green",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2644,7 +7320,20 @@
     "name": "Turnpike Lane",
     "lines": [
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2653,7 +7342,20 @@
     "name": "Upminster",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2662,7 +7364,20 @@
     "name": "Upminster Bridge",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2671,7 +7386,20 @@
     "name": "Upney",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2680,10 +7408,36 @@
     "name": "Upton Park",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "HammersmithCity"
+        "line": "HammersmithCity",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2692,10 +7446,36 @@
     "name": "Uxbridge",
     "lines": [
       {
-        "line": "Metropolitan"
+        "line": "Metropolitan",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2704,7 +7484,20 @@
     "name": "Vauxhall",
     "lines": [
       {
-        "line": "Victoria"
+        "line": "Victoria",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2713,13 +7506,52 @@
     "name": "Victoria",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Circle"
+        "line": "Circle",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Victoria"
+        "line": "Victoria",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2728,7 +7560,20 @@
     "name": "Walthamstow Central",
     "lines": [
       {
-        "line": "Victoria"
+        "line": "Victoria",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2737,7 +7582,20 @@
     "name": "Wanstead",
     "lines": [
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2746,10 +7604,36 @@
     "name": "Warren Street",
     "lines": [
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Victoria"
+        "line": "Victoria",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2758,7 +7642,20 @@
     "name": "Warwick Avenue",
     "lines": [
       {
-        "line": "Bakerloo"
+        "line": "Bakerloo",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2767,16 +7664,68 @@
     "name": "Waterloo",
     "lines": [
       {
-        "line": "WaterlooCity"
+        "line": "WaterlooCity",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Bakerloo"
+        "line": "Bakerloo",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Jubilee"
+        "line": "Jubilee",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2785,7 +7734,20 @@
     "name": "Watford",
     "lines": [
       {
-        "line": "Metropolitan"
+        "line": "Metropolitan",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2794,7 +7756,20 @@
     "name": "Wembley Central",
     "lines": [
       {
-        "line": "Bakerloo"
+        "line": "Bakerloo",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2803,10 +7778,36 @@
     "name": "Wembley Park",
     "lines": [
       {
-        "line": "Metropolitan"
+        "line": "Metropolitan",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Jubilee"
+        "line": "Jubilee",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2815,7 +7816,20 @@
     "name": "West Acton",
     "lines": [
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2824,7 +7838,20 @@
     "name": "West Brompton",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2833,7 +7860,20 @@
     "name": "West Finchley",
     "lines": [
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          },
+          {
+            "branch": null,
+            "id": null,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2842,13 +7882,68 @@
     "name": "West Ham",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": "e/Upminster",
+            "id": 200,
+            "weight": 0
+          },
+          {
+            "branch": "w/",
+            "id": 36,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "HammersmithCity"
+        "line": "HammersmithCity",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": "e/Barking",
+            "id": 200,
+            "weight": 0
+          },
+          {
+            "branch": "w/Hammersmith",
+            "id": 36,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Jubilee"
+        "line": "Jubilee",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": "e/Stratford",
+            "id": 247,
+            "weight": 0
+          },
+          {
+            "branch": "n/Stanmore",
+            "id": 44,
+            "weight": 0
+          }
+        ]
+      },
+      {
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": "e/",
+            "id": 305,
+            "weight": 0
+          },
+          {
+            "branch": "n/",
+            "id": 1,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2857,7 +7952,20 @@
     "name": "West Hampstead",
     "lines": [
       {
-        "line": "Jubilee"
+        "line": "Jubilee",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": "n/Stanmore",
+            "id": 144,
+            "weight": 0
+          },
+          {
+            "branch": "e/Stratford",
+            "id": 95,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2866,7 +7974,20 @@
     "name": "West Harrow",
     "lines": [
       {
-        "line": "Metropolitan"
+        "line": "Metropolitan",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": "n/Uxbridge",
+            "id": 211,
+            "weight": 0
+          },
+          {
+            "branch": "s/Aldgate",
+            "id": 304,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2875,7 +7996,25 @@
     "name": "West India Quay",
     "lines": [
       {
-        "line": "DLR"
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": "s/Lewisham",
+            "id": 43,
+            "weight": 0
+          },
+          {
+            "branch": "w/",
+            "id": 289,
+            "weight": 0
+          },
+          {
+            "branch": "n/StratfordInternational",
+            "id": 202,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2884,7 +8023,25 @@
     "name": "West Kensington",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": "w/EalingBroadway",
+            "id": 111,
+            "weight": 0
+          },
+          {
+            "branch": "w/Richmond",
+            "id": 111,
+            "weight": 0
+          },
+          {
+            "branch": "e/",
+            "id": 75,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2893,7 +8050,15 @@
     "name": "West Ruislip",
     "lines": [
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": "e/",
+            "id": 221,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2902,7 +8067,25 @@
     "name": "West Silvertown",
     "lines": [
       {
-        "line": "DLR"
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": "w/",
+            "id": 44,
+            "weight": 0
+          },
+          {
+            "branch": "n/StratfordInternational",
+            "id": 44,
+            "weight": 0
+          },
+          {
+            "branch": "e/WoolwichArsenal",
+            "id": 201,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2911,10 +8094,36 @@
     "name": "Westbourne Park",
     "lines": [
       {
-        "line": "HammersmithCity"
+        "line": "HammersmithCity",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": "e/EdgewareRoad",
+            "id": 218,
+            "weight": 0
+          },
+          {
+            "branch": "w/Hammersmith",
+            "id": 150,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Circle"
+        "line": "Circle",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": "e/EdgewareRoad",
+            "id": 218,
+            "weight": 0
+          },
+          {
+            "branch": "w/Hammersmith",
+            "id": 150,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2923,7 +8132,25 @@
     "name": "Westferry",
     "lines": [
       {
-        "line": "DLR"
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": "e/WoolwichArsenal",
+            "id": 202,
+            "weight": 0
+          },
+          {
+            "branch": "s/Lewisham",
+            "id": 284,
+            "weight": 0
+          },
+          {
+            "branch": "w/",
+            "id": 158,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2932,22 +8159,74 @@
     "name": "Westminster",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": "w/",
+            "id": 223,
+            "weight": 0
+          },
+          {
+            "branch": "e/",
+            "id": 88,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Circle"
+        "line": "Circle",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": "w/Hammersmith",
+            "id": 223,
+            "weight": 0
+          },
+          {
+            "branch": "e/EdgewareRoad",
+            "id": 88,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Jubilee"
+        "line": "Jubilee",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": "e/Stratford",
+            "id": 274,
+            "weight": 0
+          },
+          {
+            "branch": "n/Stanmore",
+            "id": 107,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
   {
     "id": 291,
-    "name": "White Ciry",
+    "name": "White City",
     "lines": [
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": "w/",
+            "id": 76,
+            "weight": 0
+          },
+          {
+            "branch": "e/",
+            "id": 228,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2956,10 +8235,36 @@
     "name": "Whitechapel",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": "e/Upminster",
+            "id": 244,
+            "weight": 0
+          },
+          {
+            "branch": "w/",
+            "id": 4,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "HammersmithCity"
+        "line": "HammersmithCity",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": "w/Hammersmith",
+            "id": 4,
+            "weight": 0
+          },
+          {
+            "branch": "e/Barking",
+            "id": 244,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2968,7 +8273,20 @@
     "name": "Willesden Green",
     "lines": [
       {
-        "line": "Jubilee"
+        "line": "Jubilee",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": "e/Stratford",
+            "id": 144,
+            "weight": 0
+          },
+          {
+            "branch": "n/Stanmore",
+            "id": 72,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2977,7 +8295,20 @@
     "name": "Willesden Junction",
     "lines": [
       {
-        "line": "Bakerloo"
+        "line": "Bakerloo",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": "s/ElephantAndCastle",
+            "id": 139,
+            "weight": 0
+          },
+          {
+            "branch": "n/HarrowAndWealdstone",
+            "id": 115,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2986,7 +8317,15 @@
     "name": "Wimbledon",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": "e/EdgewareRoad",
+            "id": 296,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -2995,7 +8334,20 @@
     "name": "Wimbledon Park",
     "lines": [
       {
-        "line": "District"
+        "line": "District",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": "w/Wimbledon",
+            "id": 295,
+            "weight": 0
+          },
+          {
+            "branch": "e/EdgewareRoad",
+            "id": 240,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -3004,7 +8356,20 @@
     "name": "Wood Green",
     "lines": [
       {
-        "line": "Piccadilly"
+        "line": "Piccadilly",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": "e/Cockfosters",
+            "id": 58,
+            "weight": 0
+          },
+          {
+            "branch": "w/",
+            "id": 262,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -3013,10 +8378,36 @@
     "name": "Wood Lane",
     "lines": [
       {
-        "line": "HammersmithCity"
+        "line": "HammersmithCity",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": "w/Hammersmith",
+            "id": 229,
+            "weight": 0
+          },
+          {
+            "branch": "e/Barking",
+            "id": 153,
+            "weight": 0
+          }
+        ]
       },
       {
-        "line": "Circle"
+        "line": "Circle",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": "e/EdgewareRoad",
+            "id": 153,
+            "weight": 0
+          },
+          {
+            "branch": "w/Hammersmith",
+            "id": 229,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -3025,7 +8416,20 @@
     "name": "Woodford",
     "lines": [
       {
-        "line": "Central"
+        "line": "Central",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": "e/Epping",
+            "id": 37,
+            "weight": 0
+          },
+          {
+            "branch": "w/",
+            "id": 239,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -3034,7 +8438,20 @@
     "name": "Woodside Park",
     "lines": [
       {
-        "line": "Northern"
+        "line": "Northern",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": "n/HighBarnet",
+            "id": 257,
+            "weight": 0
+          },
+          {
+            "branch": "s/",
+            "id": 280,
+            "weight": 0
+          }
+        ]
       }
     ]
   },
@@ -3043,7 +8460,157 @@
     "name": "Woolwich Arsenal",
     "lines": [
       {
-        "line": "DLR"
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": "w/",
+            "id": 146,
+            "weight": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 302,
+    "name": "Stratford International",
+    "lines": [
+      {
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": "s/CanningTown",
+            "id": 247,
+            "weight": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 303,
+    "name": "Stratford High Street",
+    "lines": [
+      {
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": "n/StratfordInternational",
+            "id": 247,
+            "weight": 0
+          },
+          {
+            "branch": "s/CanningTown",
+            "id": 1,
+            "weight": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 304,
+    "name": "Harrow-on-the-Hill",
+    "lines": [
+      {
+        "line": "Metropolitan",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": "s/Aldgate",
+            "id": 185,
+            "weight": 0
+          },
+          {
+            "branch": "n/Uxbridge",
+            "id": 283,
+            "weight": 0
+          },
+          {
+            "branch": "n/Watford",
+            "id": 181,
+            "weight": 0
+          },
+          {
+            "branch": "n/Amersham",
+            "id": 181,
+            "weight": 0
+          },
+          {
+            "branch": "n/Chesham",
+            "id": 181,
+            "weight": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 305,
+    "name": "Star Lane",
+    "lines": [
+      {
+        "line": "DLR",
+        "nightTube": false,
+        "stations": [
+          {
+            "branch": "n/",
+            "id": 281,
+            "weight": 0
+          },
+          {
+            "branch": "e/",
+            "id": 44,
+            "weight": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 306,
+    "name": "Lancaster Gate",
+    "lines": [
+      {
+        "line": "Central",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": "e/",
+            "id": 166,
+            "weight": 0
+          },
+          {
+            "branch": "w/",
+            "id": 209,
+            "weight": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 307,
+    "name": "Southgate",
+    "lines": [
+      {
+        "line": "Piccadilly",
+        "nightTube": true,
+        "stations": [
+          {
+            "branch": "e/Cockfosters",
+            "id": 189,
+            "weight": 0
+          },
+          {
+            "branch": "w/",
+            "id": 9,
+            "weight": 0
+          }
+        ]
       }
     ]
   }
