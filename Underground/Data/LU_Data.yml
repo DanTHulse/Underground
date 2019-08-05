@@ -24,7 +24,7 @@
       id: 
       weight: 0
   - line: Piccadilly
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -117,7 +117,7 @@
   name: Archway
   lines:
   - line: Northern
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -129,7 +129,7 @@
   name: Arnos Grove
   lines:
   - line: Piccadilly
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -141,7 +141,7 @@
   name: Arsenal
   lines:
   - line: Piccadilly
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -180,7 +180,7 @@
       id: 
       weight: 0
   - line: Jubilee
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -201,7 +201,7 @@
   name: Balham
   lines:
   - line: Northern
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -231,7 +231,7 @@
       id: 
       weight: 0
   - line: Central
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -303,7 +303,7 @@
   name: Barkingside
   lines:
   - line: Central
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -324,7 +324,7 @@
       id: 
       weight: 0
   - line: Piccadilly
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -393,7 +393,7 @@
   name: Belsize Park
   lines:
   - line: Northern
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -405,7 +405,7 @@
   name: Bermondsey
   lines:
   - line: Jubilee
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -417,7 +417,7 @@
   name: Bethnal Green
   lines:
   - line: Central
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -450,7 +450,7 @@
   name: Blackhorse Road
   lines:
   - line: Victoria
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -474,7 +474,7 @@
   name: Bond Street
   lines:
   - line: Central
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -483,7 +483,7 @@
       id: 
       weight: 0
   - line: Jubilee
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -507,7 +507,7 @@
   name: Boston Manor
   lines:
   - line: Piccadilly
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -519,7 +519,7 @@
   name: Bounds Green
   lines:
   - line: Piccadilly
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -564,7 +564,7 @@
   name: Brent Cross
   lines:
   - line: Northern
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -609,7 +609,7 @@
   name: Buckhurst Hill
   lines:
   - line: Central
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -621,7 +621,7 @@
   name: Burnt Oak
   lines:
   - line: Northern
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -633,7 +633,7 @@
   name: Caledonian Road
   lines:
   - line: Piccadilly
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -645,7 +645,7 @@
   name: Camden Town
   lines:
   - line: Northern
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -657,7 +657,7 @@
   name: Canada Water
   lines:
   - line: Jubilee
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -669,7 +669,7 @@
   name: Canary Wharf
   lines:
   - line: Jubilee
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -702,7 +702,7 @@
       id: 
       weight: 0
   - line: Jubilee
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -735,7 +735,7 @@
   name: Canons Park
   lines:
   - line: Jubilee
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -759,7 +759,7 @@
   name: Chalk Farm
   lines:
   - line: Northern
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -771,7 +771,7 @@
   name: Chancery Lane
   lines:
   - line: Central
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -792,7 +792,7 @@
       id: 
       weight: 0
   - line: Northern
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -852,7 +852,7 @@
   name: Clapham Common
   lines:
   - line: Northern
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -864,7 +864,7 @@
   name: Clapham North
   lines:
   - line: Northern
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -876,7 +876,7 @@
   name: Clapham South
   lines:
   - line: Northern
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -900,7 +900,7 @@
   name: Colindale
   lines:
   - line: Northern
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -912,7 +912,7 @@
   name: Colliers Wood
   lines:
   - line: Northern
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -924,7 +924,7 @@
   name: Covent Garden
   lines:
   - line: Piccadilly
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -1056,7 +1056,7 @@
   name: Dollis Hill
   lines:
   - line: Jubilee
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -1119,7 +1119,7 @@
       id: 
       weight: 0
   - line: Piccadilly
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -1131,7 +1131,7 @@
   name: East Acton
   lines:
   - line: Central
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -1143,7 +1143,7 @@
   name: East Finchley
   lines:
   - line: Northern
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -1338,7 +1338,7 @@
       id: 
       weight: 0
   - line: Northern
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -1371,7 +1371,7 @@
   name: Euston
   lines:
   - line: Northern
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -1380,7 +1380,7 @@
       id: 
       weight: 0
   - line: Piccadilly
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -1422,7 +1422,7 @@
   name: Fairlop
   lines:
   - line: Central
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -1464,7 +1464,7 @@
   name: Finchley Central
   lines:
   - line: Northern
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -1485,7 +1485,7 @@
       id: 
       weight: 0
   - line: Jubilee
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -1497,7 +1497,7 @@
   name: Finsbury Park
   lines:
   - line: Piccadilly
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -1506,7 +1506,7 @@
       id: 
       weight: 0
   - line: Victoria
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -1542,7 +1542,7 @@
   name: Gants Hill
   lines:
   - line: Central
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -1554,7 +1554,7 @@
   name: Gloucester Road
   lines:
   - line: District
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -1584,7 +1584,7 @@
   name: Golders Green
   lines:
   - line: Northern
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -1617,7 +1617,7 @@
   name: Goodge Stret
   lines:
   - line: Northern
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -1683,7 +1683,7 @@
   name: Green Park
   lines:
   - line: Piccadilly
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -1692,7 +1692,7 @@
       id: 
       weight: 0
   - line: Victoria
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -1701,7 +1701,7 @@
       id: 
       weight: 0
   - line: Jubilee
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -1758,7 +1758,7 @@
       id: 
       weight: 0
   - line: Piccadilly
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -1791,7 +1791,7 @@
   name: Hampstead
   lines:
   - line: Northern
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -1839,7 +1839,7 @@
   name: Hatton Cross
   lines:
   - line: Piccadilly
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -1851,7 +1851,7 @@
   name: Heathrow Terminals 2 & 3
   lines:
   - line: Piccadilly
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -1887,7 +1887,7 @@
   name: Hendon Central
   lines:
   - line: Northern
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -1923,7 +1923,7 @@
   name: Highbury & Inslington
   lines:
   - line: Victoria
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -1935,7 +1935,7 @@
   name: Highgate
   lines:
   - line: Northern
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -1989,7 +1989,7 @@
   name: Holborn
   lines:
   - line: Central
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -1998,7 +1998,7 @@
       id: 
       weight: 0
   - line: Piccadilly
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -2010,7 +2010,7 @@
   name: Holland Park
   lines:
   - line: Central
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -2022,7 +2022,7 @@
   name: Holloway Road
   lines:
   - line: Piccadilly
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -2046,7 +2046,7 @@
   name: Hounslow Central
   lines:
   - line: Piccadilly
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -2058,7 +2058,7 @@
   name: Hounslow East
   lines:
   - line: Piccadilly
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -2070,7 +2070,7 @@
   name: Hounslow West
   lines:
   - line: Piccadilly
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -2082,7 +2082,7 @@
   name: Hyde Park Corner
   lines:
   - line: Piccadilly
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -2127,7 +2127,7 @@
   name: Kennington
   lines:
   - line: Northern
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -2163,7 +2163,7 @@
   name: Kentish Town
   lines:
   - line: Northern
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -2199,7 +2199,7 @@
   name: Kilburn
   lines:
   - line: Jubilee
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -2235,7 +2235,7 @@
   name: Kingsbury
   lines:
   - line: Jubilee
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -2265,7 +2265,7 @@
       id: 
       weight: 0
   - line: Piccadilly
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -2283,7 +2283,7 @@
       id: 
       weight: 0
   - line: Victoria
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -2304,7 +2304,7 @@
   name: Knightsbridge
   lines:
   - line: Piccadilly
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -2382,7 +2382,7 @@
   name: Leicester Square
   lines:
   - line: Piccadilly
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -2391,7 +2391,7 @@
       id: 
       weight: 0
   - line: Northern
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -2415,7 +2415,7 @@
   name: Leyton
   lines:
   - line: Central
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -2427,7 +2427,7 @@
   name: Leytonstone
   lines:
   - line: Central
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -2460,7 +2460,7 @@
       id: 
       weight: 0
   - line: Central
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -2499,7 +2499,7 @@
       id: 
       weight: 0
   - line: Jubilee
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -2547,7 +2547,7 @@
   name: Manor House
   lines:
   - line: Piccadilly
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -2580,7 +2580,7 @@
   name: Marble Arch
   lines:
   - line: Central
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -2622,7 +2622,7 @@
       id: 
       weight: 0
   - line: Central
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -2736,7 +2736,7 @@
   name: Neasden
   lines:
   - line: Jubilee
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -2748,7 +2748,7 @@
   name: Newbury Park
   lines:
   - line: Central
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -2760,7 +2760,7 @@
   name: North Acton
   lines:
   - line: Central
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -2784,7 +2784,7 @@
   name: North Greenwich
   lines:
   - line: Jubilee
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -2820,7 +2820,7 @@
   name: Northfields
   lines:
   - line: Piccadilly
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -2880,7 +2880,7 @@
   name: Notting Hill Gate
   lines:
   - line: District
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -2910,7 +2910,7 @@
   name: Oakwood
   lines:
   - line: Piccadilly
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -2934,7 +2934,7 @@
   name: Osterley
   lines:
   - line: Piccadilly
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -2946,7 +2946,7 @@
   name: Oval
   lines:
   - line: Northern
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -2958,7 +2958,7 @@
   name: Oxford Circus
   lines:
   - line: Central
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -2976,7 +2976,7 @@
       id: 
       weight: 0
   - line: Victoria
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -3060,7 +3060,7 @@
       id: 
       weight: 0
   - line: Piccadilly
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -3072,7 +3072,7 @@
   name: Pimlico
   lines:
   - line: Victoria
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -3201,7 +3201,7 @@
   name: Queensbury
   lines:
   - line: Jubilee
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -3213,7 +3213,7 @@
   name: Queensway
   lines:
   - line: Central
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -3258,7 +3258,7 @@
   name: Redbridge
   lines:
   - line: Central
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -3396,7 +3396,7 @@
   name: Russell Square
   lines:
   - line: Piccadilly
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -3429,7 +3429,7 @@
   name: St. John's Wood
   lines:
   - line: Jubilee
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -3441,7 +3441,7 @@
   name: St. Paul's
   lines:
   - line: Central
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -3453,7 +3453,7 @@
   name: Seven Sisters
   lines:
   - line: Victoria
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -3477,7 +3477,7 @@
   name: Shepherd's Bush
   lines:
   - line: Central
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -3531,7 +3531,7 @@
   name: Snaresbrook 
   lines:
   - line: Central
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -3543,7 +3543,7 @@
   name: South Ealing
   lines:
   - line: Piccadilly
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -3576,7 +3576,7 @@
       id: 
       weight: 0
   - line: Piccadilly
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -3633,7 +3633,7 @@
   name: South Wimbledon
   lines:
   - line: Northern
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -3645,7 +3645,7 @@
   name: South Woodford
   lines:
   - line: Central
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -3669,7 +3669,7 @@
   name: Southwark
   lines:
   - line: Jubilee
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -3726,7 +3726,7 @@
   name: Stockwell
   lines:
   - line: Northern
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -3735,7 +3735,7 @@
       id: 
       weight: 0
   - line: Victoria
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -3759,7 +3759,7 @@
   name: Stratford
   lines:
   - line: Central
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -3813,7 +3813,7 @@
   name: Swiss Cottage
   lines:
   - line: Jubilee
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -3858,7 +3858,7 @@
   name: Tooting Bec
   lines:
   - line: Northern
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -3870,7 +3870,7 @@
   name: Tooting Broadway
   lines:
   - line: Northern
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -3882,7 +3882,7 @@
   name: Tottenham Court Road
   lines:
   - line: Central
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -3891,7 +3891,7 @@
       id: 
       weight: 0
   - line: Northern
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -3903,7 +3903,7 @@
   name: Tottenham Hale
   lines:
   - line: Victoria
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -3915,7 +3915,7 @@
   name: Totteridge & Whetstone
   lines:
   - line: Northern
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -3960,7 +3960,7 @@
   name: Tufnell Park
   lines:
   - line: Northern
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -3981,7 +3981,7 @@
       id: 
       weight: 0
   - line: Piccadilly
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -3993,7 +3993,7 @@
   name: Turnpike Lane
   lines:
   - line: Piccadilly
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -4083,7 +4083,7 @@
   name: Vauxhall
   lines:
   - line: Victoria
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -4113,7 +4113,7 @@
       id: 
       weight: 0
   - line: Victoria
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -4137,7 +4137,7 @@
   name: Wanstead
   lines:
   - line: Central
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -4149,7 +4149,7 @@
   name: Warren Street
   lines:
   - line: Northern
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -4158,7 +4158,7 @@
       id: 
       weight: 0
   - line: Victoria
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -4200,7 +4200,7 @@
       id: 
       weight: 0
   - line: Northern
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -4209,7 +4209,7 @@
       id: 
       weight: 0
   - line: Jubilee
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -4249,8 +4249,12 @@
     stations:
     - branch: 
       id: 
+      weight: 0
+    - branch: 
+      id: 
+      weight: 0
   - line: Jubilee
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -4262,7 +4266,7 @@
   name: West Acton
   lines:
   - line: Central
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -4286,7 +4290,7 @@
   name: West Finchley
   lines:
   - line: Northern
-    nightTube: false
+    nightTube: true
     stations:
     - branch: 
       id: 
@@ -4316,7 +4320,7 @@
       id: 36
       weight: 0
   - line: Jubilee
-    nightTube: false
+    nightTube: true
     stations:
     - branch: e/Stratford
       id: 247
@@ -4337,7 +4341,7 @@
   name: West Hampstead
   lines:
   - line: Jubilee
-    nightTube: false
+    nightTube: true
     stations:
     - branch: n/Stanmore
       id: 144
@@ -4469,7 +4473,7 @@
       id: 88
       weight: 0
   - line: Jubilee
-    nightTube: false
+    nightTube: true
     stations:
     - branch: e/Stratford
       id: 274
@@ -4481,7 +4485,7 @@
   name: White City
   lines:
   - line: Central
-    nightTube: false
+    nightTube: true
     stations:
     - branch: w/
       id: 76
@@ -4559,7 +4563,7 @@
   name: Wood Green
   lines:
   - line: Piccadilly
-    nightTube: false
+    nightTube: true
     stations:
     - branch: e/Cockfosters
       id: 58
@@ -4592,7 +4596,7 @@
   name: Woodford
   lines:
   - line: Central
-    nightTube: false
+    nightTube: true
     stations:
     - branch: e/Epping
       id: 37
@@ -4604,7 +4608,7 @@
   name: Woodside Park
   lines:
   - line: Northern
-    nightTube: false
+    nightTube: true
     stations:
     - branch: n/HighBarnet
       id: 257
@@ -4674,4 +4678,28 @@
       weight: 0
     - branch: e/
       id: 44
+      weight: 0
+- id: 306
+  name: Lancaster Gate
+  lines:
+  - line: Central
+    nightTube: true
+    stations:
+    - branch: e/
+      id: 166
+      weight: 0
+    - branch: w/
+      id: 209
+      weight: 0
+- id: 307
+  name: Southgate
+  lines:
+  - line: Piccadilly
+    nightTube: true
+    stations:
+    - branch: e/Cockfosters
+      id: 189
+      weight: 0
+    - branch: w/
+      id: 9
       weight: 0
