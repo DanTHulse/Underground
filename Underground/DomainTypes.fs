@@ -35,7 +35,7 @@ module DomainTypes =
 
     type Line = {
       line: Lines
-      // routes: Route list
+      stations: Route list
     }
 
     type Station = {
