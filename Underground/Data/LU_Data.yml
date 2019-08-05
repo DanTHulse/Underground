@@ -224,38 +224,38 @@
   - line: Northern
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: s/Morden
+      id: 160
       weight: 0
-    - branch: 
-      id: 
+    - branch: n/
+      id: 171
       weight: 0
   - line: WaterlooCity
     nightTube: false
     stations:
-    - branch: 
-      id: 
-      weight: 0
-    - branch: 
-      id: 
+    - branch: w/Waterloo
+      id: 274
       weight: 0
   - line: Central
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: e/
+      id: 159
       weight: 0
-    - branch: 
-      id: 
+    - branch: w/
+      id: 225
       weight: 0
   - line: DLR
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: e/
+      id: 227
       weight: 0
-    - branch: 
-      id: 
+    - branch: n/
+      id: 227
+      weight: 0
+    - branch: s/
+      id: 227
       weight: 0
 - id: 14
   name: Barbican
@@ -461,11 +461,11 @@
   - line: Victoria
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: n/WalthamstowCentral
+      id: 270
       weight: 0
-    - branch: 
-      id: 
+    - branch: s/Brixton
+      id: 256
       weight: 0
 - id: 27
   name: Blackwall
@@ -587,11 +587,8 @@
   - line: Victoria
     nightTube: false
     stations:
-    - branch: 
-      id: 
-      weight: 0
-    - branch: 
-      id: 
+    - branch: n/WalthamstowCentral
+      id: 245
       weight: 0
 - id: 36
   name: Bromley-by-Bow
@@ -1382,20 +1379,26 @@
   - line: Northern
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: n/HighBarnet
+      id: 174
       weight: 0
-    - branch: 
-      id: 
+    - branch: n/Edgeware
+      id: 40
       weight: 0
-  - line: Piccadilly
+    - branch: s/Kennington
+      id: 272
+      weight: 0
+    - branch: s/Morden
+      id: 148
+      weight: 0
+  - line: Victoria
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: s/Brixton
+      id: 272
       weight: 0
-    - branch: 
-      id: 
+    - branch: n/WalthamstowCentral
+      id: 148
       weight: 0
 - id: 91
   name: Euston Square
@@ -1508,20 +1511,20 @@
   - line: Piccadilly
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: e/Cockfosters
+      id: 164
       weight: 0
-    - branch: 
-      id: 
+    - branch: w/
+      id: 10
       weight: 0
   - line: Victoria
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: n/WalthamstowCentral
+      id: 226
       weight: 0
-    - branch: 
-      id: 
+    - branch: s/
+      id: 124
       weight: 0
 - id: 97
   name: Fulham Broadway
@@ -1694,29 +1697,29 @@
   - line: Piccadilly
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: w/
+      id: 135
       weight: 0
-    - branch: 
-      id: 
+    - branch: e/Cockfosters
+      id: 197
       weight: 0
   - line: Victoria
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: s/Brixton
+      id: 269
       weight: 0
-    - branch: 
-      id: 
+    - branch: n/WalthamstowCentral
+      id: 193
       weight: 0
   - line: Jubilee
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: n/Stanmore
+      id: 28
       weight: 0
-    - branch: 
-      id: 
+    - branch: e/Stratford
+      id: 290
       weight: 0
 - id: 108
   name: Greenwich
@@ -1934,11 +1937,11 @@
   - line: Victoria
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: n/WalthamstowCentral
+      id: 96
       weight: 0
-    - branch: 
-      id: 
+    - branch: s/Brixton
+      id: 148
       weight: 0
 - id: 125
   name: Highgate
@@ -2258,11 +2261,11 @@
   - line: Metropolitan
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: n/
+      id: 91
       weight: 0
-    - branch: 
-      id: 
+    - branch: s/Aldgate
+      id: 93
       weight: 0
   - line: Northern
     nightTube: false
@@ -2276,38 +2279,38 @@
   - line: Piccadilly
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: s/Morden
+      id: 7
       weight: 0
-    - branch: 
-      id: 
+    - branch: n/
+      id: 90
       weight: 0
   - line: Circle
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: w/Hammersmith
+      id: 91
       weight: 0
-    - branch: 
-      id: 
+    - branch: e/EdgewareRoad
+      id: 93
       weight: 0
   - line: Victoria
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: s/Brixton
+      id: 90
       weight: 0
-    - branch: 
-      id: 
+    - branch: n/WalthamstowCentral
+      id: 124
       weight: 0
   - line: HammersmithCity
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: w/Hammersmith
+      id: 91
       weight: 0
-    - branch: 
-      id: 
+    - branch: e/Barking
+      id: 93
       weight: 0
 - id: 149
   name: Knightsbridge
@@ -2987,29 +2990,29 @@
   - line: Central
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: e/
+      id: 255
       weight: 0
-    - branch: 
-      id: 
+    - branch: w/
+      id: 28
       weight: 0
   - line: Bakerloo
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: s/ElephantAndCastle
+      id: 197
       weight: 0
-    - branch: 
-      id: 
+    - branch: n/HarrowAndWealdstone
+      id: 213
       weight: 0
   - line: Victoria
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: n/WalthamstowCentral
+      id: 272
       weight: 0
-    - branch: 
-      id: 
+    - branch: s/Brixton
+      id: 107
       weight: 0
 - id: 194
   name: Paddington
@@ -3101,11 +3104,11 @@
   - line: Victoria
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: n/WalthamstowCentral
+      id: 269
       weight: 0
-    - branch: 
-      id: 
+    - branch: s/Brixton
+      id: 268
       weight: 0
 - id: 199
   name: Pinner
@@ -3482,11 +3485,11 @@
   - line: Victoria
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: n/WalthamstowCentral
+      id: 256
       weight: 0
-    - branch: 
-      id: 
+    - branch: s/Brixton
+      id: 96
       weight: 0
 - id: 227
   name: Shadwell
@@ -3755,20 +3758,20 @@
   - line: Northern
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: s/Morden
+      id: 56
       weight: 0
-    - branch: 
-      id: 
+    - branch: n/
+      id: 192
       weight: 0
   - line: Victoria
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: n/WalthamstowCentral
+      id: 268
       weight: 0
-    - branch: 
-      id: 
+    - branch: s/Brixton
+      id: 35
       weight: 0
 - id: 246
   name: Stonebridge Park
@@ -3932,11 +3935,11 @@
   - line: Victoria
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: s/Brixton
+      id: 226
       weight: 0
-    - branch: 
-      id: 
+    - branch: n/WalthamstowCentral
+      id: 26
       weight: 0
 - id: 257
   name: Totteridge & Whetstone
@@ -4112,11 +4115,11 @@
   - line: Victoria
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: n/WalthamstowCentral
+      id: 198
       weight: 0
-    - branch: 
-      id: 
+    - branch: s/Brixton
+      id: 245
       weight: 0
 - id: 269
   name: Victoria
@@ -4124,29 +4127,29 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: e/Upminster
+      id: 223
       weight: 0
-    - branch: 
-      id: 
+    - branch: w/
+      id: 230
       weight: 0
   - line: Circle
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: e/EdgewareRoad
+      id: 230
       weight: 0
-    - branch: 
-      id: 
+    - branch: w/Hammersmith
+      id: 223
       weight: 0
   - line: Victoria
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: n/WalthamstowCentral
+      id: 107
       weight: 0
-    - branch: 
-      id: 
+    - branch: s/Brixton
+      id: 198
       weight: 0
 - id: 270
   name: Walthamstow Central
@@ -4154,11 +4157,8 @@
   - line: Victoria
     nightTube: false
     stations:
-    - branch: 
-      id: 
-      weight: 0
-    - branch: 
-      id: 
+    - branch: s/Brixton
+      id: 26
       weight: 0
 - id: 271
   name: Wanstead
@@ -4178,20 +4178,20 @@
   - line: Northern
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: s/Kennington
+      id: 103
       weight: 0
-    - branch: 
-      id: 
+    - branch: n/
+      id: 90
       weight: 0
   - line: Victoria
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: n/WalthamstowCentral
+      id: 90
       weight: 0
-    - branch: 
-      id: 
+    - branch: s/Brixton
+      id: 193
       weight: 0
 - id: 273
   name: Warwick Avenue
@@ -4211,38 +4211,35 @@
   - line: WaterlooCity
     nightTube: false
     stations:
-    - branch: 
-      id: 
-      weight: 0
-    - branch: 
-      id: 
+    - branch: e/Bank
+      id: 13
       weight: 0
   - line: Bakerloo
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: s/ElephantAndCastle
+      id: 151
       weight: 0
-    - branch: 
-      id: 
+    - branch: n/HarrowAndWealdstone
+      id: 88
       weight: 0
   - line: Northern
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: n/
+      id: 88
       weight: 0
-    - branch: 
-      id: 
+    - branch: s/Kennington
+      id: 138
       weight: 0
   - line: Jubilee
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: n/Stanmore
+      id: 290
       weight: 0
-    - branch: 
-      id: 
+    - branch: e/Stratford
+      id: 241
       weight: 0
 - id: 275
   name: Watford

@@ -406,13 +406,13 @@
         "nightTube": false,
         "stations": [
           {
-            "branch": null,
-            "id": null,
+            "branch": "s/Morden",
+            "id": 160,
             "weight": 0
           },
           {
-            "branch": null,
-            "id": null,
+            "branch": "n/",
+            "id": 171,
             "weight": 0
           }
         ]
@@ -422,13 +422,8 @@
         "nightTube": false,
         "stations": [
           {
-            "branch": null,
-            "id": null,
-            "weight": 0
-          },
-          {
-            "branch": null,
-            "id": null,
+            "branch": "w/Waterloo",
+            "id": 274,
             "weight": 0
           }
         ]
@@ -438,13 +433,13 @@
         "nightTube": true,
         "stations": [
           {
-            "branch": null,
-            "id": null,
+            "branch": "e/",
+            "id": 159,
             "weight": 0
           },
           {
-            "branch": null,
-            "id": null,
+            "branch": "w/",
+            "id": 225,
             "weight": 0
           }
         ]
@@ -454,13 +449,18 @@
         "nightTube": false,
         "stations": [
           {
-            "branch": null,
-            "id": null,
+            "branch": "e/",
+            "id": 227,
             "weight": 0
           },
           {
-            "branch": null,
-            "id": null,
+            "branch": "n/",
+            "id": 227,
+            "weight": 0
+          },
+          {
+            "branch": "s/",
+            "id": 227,
             "weight": 0
           }
         ]
@@ -836,13 +836,13 @@
         "nightTube": true,
         "stations": [
           {
-            "branch": null,
-            "id": null,
+            "branch": "n/WalthamstowCentral",
+            "id": 270,
             "weight": 0
           },
           {
-            "branch": null,
-            "id": null,
+            "branch": "s/Brixton",
+            "id": 256,
             "weight": 0
           }
         ]
@@ -1066,13 +1066,8 @@
         "nightTube": false,
         "stations": [
           {
-            "branch": null,
-            "id": null,
-            "weight": 0
-          },
-          {
-            "branch": null,
-            "id": null,
+            "branch": "n/WalthamstowCentral",
+            "id": 245,
             "weight": 0
           }
         ]
@@ -2516,29 +2511,39 @@
         "nightTube": true,
         "stations": [
           {
-            "branch": null,
-            "id": null,
+            "branch": "n/HighBarnet",
+            "id": 174,
             "weight": 0
           },
           {
-            "branch": null,
-            "id": null,
+            "branch": "n/Edgeware",
+            "id": 40,
+            "weight": 0
+          },
+          {
+            "branch": "s/Kennington",
+            "id": 272,
+            "weight": 0
+          },
+          {
+            "branch": "s/Morden",
+            "id": 148,
             "weight": 0
           }
         ]
       },
       {
-        "line": "Piccadilly",
+        "line": "Victoria",
         "nightTube": true,
         "stations": [
           {
-            "branch": null,
-            "id": null,
+            "branch": "s/Brixton",
+            "id": 272,
             "weight": 0
           },
           {
-            "branch": null,
-            "id": null,
+            "branch": "n/WalthamstowCentral",
+            "id": 148,
             "weight": 0
           }
         ]
@@ -2744,13 +2749,13 @@
         "nightTube": true,
         "stations": [
           {
-            "branch": null,
-            "id": null,
+            "branch": "e/Cockfosters",
+            "id": 164,
             "weight": 0
           },
           {
-            "branch": null,
-            "id": null,
+            "branch": "w/",
+            "id": 10,
             "weight": 0
           }
         ]
@@ -2760,13 +2765,13 @@
         "nightTube": true,
         "stations": [
           {
-            "branch": null,
-            "id": null,
+            "branch": "n/WalthamstowCentral",
+            "id": 226,
             "weight": 0
           },
           {
-            "branch": null,
-            "id": null,
+            "branch": "s/",
+            "id": 124,
             "weight": 0
           }
         ]
@@ -3082,13 +3087,13 @@
         "nightTube": true,
         "stations": [
           {
-            "branch": null,
-            "id": null,
+            "branch": "w/",
+            "id": 135,
             "weight": 0
           },
           {
-            "branch": null,
-            "id": null,
+            "branch": "e/Cockfosters",
+            "id": 197,
             "weight": 0
           }
         ]
@@ -3098,13 +3103,13 @@
         "nightTube": true,
         "stations": [
           {
-            "branch": null,
-            "id": null,
+            "branch": "s/Brixton",
+            "id": 269,
             "weight": 0
           },
           {
-            "branch": null,
-            "id": null,
+            "branch": "n/WalthamstowCentral",
+            "id": 193,
             "weight": 0
           }
         ]
@@ -3114,13 +3119,13 @@
         "nightTube": true,
         "stations": [
           {
-            "branch": null,
-            "id": null,
+            "branch": "n/Stanmore",
+            "id": 28,
             "weight": 0
           },
           {
-            "branch": null,
-            "id": null,
+            "branch": "e/Stratford",
+            "id": 290,
             "weight": 0
           }
         ]
@@ -3520,13 +3525,13 @@
         "nightTube": true,
         "stations": [
           {
-            "branch": null,
-            "id": null,
+            "branch": "n/WalthamstowCentral",
+            "id": 96,
             "weight": 0
           },
           {
-            "branch": null,
-            "id": null,
+            "branch": "s/Brixton",
+            "id": 148,
             "weight": 0
           }
         ]
@@ -4112,13 +4117,13 @@
         "nightTube": false,
         "stations": [
           {
-            "branch": null,
-            "id": null,
+            "branch": "n/",
+            "id": 91,
             "weight": 0
           },
           {
-            "branch": null,
-            "id": null,
+            "branch": "s/Aldgate",
+            "id": 93,
             "weight": 0
           }
         ]
@@ -4144,13 +4149,13 @@
         "nightTube": true,
         "stations": [
           {
-            "branch": null,
-            "id": null,
+            "branch": "s/Morden",
+            "id": 7,
             "weight": 0
           },
           {
-            "branch": null,
-            "id": null,
+            "branch": "n/",
+            "id": 90,
             "weight": 0
           }
         ]
@@ -4160,13 +4165,13 @@
         "nightTube": false,
         "stations": [
           {
-            "branch": null,
-            "id": null,
+            "branch": "w/Hammersmith",
+            "id": 91,
             "weight": 0
           },
           {
-            "branch": null,
-            "id": null,
+            "branch": "e/EdgewareRoad",
+            "id": 93,
             "weight": 0
           }
         ]
@@ -4176,13 +4181,13 @@
         "nightTube": true,
         "stations": [
           {
-            "branch": null,
-            "id": null,
+            "branch": "s/Brixton",
+            "id": 90,
             "weight": 0
           },
           {
-            "branch": null,
-            "id": null,
+            "branch": "n/WalthamstowCentral",
+            "id": 124,
             "weight": 0
           }
         ]
@@ -4192,13 +4197,13 @@
         "nightTube": false,
         "stations": [
           {
-            "branch": null,
-            "id": null,
+            "branch": "w/Hammersmith",
+            "id": 91,
             "weight": 0
           },
           {
-            "branch": null,
-            "id": null,
+            "branch": "e/Barking",
+            "id": 93,
             "weight": 0
           }
         ]
@@ -5438,13 +5443,13 @@
         "nightTube": true,
         "stations": [
           {
-            "branch": null,
-            "id": null,
+            "branch": "e/",
+            "id": 255,
             "weight": 0
           },
           {
-            "branch": null,
-            "id": null,
+            "branch": "w/",
+            "id": 28,
             "weight": 0
           }
         ]
@@ -5454,13 +5459,13 @@
         "nightTube": false,
         "stations": [
           {
-            "branch": null,
-            "id": null,
+            "branch": "s/ElephantAndCastle",
+            "id": 197,
             "weight": 0
           },
           {
-            "branch": null,
-            "id": null,
+            "branch": "n/HarrowAndWealdstone",
+            "id": 213,
             "weight": 0
           }
         ]
@@ -5470,13 +5475,13 @@
         "nightTube": true,
         "stations": [
           {
-            "branch": null,
-            "id": null,
+            "branch": "n/WalthamstowCentral",
+            "id": 272,
             "weight": 0
           },
           {
-            "branch": null,
-            "id": null,
+            "branch": "s/Brixton",
+            "id": 107,
             "weight": 0
           }
         ]
@@ -5644,13 +5649,13 @@
         "nightTube": true,
         "stations": [
           {
-            "branch": null,
-            "id": null,
+            "branch": "n/WalthamstowCentral",
+            "id": 269,
             "weight": 0
           },
           {
-            "branch": null,
-            "id": null,
+            "branch": "s/Brixton",
+            "id": 268,
             "weight": 0
           }
         ]
@@ -6340,13 +6345,13 @@
         "nightTube": true,
         "stations": [
           {
-            "branch": null,
-            "id": null,
+            "branch": "n/WalthamstowCentral",
+            "id": 256,
             "weight": 0
           },
           {
-            "branch": null,
-            "id": null,
+            "branch": "s/Brixton",
+            "id": 96,
             "weight": 0
           }
         ]
@@ -6838,13 +6843,13 @@
         "nightTube": true,
         "stations": [
           {
-            "branch": null,
-            "id": null,
+            "branch": "s/Morden",
+            "id": 56,
             "weight": 0
           },
           {
-            "branch": null,
-            "id": null,
+            "branch": "n/",
+            "id": 192,
             "weight": 0
           }
         ]
@@ -6854,13 +6859,13 @@
         "nightTube": true,
         "stations": [
           {
-            "branch": null,
-            "id": null,
+            "branch": "n/WalthamstowCentral",
+            "id": 268,
             "weight": 0
           },
           {
-            "branch": null,
-            "id": null,
+            "branch": "s/Brixton",
+            "id": 35,
             "weight": 0
           }
         ]
@@ -7160,13 +7165,13 @@
         "nightTube": true,
         "stations": [
           {
-            "branch": null,
-            "id": null,
+            "branch": "s/Brixton",
+            "id": 226,
             "weight": 0
           },
           {
-            "branch": null,
-            "id": null,
+            "branch": "n/WalthamstowCentral",
+            "id": 26,
             "weight": 0
           }
         ]
@@ -7488,13 +7493,13 @@
         "nightTube": true,
         "stations": [
           {
-            "branch": null,
-            "id": null,
+            "branch": "n/WalthamstowCentral",
+            "id": 198,
             "weight": 0
           },
           {
-            "branch": null,
-            "id": null,
+            "branch": "s/Brixton",
+            "id": 245,
             "weight": 0
           }
         ]
@@ -7510,13 +7515,13 @@
         "nightTube": false,
         "stations": [
           {
-            "branch": null,
-            "id": null,
+            "branch": "e/Upminster",
+            "id": 223,
             "weight": 0
           },
           {
-            "branch": null,
-            "id": null,
+            "branch": "w/",
+            "id": 230,
             "weight": 0
           }
         ]
@@ -7526,13 +7531,13 @@
         "nightTube": false,
         "stations": [
           {
-            "branch": null,
-            "id": null,
+            "branch": "e/EdgewareRoad",
+            "id": 230,
             "weight": 0
           },
           {
-            "branch": null,
-            "id": null,
+            "branch": "w/Hammersmith",
+            "id": 223,
             "weight": 0
           }
         ]
@@ -7542,13 +7547,13 @@
         "nightTube": true,
         "stations": [
           {
-            "branch": null,
-            "id": null,
+            "branch": "n/WalthamstowCentral",
+            "id": 107,
             "weight": 0
           },
           {
-            "branch": null,
-            "id": null,
+            "branch": "s/Brixton",
+            "id": 198,
             "weight": 0
           }
         ]
@@ -7564,13 +7569,8 @@
         "nightTube": false,
         "stations": [
           {
-            "branch": null,
-            "id": null,
-            "weight": 0
-          },
-          {
-            "branch": null,
-            "id": null,
+            "branch": "s/Brixton",
+            "id": 26,
             "weight": 0
           }
         ]
@@ -7608,13 +7608,13 @@
         "nightTube": true,
         "stations": [
           {
-            "branch": null,
-            "id": null,
+            "branch": "s/Kennington",
+            "id": 103,
             "weight": 0
           },
           {
-            "branch": null,
-            "id": null,
+            "branch": "n/",
+            "id": 90,
             "weight": 0
           }
         ]
@@ -7624,13 +7624,13 @@
         "nightTube": true,
         "stations": [
           {
-            "branch": null,
-            "id": null,
+            "branch": "n/WalthamstowCentral",
+            "id": 90,
             "weight": 0
           },
           {
-            "branch": null,
-            "id": null,
+            "branch": "s/Brixton",
+            "id": 193,
             "weight": 0
           }
         ]
@@ -7668,13 +7668,8 @@
         "nightTube": false,
         "stations": [
           {
-            "branch": null,
-            "id": null,
-            "weight": 0
-          },
-          {
-            "branch": null,
-            "id": null,
+            "branch": "e/Bank",
+            "id": 13,
             "weight": 0
           }
         ]
@@ -7684,13 +7679,13 @@
         "nightTube": false,
         "stations": [
           {
-            "branch": null,
-            "id": null,
+            "branch": "s/ElephantAndCastle",
+            "id": 151,
             "weight": 0
           },
           {
-            "branch": null,
-            "id": null,
+            "branch": "n/HarrowAndWealdstone",
+            "id": 88,
             "weight": 0
           }
         ]
@@ -7700,13 +7695,13 @@
         "nightTube": true,
         "stations": [
           {
-            "branch": null,
-            "id": null,
+            "branch": "n/",
+            "id": 88,
             "weight": 0
           },
           {
-            "branch": null,
-            "id": null,
+            "branch": "s/Kennington",
+            "id": 138,
             "weight": 0
           }
         ]
@@ -7716,13 +7711,13 @@
         "nightTube": true,
         "stations": [
           {
-            "branch": null,
-            "id": null,
+            "branch": "n/Stanmore",
+            "id": 290,
             "weight": 0
           },
           {
-            "branch": null,
-            "id": null,
+            "branch": "e/Stratford",
+            "id": 241,
             "weight": 0
           }
         ]
