@@ -8,8 +8,8 @@
     - branch: n/StratfordInternational
       id: 
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 2
   name: Acton Town
@@ -17,20 +17,20 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Piccadilly
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 3
   name: Aldgate
@@ -38,20 +38,20 @@
   - line: Metropolitan
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Circle
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 4
   name: Aldgate East
@@ -59,20 +59,20 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: HammersmithCity
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 5
   name: All Saints
@@ -80,11 +80,11 @@
   - line: DLR
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 6
   name: Alperton
@@ -92,11 +92,11 @@
   - line: Piccadilly
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 7
   name: Amersham
@@ -104,11 +104,11 @@
   - line: Metropolitan
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 7
   name: Angel
@@ -116,11 +116,11 @@
   - line: Northern
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 8
   name: Archway
@@ -128,11 +128,11 @@
   - line: Northern
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 9
   name: Arnos Grove
@@ -140,11 +140,11 @@
   - line: Piccadilly
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 10
   name: Arsenal
@@ -152,11 +152,11 @@
   - line: Piccadilly
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 11
   name: Baker Street
@@ -164,47 +164,47 @@
   - line: Metropolitan
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Bakerloo
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Circle
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Jubilee
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: HammersmithCity
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 12
   name: Balham
@@ -212,11 +212,11 @@
   - line: Northern
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 13
   name: Bank
@@ -263,29 +263,29 @@
   - line: Metropolitan
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: HammersmithCity
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Circle
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 15
   name: Barking
@@ -293,20 +293,20 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: HammersmithCity
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 16
   name: Barkingside
@@ -314,11 +314,11 @@
   - line: Central
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 17
   name: Barons Court
@@ -326,20 +326,20 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Piccadilly
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 18
   name: Bayswater
@@ -347,20 +347,20 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Circle
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 19
   name: Beckton
@@ -368,11 +368,11 @@
   - line: DLR
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 20
   name: Beckton Park
@@ -380,11 +380,11 @@
   - line: DLR
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 21
   name: Becontree
@@ -392,11 +392,11 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 22
   name: Belsize Park
@@ -404,11 +404,11 @@
   - line: Northern
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 23
   name: Bermondsey
@@ -416,11 +416,11 @@
   - line: Jubilee
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 24
   name: Bethnal Green
@@ -428,11 +428,11 @@
   - line: Central
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 25
   name: Blackfriars
@@ -440,20 +440,20 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Circle
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 26
   name: Blackhorse Road
@@ -473,11 +473,11 @@
   - line: DLR
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 28
   name: Bond Street
@@ -485,20 +485,20 @@
   - line: Central
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Jubilee
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 29
   name: Borough
@@ -506,11 +506,11 @@
   - line: Northern
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 30
   name: Boston Manor
@@ -518,11 +518,11 @@
   - line: Piccadilly
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 31
   name: Bounds Green
@@ -530,11 +530,11 @@
   - line: Piccadilly
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 32
   name: Bow Church
@@ -542,11 +542,11 @@
   - line: DLR
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 33
   name: Bow Road
@@ -554,20 +554,20 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: HammersmithCity
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 34
   name: Brent Cross
@@ -575,11 +575,11 @@
   - line: Northern
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 35
   name: Brixton
@@ -596,20 +596,20 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: HammersmithCity
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 37
   name: Buckhurst Hill
@@ -617,11 +617,11 @@
   - line: Central
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 38
   name: Burnt Oak
@@ -629,11 +629,11 @@
   - line: Northern
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 39
   name: Caledonian Road
@@ -641,11 +641,11 @@
   - line: Piccadilly
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 40
   name: Camden Town
@@ -653,11 +653,11 @@
   - line: Northern
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 41
   name: Canada Water
@@ -665,11 +665,11 @@
   - line: Jubilee
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 42
   name: Canary Wharf
@@ -677,11 +677,11 @@
   - line: Jubilee
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 43
   name: Canary Wharf
@@ -689,11 +689,11 @@
   - line: DLR
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 44
   name: Canning Town
@@ -701,20 +701,20 @@
   - line: DLR
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Jubilee
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 45
   name: Cannon Street
@@ -722,20 +722,20 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Circle
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 46
   name: Canons Park
@@ -743,11 +743,11 @@
   - line: Jubilee
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 47
   name: Chalfont & Latimer
@@ -755,11 +755,11 @@
   - line: Metropolitan
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 48
   name: Chalk Farm
@@ -767,11 +767,11 @@
   - line: Northern
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 49
   name: Chancery Lane
@@ -779,11 +779,11 @@
   - line: Central
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 50
   name: Charing Cross
@@ -791,20 +791,20 @@
   - line: Bakerloo
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Northern
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 51
   name: Chesham
@@ -812,11 +812,11 @@
   - line: Metropolitan
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 52
   name: Chigwell
@@ -824,11 +824,11 @@
   - line: Central
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 53
   name: Chiswick Park
@@ -836,11 +836,11 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 54
   name: Chorleywood
@@ -848,11 +848,11 @@
   - line: Metropolitan
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 55
   name: Clapham Common
@@ -860,11 +860,11 @@
   - line: Northern
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 56
   name: Clapham North
@@ -872,11 +872,11 @@
   - line: Northern
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 57
   name: Clapham South
@@ -884,11 +884,11 @@
   - line: Northern
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 58
   name: Cockfosters
@@ -896,11 +896,11 @@
   - line: Piccadilly
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 59
   name: Colindale
@@ -908,11 +908,11 @@
   - line: Northern
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 60
   name: Colliers Wood
@@ -920,11 +920,11 @@
   - line: Northern
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 61
   name: Covent Garden
@@ -932,11 +932,11 @@
   - line: Piccadilly
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 62
   name: Crossharbour
@@ -944,11 +944,11 @@
   - line: DLR
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 63
   name: Croxley
@@ -956,11 +956,11 @@
   - line: Metropolitan
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 64
   name: Custom House
@@ -968,11 +968,11 @@
   - line: DLR
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 65
   name: Cutty Sark for Maritime Greenwich
@@ -980,11 +980,11 @@
   - line: DLR
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 66
   name: Cyprus
@@ -992,11 +992,11 @@
   - line: DLR
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 67
   name: Dagenham East
@@ -1004,11 +1004,11 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 68
   name: Dagenham Heathway
@@ -1016,11 +1016,11 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 69
   name: Debden
@@ -1028,11 +1028,11 @@
   - line: Central
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 70
   name: Deptford Bridge
@@ -1040,11 +1040,11 @@
   - line: DLR
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 71
   name: Devons Road
@@ -1052,11 +1052,11 @@
   - line: DLR
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 72
   name: Dollis Hill
@@ -1064,11 +1064,11 @@
   - line: Jubilee
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 73
   name: Ealing Broadway
@@ -1076,20 +1076,20 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Central
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 74
   name: Ealing Common
@@ -1097,20 +1097,20 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Piccadilly
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 75
   name: Earl's Court
@@ -1118,20 +1118,20 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Piccadilly
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 76
   name: East Acton
@@ -1139,11 +1139,11 @@
   - line: Central
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 77
   name: East Finchley
@@ -1151,11 +1151,11 @@
   - line: Northern
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 78
   name: East Ham
@@ -1163,20 +1163,20 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: HammersmithCity
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 79
   name: East India
@@ -1184,11 +1184,11 @@
   - line: DLR
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 80
   name: East Putney
@@ -1196,11 +1196,11 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 81
   name: Eastcote
@@ -1208,20 +1208,20 @@
   - line: Metropolitan
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Piccadilly
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 82
   name: Edgware
@@ -1229,11 +1229,11 @@
   - line: Northern
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 83
   name: Edgware Road
@@ -1241,11 +1241,11 @@
   - line: Bakerloo
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 84
   name: Edgware Road
@@ -1253,29 +1253,29 @@
   - line: HammersmithCity
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Circle
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 85
   name: Elephant & Castle
@@ -1283,20 +1283,20 @@
   - line: Northern
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Bakerloo
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 86
   name: Elm Park
@@ -1304,11 +1304,11 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 87
   name: Elverson Road
@@ -1316,11 +1316,11 @@
   - line: DLR
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 88
   name: Embankment
@@ -1328,38 +1328,38 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Bakerloo
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Northern
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Circle
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 89
   name: Epping
@@ -1367,11 +1367,11 @@
   - line: Central
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 90
   name: Euston
@@ -1406,29 +1406,29 @@
   - line: Metropolitan
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Circle
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: HammersmithCity
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 92
   name: Fairlop
@@ -1436,11 +1436,11 @@
   - line: Central
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 93
   name: Farringdon
@@ -1448,29 +1448,29 @@
   - line: Metropolitan
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Circle
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: HammersmithCity
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 94
   name: Finchley Central
@@ -1478,11 +1478,11 @@
   - line: Northern
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 95
   name: Finchley Road
@@ -1490,20 +1490,20 @@
   - line: Metropolitan
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Jubilee
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 96
   name: Finsbury Park
@@ -1532,11 +1532,11 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 98
   name: Gallions Reach
@@ -1544,11 +1544,11 @@
   - line: DLR
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 99
   name: Gants Hill
@@ -1556,11 +1556,11 @@
   - line: Central
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 100
   name: Gloucester Road
@@ -1568,29 +1568,29 @@
   - line: District
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Piccadilly
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Circle
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 101
   name: Golders Green
@@ -1598,11 +1598,11 @@
   - line: Northern
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 102
   name: Goldhawk Road
@@ -1610,20 +1610,20 @@
   - line: HammersmithCity
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Circle
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 103
   name: Goodge Stret
@@ -1631,11 +1631,11 @@
   - line: Northern
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 104
   name: Grange Hill
@@ -1643,11 +1643,11 @@
   - line: Central
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 105
   name: Great Portland Street
@@ -1655,29 +1655,29 @@
   - line: Metropolitan
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Circle
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: HammersmithCity
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 106
   name: Greenford
@@ -1685,11 +1685,11 @@
   - line: Central
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 107
   name: Green Park
@@ -1727,11 +1727,11 @@
   - line: DLR
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 109
   name: Gunnersbury
@@ -1739,11 +1739,11 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 110
   name: Hainault
@@ -1751,11 +1751,11 @@
   - line: Central
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 111
   name: Hammersmith
@@ -1763,20 +1763,20 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Piccadilly
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 112
   name: Hammersmith
@@ -1784,20 +1784,20 @@
   - line: HammersmithCity
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Circle
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 113
   name: Hampstead
@@ -1805,11 +1805,11 @@
   - line: Northern
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 114
   name: Hanger Lane
@@ -1817,11 +1817,11 @@
   - line: Central
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 115
   name: Harlesden
@@ -1829,11 +1829,11 @@
   - line: Bakerloo
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 116
   name: Harrow & Wealdstone
@@ -1841,11 +1841,11 @@
   - line: Bakerloo
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 117
   name: Hatton Cross
@@ -1853,11 +1853,11 @@
   - line: Piccadilly
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 118
   name: Heathrow Terminals 2 & 3
@@ -1865,11 +1865,11 @@
   - line: Piccadilly
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 119
   name: Heathrow Terminal 4
@@ -1877,11 +1877,11 @@
   - line: Piccadilly
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 120
   name: Heathrow Terminal 5
@@ -1889,11 +1889,11 @@
   - line: Piccadilly
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 121
   name: Hendon Central
@@ -1901,11 +1901,11 @@
   - line: Northern
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 122
   name: Heron Quays
@@ -1913,11 +1913,11 @@
   - line: DLR
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 123
   name: High Barnet
@@ -1925,11 +1925,11 @@
   - line: Northern
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 124
   name: Highbury & Inslington
@@ -1949,11 +1949,11 @@
   - line: Northern
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 126
   name: High Street Kensington
@@ -1961,20 +1961,20 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Circle
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 127
   name: Hillingdon
@@ -1982,20 +1982,20 @@
   - line: Metropolitan
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Piccadilly
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 128
   name: Holborn
@@ -2003,20 +2003,20 @@
   - line: Central
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Piccadilly
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 129
   name: Holland Park
@@ -2024,11 +2024,11 @@
   - line: Central
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 130
   name: Holloway Road
@@ -2036,11 +2036,11 @@
   - line: Piccadilly
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 131
   name: Hornchurch
@@ -2048,11 +2048,11 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 132
   name: Hounslow Central
@@ -2060,11 +2060,11 @@
   - line: Piccadilly
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 133
   name: Hounslow East
@@ -2072,11 +2072,11 @@
   - line: Piccadilly
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 134
   name: Hounslow West
@@ -2084,11 +2084,11 @@
   - line: Piccadilly
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 135
   name: Hyde Park Corner
@@ -2096,11 +2096,11 @@
   - line: Piccadilly
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 136
   name: Ickenham
@@ -2108,20 +2108,20 @@
   - line: Metropolitan
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Piccadilly
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 137
   name: Island Gardens
@@ -2129,11 +2129,11 @@
   - line: DLR
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 138
   name: Kennington
@@ -2141,11 +2141,11 @@
   - line: Northern
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 139
   name: Kensal Green
@@ -2153,11 +2153,11 @@
   - line: Bakerloo
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 140
   name: Kensington (Olympia)
@@ -2165,11 +2165,11 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 141
   name: Kentish Town
@@ -2177,11 +2177,11 @@
   - line: Northern
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 142
   name: Kenton
@@ -2189,11 +2189,11 @@
   - line: Bakerloo
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 143
   name: Kew Gardens
@@ -2201,11 +2201,11 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 144
   name: Kilburn
@@ -2213,11 +2213,11 @@
   - line: Jubilee
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 145
   name: Kilburn Park
@@ -2225,11 +2225,11 @@
   - line: Bakerloo
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 146
   name: King George V
@@ -2237,11 +2237,11 @@
   - line: DLR
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 147
   name: Kingsbury
@@ -2249,11 +2249,11 @@
   - line: Jubilee
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 148
   name: King's Cross St. Pancras
@@ -2270,11 +2270,11 @@
   - line: Northern
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Piccadilly
     nightTube: true
@@ -2318,11 +2318,11 @@
   - line: Piccadilly
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 150
   name: Ladbroke Grove
@@ -2330,20 +2330,20 @@
   - line: HammersmithCity
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Circle
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 151
   name: Lambeth North
@@ -2351,11 +2351,11 @@
   - line: Bakerloo
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 152
   name: Langdon Park
@@ -2363,11 +2363,11 @@
   - line: DLR
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 153
   name: Latimer Road
@@ -2375,20 +2375,20 @@
   - line: HammersmithCity
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Circle
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 154
   name: Leicester Square
@@ -2396,20 +2396,20 @@
   - line: Piccadilly
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Northern
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 155
   name: Lewisham
@@ -2417,11 +2417,11 @@
   - line: DLR
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 156
   name: Leyton
@@ -2429,11 +2429,11 @@
   - line: Central
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 157
   name: Leytonstone
@@ -2441,11 +2441,11 @@
   - line: Central
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 158
   name: Limehouse
@@ -2453,11 +2453,11 @@
   - line: DLR
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 159
   name: Liverpool Street
@@ -2465,38 +2465,38 @@
   - line: Metropolitan
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Central
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Circle
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: HammersmithCity
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 160
   name: London Bridge
@@ -2504,20 +2504,20 @@
   - line: Northern
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Jubilee
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 161
   name: London City Airport
@@ -2525,11 +2525,11 @@
   - line: DLR
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 162
   name: Loughton
@@ -2537,11 +2537,11 @@
   - line: Central
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 163
   name: Maida Vale
@@ -2549,11 +2549,11 @@
   - line: Bakerloo
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 164
   name: Manor House
@@ -2561,11 +2561,11 @@
   - line: Piccadilly
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 165
   name: Mansion House
@@ -2573,20 +2573,20 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Circle
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 166
   name: Marble Arch
@@ -2594,11 +2594,11 @@
   - line: Central
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 167
   name: Marylebone
@@ -2606,11 +2606,11 @@
   - line: Bakerloo
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 168
   name: Mile End
@@ -2618,29 +2618,29 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: HammersmithCity
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Central
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 169
   name: Mill Hill East
@@ -2648,11 +2648,11 @@
   - line: Northern
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 170
   name: Monument
@@ -2660,20 +2660,20 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Circle
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 171
   name: Moorgate
@@ -2681,38 +2681,38 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Circle
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: HammersmithCity
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Northern
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 172
   name: Moor Park
@@ -2720,11 +2720,11 @@
   - line: Metropolitan
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 173
   name: Morden
@@ -2732,11 +2732,11 @@
   - line: Northern
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 174
   name: Mornington Crescent
@@ -2744,11 +2744,11 @@
   - line: Northern
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 175
   name: Mudchute
@@ -2756,11 +2756,11 @@
   - line: DLR
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 176
   name: Neasden
@@ -2768,11 +2768,11 @@
   - line: Jubilee
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 177
   name: Newbury Park
@@ -2780,11 +2780,11 @@
   - line: Central
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 178
   name: North Acton
@@ -2792,11 +2792,11 @@
   - line: Central
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 179
   name: North Ealing
@@ -2804,11 +2804,11 @@
   - line: Piccadilly
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 180
   name: North Greenwich
@@ -2816,11 +2816,11 @@
   - line: Jubilee
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 181
   name: North Harrow
@@ -2828,11 +2828,11 @@
   - line: Metropolitan
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 182
   name: North Wembley
@@ -2840,11 +2840,11 @@
   - line: Bakerloo
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 183
   name: Northfields
@@ -2852,11 +2852,11 @@
   - line: Piccadilly
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 184
   name: Northolt
@@ -2864,11 +2864,11 @@
   - line: Central
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 185
   name: Northwick Park
@@ -2876,11 +2876,11 @@
   - line: Metropolitan
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 186
   name: Northwood
@@ -2888,11 +2888,11 @@
   - line: Metropolitan
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 187
   name: Northwood Hills
@@ -2900,11 +2900,11 @@
   - line: Metropolitan
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 188
   name: Notting Hill Gate
@@ -2912,29 +2912,29 @@
   - line: District
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Central
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Circle
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 189
   name: Oakwood
@@ -2942,11 +2942,11 @@
   - line: Piccadilly
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 190
   name: Old Street
@@ -2954,11 +2954,11 @@
   - line: Northern
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 191
   name: Osterley
@@ -2966,11 +2966,11 @@
   - line: Piccadilly
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 192
   name: Oval
@@ -2978,11 +2978,11 @@
   - line: Northern
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 193
   name: Oxford Circus
@@ -3020,38 +3020,38 @@
   - line: HammersmithCity
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Circle
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Bakerloo
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 195
   name: Park Royal
@@ -3059,11 +3059,11 @@
   - line: Piccadilly
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 196
   name: Parsons Green
@@ -3071,11 +3071,11 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 197
   name: Piccadilly Circus
@@ -3083,20 +3083,20 @@
   - line: Bakerloo
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Piccadilly
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 198
   name: Pimlico
@@ -3116,11 +3116,11 @@
   - line: Metropolitan
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 200
   name: Plaistow
@@ -3128,20 +3128,20 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: HammersmithCity
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 201
   name: Pontoon Dock
@@ -3149,11 +3149,11 @@
   - line: DLR
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 202
   name: Poplar
@@ -3161,11 +3161,11 @@
   - line: DLR
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 203
   name: Preston Road
@@ -3173,11 +3173,11 @@
   - line: Metropolitan
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 204
   name: Prince Regent
@@ -3185,11 +3185,11 @@
   - line: DLR
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 205
   name: Pudding Mill Lane
@@ -3197,11 +3197,11 @@
   - line: DLR
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 206
   name: Putney Bridge
@@ -3209,11 +3209,11 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 207
   name: Queen's Park
@@ -3221,11 +3221,11 @@
   - line: Bakerloo
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 208
   name: Queensbury
@@ -3233,11 +3233,11 @@
   - line: Jubilee
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 209
   name: Queensway
@@ -3245,11 +3245,11 @@
   - line: Central
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 210
   name: Ravenscourt Park
@@ -3257,11 +3257,11 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 211
   name: Rayners Lane
@@ -3269,20 +3269,20 @@
   - line: Metropolitan
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Piccadilly
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 212
   name: Redbridge
@@ -3290,11 +3290,11 @@
   - line: Central
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 213
   name: Regents Park
@@ -3302,11 +3302,11 @@
   - line: Bakerloo
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 214
   name: Richmond
@@ -3314,11 +3314,11 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 215
   name: Rickmansworth
@@ -3326,11 +3326,11 @@
   - line: Metropolitan
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 216
   name: Roding Valley
@@ -3338,11 +3338,11 @@
   - line: Central
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 217
   name: Royal Albert
@@ -3350,11 +3350,11 @@
   - line: DLR
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 218
   name: Royal Oak
@@ -3362,20 +3362,20 @@
   - line: HammersmithCity
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Circle
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 219
   name: Royal Victoria
@@ -3383,11 +3383,11 @@
   - line: DLR
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 220
   name: Ruislip
@@ -3395,20 +3395,20 @@
   - line: Metropolitan
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Piccadilly
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 221
   name: Ruislip Gardens
@@ -3416,11 +3416,11 @@
   - line: Central
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 222
   name: Russell Square
@@ -3428,11 +3428,11 @@
   - line: Piccadilly
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 223
   name: St. James's Park
@@ -3440,20 +3440,20 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Circle
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 224
   name: St. John's Wood
@@ -3461,11 +3461,11 @@
   - line: Jubilee
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 225
   name: St. Paul's
@@ -3473,11 +3473,11 @@
   - line: Central
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 226
   name: Seven Sisters
@@ -3497,11 +3497,11 @@
   - line: DLR
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 228
   name: Shepherd's Bush
@@ -3509,11 +3509,11 @@
   - line: Central
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 229
   name: Shepherd's Bush Market
@@ -3521,20 +3521,20 @@
   - line: HammersmithCity
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Circle
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 230
   name: Sloane Square
@@ -3542,20 +3542,20 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Circle
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 231
   name: Snaresbrook 
@@ -3563,11 +3563,11 @@
   - line: Central
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 232
   name: South Ealing
@@ -3575,11 +3575,11 @@
   - line: Piccadilly
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 233
   name: South Harrow
@@ -3587,11 +3587,11 @@
   - line: Piccadilly
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 234
   name: South Kensington
@@ -3599,29 +3599,29 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Piccadilly
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Circle
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 235
   name: South Kenton
@@ -3629,11 +3629,11 @@
   - line: Bakerloo
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 236
   name: South Quay
@@ -3641,11 +3641,11 @@
   - line: DLR
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 237
   name: South Ruislip
@@ -3653,11 +3653,11 @@
   - line: Central
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 238
   name: South Wimbledon
@@ -3665,11 +3665,11 @@
   - line: Northern
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 239
   name: South Woodford
@@ -3677,11 +3677,11 @@
   - line: Central
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 240
   name: Southfields
@@ -3689,11 +3689,11 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 241
   name: Southwark
@@ -3701,11 +3701,11 @@
   - line: Jubilee
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 242
   name: Stamford Brook
@@ -3713,11 +3713,11 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 243
   name: Stanmore
@@ -3725,11 +3725,11 @@
   - line: Jubilee
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 244
   name: Stepney Green
@@ -3737,20 +3737,20 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: HammersmithCity
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 245
   name: Stockwell
@@ -3779,11 +3779,11 @@
   - line: Bakerloo
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 247
   name: Stratford
@@ -3791,29 +3791,29 @@
   - line: Central
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: DLR
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Jubilee
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 248
   name: Sudbury Hill
@@ -3821,11 +3821,11 @@
   - line: Piccadilly
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 249
   name: Sudbury Town
@@ -3833,11 +3833,11 @@
   - line: Piccadilly
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 250
   name: Swiss Cottage
@@ -3845,11 +3845,11 @@
   - line: Jubilee
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 251
   name: Temple
@@ -3857,20 +3857,20 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Circle
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 252
   name: Theydon Bois
@@ -3878,11 +3878,11 @@
   - line: Central
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 253
   name: Tooting Bec
@@ -3890,11 +3890,11 @@
   - line: Northern
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 254
   name: Tooting Broadway
@@ -3902,11 +3902,11 @@
   - line: Northern
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 255
   name: Tottenham Court Road
@@ -3914,20 +3914,20 @@
   - line: Central
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Northern
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 256
   name: Tottenham Hale
@@ -3947,11 +3947,11 @@
   - line: Northern
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 258
   name: Tower Gateway
@@ -3959,11 +3959,11 @@
   - line: DLR
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 259
   name: Tower Hill
@@ -3971,20 +3971,20 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Circle
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 260
   name: Tufnell Park
@@ -3992,11 +3992,11 @@
   - line: Northern
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 261
   name: Turnham Green
@@ -4004,20 +4004,20 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Piccadilly
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 262
   name: Turnpike Lane
@@ -4025,11 +4025,11 @@
   - line: Piccadilly
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 263
   name: Upminster
@@ -4037,11 +4037,11 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 264
   name: Upminster Bridge
@@ -4049,11 +4049,11 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 265
   name: Upney
@@ -4061,11 +4061,11 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 266
   name: Upton Park
@@ -4073,20 +4073,20 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: HammersmithCity
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 267
   name: Uxbridge
@@ -4094,20 +4094,20 @@
   - line: Metropolitan
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Piccadilly
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 268
   name: Vauxhall
@@ -4166,11 +4166,11 @@
   - line: Central
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 272
   name: Warren Street
@@ -4199,11 +4199,11 @@
   - line: Bakerloo
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 274
   name: Waterloo
@@ -4247,11 +4247,11 @@
   - line: Metropolitan
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 276
   name: Wembley Central
@@ -4259,11 +4259,11 @@
   - line: Bakerloo
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 277
   name: Wembley Park
@@ -4271,20 +4271,20 @@
   - line: Metropolitan
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
   - line: Jubilee
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 278
   name: West Acton
@@ -4292,11 +4292,11 @@
   - line: Central
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 279
   name: West Brompton
@@ -4304,11 +4304,11 @@
   - line: District
     nightTube: false
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 280
   name: West Finchley
@@ -4316,11 +4316,11 @@
   - line: Northern
     nightTube: true
     stations:
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
-    - branch: 
-      id: 
+    - branch: /
+      id: 0
       weight: 0
 - id: 281
   name: West Ham
