@@ -463,10 +463,10 @@
     stations:
     - branch: n/WalthamstowCentral
       id: 270
-      weight: 0
+      weight: 120
     - branch: s/Brixton
       id: 256
-      weight: 0
+      weight: 120
 - id: 27
   name: Blackwall
   lines:
@@ -589,7 +589,7 @@
     stations:
     - branch: n/WalthamstowCentral
       id: 245
-      weight: 0
+      weight: 150
 - id: 36
   name: Bromley-by-Bow
   lines:
@@ -1396,10 +1396,10 @@
     stations:
     - branch: s/Brixton
       id: 272
-      weight: 0
+      weight: 90
     - branch: n/WalthamstowCentral
       id: 148
-      weight: 0
+      weight: 90
 - id: 91
   name: Euston Square
   lines:
@@ -1522,10 +1522,10 @@
     stations:
     - branch: n/WalthamstowCentral
       id: 226
-      weight: 0
+      weight: 400
     - branch: s/
       id: 124
-      weight: 0
+      weight: 150
 - id: 97
   name: Fulham Broadway
   lines:
@@ -1708,10 +1708,10 @@
     stations:
     - branch: s/Brixton
       id: 269
-      weight: 0
+      weight: 152
     - branch: n/WalthamstowCentral
       id: 193
-      weight: 0
+      weight: 121
   - line: Jubilee
     nightTube: true
     stations:
@@ -1939,10 +1939,10 @@
     stations:
     - branch: n/WalthamstowCentral
       id: 96
-      weight: 0
+      weight: 150
     - branch: s/Brixton
       id: 148
-      weight: 0
+      weight: 210
 - id: 125
   name: Highgate
   lines:
@@ -2299,10 +2299,10 @@
     stations:
     - branch: s/Brixton
       id: 90
-      weight: 0
+      weight: 90
     - branch: n/WalthamstowCentral
       id: 124
-      weight: 0
+      weight: 210
   - line: HammersmithCity
     nightTube: false
     stations:
@@ -3010,10 +3010,10 @@
     stations:
     - branch: n/WalthamstowCentral
       id: 272
-      weight: 0
+      weight: 120
     - branch: s/Brixton
       id: 107
-      weight: 0
+      weight: 121
 - id: 194
   name: Paddington
   lines:
@@ -3106,10 +3106,10 @@
     stations:
     - branch: n/WalthamstowCentral
       id: 269
-      weight: 0
+      weight: 120
     - branch: s/Brixton
       id: 268
-      weight: 0
+      weight: 93
 - id: 199
   name: Pinner
   lines:
@@ -3487,10 +3487,10 @@
     stations:
     - branch: n/WalthamstowCentral
       id: 256
-      weight: 0
+      weight: 200
     - branch: s/Brixton
       id: 96
-      weight: 0
+      weight: 240
 - id: 227
   name: Shadwell
   lines:
@@ -3769,10 +3769,10 @@
     stations:
     - branch: n/WalthamstowCentral
       id: 268
-      weight: 0
+      weight: 151
     - branch: s/Brixton
       id: 35
-      weight: 0
+      weight: 150
 - id: 246
   name: Stonebridge Park
   lines:
@@ -3937,10 +3937,10 @@
     stations:
     - branch: s/Brixton
       id: 226
-      weight: 0
+      weight: 200
     - branch: n/WalthamstowCentral
       id: 26
-      weight: 0
+      weight: 120
 - id: 257
   name: Totteridge & Whetstone
   lines:
@@ -4117,10 +4117,10 @@
     stations:
     - branch: n/WalthamstowCentral
       id: 198
-      weight: 0
+      weight: 94
     - branch: s/Brixton
       id: 245
-      weight: 0
+      weight: 151
 - id: 269
   name: Victoria
   lines:
@@ -4147,10 +4147,10 @@
     stations:
     - branch: n/WalthamstowCentral
       id: 107
-      weight: 0
+      weight: 154
     - branch: s/Brixton
       id: 198
-      weight: 0
+      weight: 120
 - id: 270
   name: Walthamstow Central
   lines:
@@ -4159,7 +4159,7 @@
     stations:
     - branch: s/Brixton
       id: 26
-      weight: 0
+      weight: 120
 - id: 271
   name: Wanstead
   lines:
@@ -4189,10 +4189,10 @@
     stations:
     - branch: n/WalthamstowCentral
       id: 90
-      weight: 0
+      weight: 90
     - branch: s/Brixton
       id: 193
-      weight: 0
+      weight: 120
 - id: 273
   name: Warwick Avenue
   lines:

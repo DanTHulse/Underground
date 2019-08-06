@@ -9,7 +9,7 @@
         "stations": [
           {
             "branch": "n/StratfordInternational",
-            "id": 0,
+            "id": null,
             "weight": 0
           },
           {
@@ -838,12 +838,12 @@
           {
             "branch": "n/WalthamstowCentral",
             "id": 270,
-            "weight": 0
+            "weight": 120
           },
           {
             "branch": "s/Brixton",
             "id": 256,
-            "weight": 0
+            "weight": 120
           }
         ]
       }
@@ -1068,7 +1068,7 @@
           {
             "branch": "n/WalthamstowCentral",
             "id": 245,
-            "weight": 0
+            "weight": 150
           }
         ]
       }
@@ -2539,12 +2539,12 @@
           {
             "branch": "s/Brixton",
             "id": 272,
-            "weight": 0
+            "weight": 90
           },
           {
             "branch": "n/WalthamstowCentral",
             "id": 148,
-            "weight": 0
+            "weight": 90
           }
         ]
       }
@@ -2767,12 +2767,12 @@
           {
             "branch": "n/WalthamstowCentral",
             "id": 226,
-            "weight": 0
+            "weight": 400
           },
           {
             "branch": "s/",
             "id": 124,
-            "weight": 0
+            "weight": 150
           }
         ]
       }
@@ -3105,12 +3105,12 @@
           {
             "branch": "s/Brixton",
             "id": 269,
-            "weight": 0
+            "weight": 152
           },
           {
             "branch": "n/WalthamstowCentral",
             "id": 193,
-            "weight": 0
+            "weight": 121
           }
         ]
       },
@@ -3527,12 +3527,12 @@
           {
             "branch": "n/WalthamstowCentral",
             "id": 96,
-            "weight": 0
+            "weight": 150
           },
           {
             "branch": "s/Brixton",
             "id": 148,
-            "weight": 0
+            "weight": 210
           }
         ]
       }
@@ -4183,12 +4183,12 @@
           {
             "branch": "s/Brixton",
             "id": 90,
-            "weight": 0
+            "weight": 90
           },
           {
             "branch": "n/WalthamstowCentral",
             "id": 124,
-            "weight": 0
+            "weight": 210
           }
         ]
       },
@@ -5477,12 +5477,12 @@
           {
             "branch": "n/WalthamstowCentral",
             "id": 272,
-            "weight": 0
+            "weight": 120
           },
           {
             "branch": "s/Brixton",
             "id": 107,
-            "weight": 0
+            "weight": 121
           }
         ]
       }
@@ -5651,12 +5651,12 @@
           {
             "branch": "n/WalthamstowCentral",
             "id": 269,
-            "weight": 0
+            "weight": 120
           },
           {
             "branch": "s/Brixton",
             "id": 268,
-            "weight": 0
+            "weight": 93
           }
         ]
       }
@@ -6347,12 +6347,12 @@
           {
             "branch": "n/WalthamstowCentral",
             "id": 256,
-            "weight": 0
+            "weight": 200
           },
           {
             "branch": "s/Brixton",
             "id": 96,
-            "weight": 0
+            "weight": 240
           }
         ]
       }
@@ -6861,12 +6861,12 @@
           {
             "branch": "n/WalthamstowCentral",
             "id": 268,
-            "weight": 0
+            "weight": 151
           },
           {
             "branch": "s/Brixton",
             "id": 35,
-            "weight": 0
+            "weight": 150
           }
         ]
       }
@@ -7167,12 +7167,12 @@
           {
             "branch": "s/Brixton",
             "id": 226,
-            "weight": 0
+            "weight": 200
           },
           {
             "branch": "n/WalthamstowCentral",
             "id": 26,
-            "weight": 0
+            "weight": 120
           }
         ]
       }
@@ -7495,12 +7495,12 @@
           {
             "branch": "n/WalthamstowCentral",
             "id": 198,
-            "weight": 0
+            "weight": 94
           },
           {
             "branch": "s/Brixton",
             "id": 245,
-            "weight": 0
+            "weight": 151
           }
         ]
       }
@@ -7549,12 +7549,12 @@
           {
             "branch": "n/WalthamstowCentral",
             "id": 107,
-            "weight": 0
+            "weight": 154
           },
           {
             "branch": "s/Brixton",
             "id": 198,
-            "weight": 0
+            "weight": 120
           }
         ]
       }
@@ -7571,7 +7571,7 @@
           {
             "branch": "s/Brixton",
             "id": 26,
-            "weight": 0
+            "weight": 120
           }
         ]
       }
@@ -7626,12 +7626,12 @@
           {
             "branch": "n/WalthamstowCentral",
             "id": 90,
-            "weight": 0
+            "weight": 90
           },
           {
             "branch": "s/Brixton",
             "id": 193,
-            "weight": 0
+            "weight": 120
           }
         ]
       }
