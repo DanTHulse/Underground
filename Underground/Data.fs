@@ -16,3 +16,11 @@ module Data =
     let findStations (line: Lines) =
         loadData
         |> List.filter (fun s -> s.lines |> List.exists (fun x -> x.line = line))
+
+    let findRandomStation () =
+        let r = Random()
+
+        loadData
+        |> shuffleList(fun _ -> r.Next())
+        |> Seq.take 1
+        |> Seq.item 0

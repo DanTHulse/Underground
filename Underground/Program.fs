@@ -6,7 +6,13 @@ open Data
 module Entry =
     [<EntryPoint>]
     let main _ =
-        let routes = Menu.buildRoutes()
-        let routesV2 = Menu.buildRoutesV2(Lines.Victoria)
-        Console.Clear()
+        let startStation = Data.findRandomStation()
+        let endStation = Data.findRandomStation()
+
+        printfn "\n Find the quickest route between the two stations:"
+        printfn "\n %s --> %s" startStation.name endStation.name
+
+        let currentStation = startStation
+
+        printfn "Current Station: %s" currentStation.name
         0;

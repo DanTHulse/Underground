@@ -45,24 +45,12 @@ module Menu =
 
         Data.findStationById(filteredData.[int selectedStation].id)
 
-    let buildRoutes() =
-        Data.loadData
-        |> List.filter(fun s -> s.lines |> List.exists(fun x -> x.line = Lines.Victoria))
-        |> List.collect(fun s -> s.lines |> List.collect(fun sl -> sl.stations |> List.map(fun ss ->
-        {
-            startS = s.id
-            endS = ss.id
-            weight = ss.weight
-            branch = ss.branch
-            line = string sl.line
-        })))
-
     let calculateWeight(startLine: Lines, currentLine: Lines, weight: int) =
         match currentLine = startLine with
         | true -> weight
         | false -> weight + 60
 
-    let buildRoutesV2(startLine: Lines) =
+    let buildRoutes(startLine: Lines) =
         Data.loadData
         |> List.filter(fun s -> s.lines |> List.exists(fun x -> x.line = Lines.Victoria))
         |> List.collect(fun s -> s.lines |> List.collect(fun sl -> sl.stations |> List.map(fun ss ->
