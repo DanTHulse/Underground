@@ -43,3 +43,11 @@ module DomainTypes =
       name: string
       lines: Line list
     }
+
+    type Routes = {
+      startS: int
+      endS: int
+      weight: int
+      branch: string
+      line: string
+    }

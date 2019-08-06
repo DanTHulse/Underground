@@ -1,4 +1,4 @@
-Northern (x)
+Northern
     >> n/HighBarnet
     >> n/Edgeware
     >> s/Morden
@@ -11,11 +11,11 @@ District (+1)
     >> w/EalingBroadway
     >> w/Richmond
 
-Circle (x)
+Circle
     >> e/EdgewareRoad
     >> w/Hammersmith
 
-HammersmithCity (x)
+HammersmithCity
     >> e/Barking
     >> w/Hammersmith
 
@@ -26,25 +26,25 @@ Metropolitan (-2)
     >> n/Chesham
     >> n/Watford
 
-Bakerloo (x)
+Bakerloo
     >> s/ElephantAndCastle
     >> n/HarrowAndWealdstone
 
-Jubilee (x)
+Jubilee
     >> e/Stratford
     >> n/Stanmore
 
-Victoria (-1)
+Victoria
     >> n/WalthamstowCentral
     >> s/Brixton
 
-Piccadilly (x)
+Piccadilly
     >> w/HeathrowT423
     >> w/HeathrowT235
     >> w/Uxbridge
     >> e/Cockfosters
 
-WaterlooCity (x)
+WaterlooCity
     >> e/Bank
     >> w/Waterloo
 
@@ -54,7 +54,7 @@ Central (-1)
     >> w/EalingBroadway
     >> w/WestRuislip
 
-DLR (x)
+DLR
     >> e/Beckton
     >> e/WoolwichArsenal
     >> w/TowerGateway

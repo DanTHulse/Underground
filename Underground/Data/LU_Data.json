@@ -8,8 +8,8 @@
         "nightTube": false,
         "stations": [
           {
-            "branch": "n/StratfordInternational",
-            "id": null,
+            "branch": "/",
+            "id": 0,
             "weight": 0
           },
           {
@@ -4133,13 +4133,13 @@
         "nightTube": false,
         "stations": [
           {
-            "branch": "/",
-            "id": 0,
+            "branch": "s/Morden",
+            "id": 7,
             "weight": 0
           },
           {
-            "branch": "/",
-            "id": 0,
+            "branch": "n/",
+            "id": 90,
             "weight": 0
           }
         ]
@@ -4149,13 +4149,13 @@
         "nightTube": true,
         "stations": [
           {
-            "branch": "s/Morden",
-            "id": 7,
+            "branch": "e/Cockfosters",
+            "id": 39,
             "weight": 0
           },
           {
-            "branch": "n/",
-            "id": 90,
+            "branch": "w/",
+            "id": 222,
             "weight": 0
           }
         ]

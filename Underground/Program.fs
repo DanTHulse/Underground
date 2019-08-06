@@ -6,6 +6,7 @@ open Data
 module Entry =
     [<EntryPoint>]
     let main _ =
-        let start = Menu.searchStation()
+        let routes = Menu.buildRoutes()
+        let routesV2 = Menu.buildRoutesV2(Lines.Victoria)
         Console.Clear()
         0;

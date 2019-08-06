@@ -5,8 +5,8 @@
   - line: DLR
     nightTube: false
     stations:
-    - branch: n/StratfordInternational
-      id: 
+    - branch: /
+      id: 0
       weight: 0
     - branch: /
       id: 0
@@ -2270,20 +2270,20 @@
   - line: Northern
     nightTube: false
     stations:
-    - branch: /
-      id: 0
-      weight: 0
-    - branch: /
-      id: 0
-      weight: 0
-  - line: Piccadilly
-    nightTube: true
-    stations:
     - branch: s/Morden
       id: 7
       weight: 0
     - branch: n/
       id: 90
+      weight: 0
+  - line: Piccadilly
+    nightTube: true
+    stations:
+    - branch: e/Cockfosters
+      id: 39
+      weight: 0
+    - branch: w/
+      id: 222
       weight: 0
   - line: Circle
     nightTube: false
