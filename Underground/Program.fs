@@ -6,8 +6,8 @@ open Data
 module Entry =
     [<EntryPoint>]
     let main _ =
-        let startStation = Data.findRandomStation()
-        let endStation = Data.findRandomStation()
+        let startStation = findRandomStation()
+        let endStation = findRandomStation()
 
         printfn "\n Find the quickest route between the two stations:"
         printfn "\n %s --> %s" startStation.name endStation.name
@@ -46,7 +46,7 @@ module Entry =
 
             printfn " The next station is: %s" nextStation.name
 
-            let _ = Console.ReadLine()
+            Console.ReadLine() |> ignore
             
             ()
         0;
