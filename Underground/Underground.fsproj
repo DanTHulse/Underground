@@ -1,28 +1,24 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
-
   <ItemGroup>
-    <Content Include="Data\Branches.txt" />
-    <Content Include="Data\LU_Data.json">
+    <Compile Include="DomainTypes.fs" />
+    <Content Include="Data/Branches.txt" />
+    <Content Include="Data/LU_Data.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Data\LU_Stations_Short.json" />
-    <Content Include="Data\LU_Trains.json" />
-    <None Include="Data\LU_Data.yml" />
-    <Compile Include="DomainTypes.fs" />
+    <Content Include="Data/LU_Stations_Short.json" />
+    <Content Include="Data/LU_Trains.json" />
+    <None Include="Data/LU_Data.yml" />
     <Compile Include="Helpers.fs" />
     <Compile Include="Data.fs" />
     <Compile Include="Menu.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
-
   <ItemGroup>
     <PackageReference Include="FSharp.Data" Version="3.1.1" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
   </ItemGroup>
-
 </Project>
