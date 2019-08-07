@@ -1,67 +1,71 @@
 Northern
-    >> n/HighBarnet
-    >> n/Edgeware
-    >> s/Morden
-    >> s/Kennington
+    (3) >> n/HighBarnet
+    (4) >> n/Mill Hill East
+    (5) >> n/Edgeware    
+    (6) >> s/Morden via Bank
+    (7) >> s/Kennington
+    (8) >> s/Morden via Charing Cross
 
 District (+1)
-    >> e/Upminster
-    >> e/EdgewareRoad
-    >> w/Wimbledon
-    >> w/EalingBroadway
-    >> w/Richmond
+    (9) >> e/Upminster
+    (10) >> e/EdgewareRoad
+    (11) >> w/Wimbledon
+    (12) >> w/EalingBroadway
+    (13) >> w/Richmond
 
 Circle
-    >> e/EdgewareRoad
-    >> w/Hammersmith
+    (14) >> e/EdgewareRoad
+    (15) >> w/Hammersmith
+    (16) >> w/EdgewareRoadWest
 
 HammersmithCity
-    >> e/Barking
-    >> w/Hammersmith
+    (17) >> e/Barking
+    (18) >> w/Hammersmith
 
 Metropolitan (-2)
-    >> s/Aldgate
-    >> n/Uxbridge
-    >> n/Amersham
-    >> n/Chesham
-    >> n/Watford
+    (19) >> s/Aldgate
+    (20) >> n/Uxbridge
+    (21) >> n/Amersham
+    (22) >> n/Chesham
+    (23) >> n/Watford
 
 Bakerloo
-    >> s/ElephantAndCastle
-    >> n/HarrowAndWealdstone
+    (24) >> s/ElephantAndCastle
+    (25) >> n/HarrowAndWealdstone
 
 Jubilee
-    >> e/Stratford
-    >> n/Stanmore
+    (26) >> e/Stratford
+    (27) >> n/Stanmore
 
 Victoria
-    >> n/WalthamstowCentral
-    >> s/Brixton
+    (1) >> n/WalthamstowCentral
+    (2) >> s/Brixton
 
 Piccadilly
-    >> w/HeathrowT423
-    >> w/HeathrowT235
-    >> w/Uxbridge
-    >> e/Cockfosters
+    (28) >> w/HeathrowT423
+    (29) >> w/HeathrowT235
+    (30) >> w/Uxbridge
+    (31) >> e/Cockfosters
 
 WaterlooCity
-    >> e/Bank
-    >> w/Waterloo
+    (32) >> e/Bank
+    (33) >> w/Waterloo
 
 Central (-1)
-    >> e/Epping
-    >> e/WoodfordHainault
-    >> w/EalingBroadway
-    >> w/WestRuislip
+    (34) >> e/Epping
+    (35) >> e/WoodfordHainault
+    (36) >> w/EalingBroadway
+    (37) >> w/WestRuislip
+    (38) >> w/Hainault
 
 DLR
-    >> e/Beckton
-    >> e/WoolwichArsenal
-    >> w/TowerGateway
-    >> w/Bank
+    (39) >> e/Beckton
+    (40) >> e/WoolwichArsenal
+    (41) >> w/TowerGateway
+    (42) >> w/Bank
 
-    >> n/Stratford
-    >> s/Lewisham
+    (43) >> n/Stratford
+    (44) >> s/Lewisham
 
-    >> n/StratfordInternational
-    >> s/CanningTown
+    (45) >> n/StratfordInternational
+    (46) >> s/CanningTown

@@ -1,0 +1,331 @@
+[
+    {
+        "id": 0,
+        "lineId": 16,
+        "line": "Walking",
+        "destination": "London Town",
+        "nightTube": false
+    },
+    {
+        "id": 1,
+        "lineId": 8,
+        "line": "Victoria",
+        "destination": "Walthamstow Central",
+        "nightTube": true
+    },
+    {
+        "id": 2,
+        "lineId": 8,
+        "line": "Victoria",
+        "destination": "Brixton",
+        "nightTube": true
+    },
+    {
+        "id": 3,
+        "lineId": 0,
+        "line": "Northern",
+        "destination": "High Barnet",
+        "nightTube": true
+    },
+    {
+        "id": 4,
+        "lineId": 0,
+        "line": "Northern",
+        "destination": "Mill Hill East",
+        "nightTube": false
+    },
+    {
+        "id": 5,
+        "lineId": 0,
+        "line": "Northern",
+        "destination": "Edgeware",
+        "nightTube": true
+    },
+    {
+        "id": 6,
+        "lineId": 0,
+        "line": "Northern",
+        "destination": "Morden via. Bank",
+        "nightTube": false
+    },
+    {
+        "id": 7,
+        "lineId": 0,
+        "line": "Northern",
+        "destination": "Kennington via. Charing Cross",
+        "nightTube": true
+    },
+    {
+        "id": 8,
+        "lineId": 0,
+        "line": "Northern",
+        "destination": "Morden via. Charing Cross",
+        "nightTube": true
+    },
+    {
+        "id": 9,
+        "lineId": 2,
+        "line": "District",
+        "destination": "Upminster",
+        "nightTube": false
+    },
+    {
+        "id": 10,
+        "lineId": 2,
+        "line": "District",
+        "destination": "Edgeware Road",
+        "nightTube": false
+    },
+    {
+        "id": 11,
+        "lineId": 2,
+        "line": "District",
+        "destination": "Wimbledon",
+        "nightTube": false
+    },
+    {
+        "id": 12,
+        "lineId": 2,
+        "line": "District",
+        "destination": "Ealing Broadway",
+        "nightTube": false
+    },
+    {
+        "id": 13,
+        "lineId": 2,
+        "line": "District",
+        "destination": "Richmond",
+        "nightTube": false
+    },
+    {
+        "id": 14,
+        "lineId": 1,
+        "line": "Circle",
+        "destination": "Edgeware Road (Circle)",
+        "nightTube": false
+    },
+    {
+        "id": 15,
+        "lineId": 1,
+        "line": "Circle",
+        "destination": "Hammersmith",
+        "nightTube": false
+    },
+    {
+        "id": 16,
+        "lineId": 1,
+        "line": "Circle",
+        "destination": "Edgeware Road (Circle) West",
+        "nightTube": false
+    },
+    {
+        "id": 17,
+        "lineId": 3,
+        "line": "Hammersmith & City",
+        "destination": "Barking",
+        "nightTube": false
+    },
+    {
+        "id": 18,
+        "lineId": 3,
+        "line": "Hammersmith & City",
+        "destination": "Hammersmith",
+        "nightTube": false
+    },
+    {
+        "id": 19,
+        "lineId": 4,
+        "line": "Metropolitan",
+        "destination": "Aldgate",
+        "nightTube": false
+    },
+    {
+        "id": 20,
+        "lineId": 4,
+        "line": "Metropolitan",
+        "destination": "Uxbridge",
+        "nightTube": false
+    },
+    {
+        "id": 21,
+        "lineId": 4,
+        "line": "Metropolitan",
+        "destination": "Amersham",
+        "nightTube": false
+    },
+    {
+        "id": 22,
+        "lineId": 4,
+        "line": "Metropolitan",
+        "destination": "Chesham",
+        "nightTube": false
+    },
+    {
+        "id": 23,
+        "lineId": 4,
+        "line": "Metropolitan",
+        "destination": "Watford",
+        "nightTube": false
+    },
+    {
+        "id": 24,
+        "lineId": 7,
+        "line": "Bakerloo",
+        "destination": "Elephant & Castle",
+        "nightTube": false
+    },
+    {
+        "id": 25,
+        "lineId": 7,
+        "line": "Bakerloo",
+        "destination": "Harrow & Wealdstone",
+        "nightTube": false
+    },
+    {
+        "id": 26,
+        "lineId": 6,
+        "line": "Jubilee",
+        "destination": "Stanmore",
+        "nightTube": true
+    },
+    {
+        "id": 27,
+        "lineId": 6,
+        "line": "Jubilee",
+        "destination": "Stratford",
+        "nightTube": true
+    },
+    {
+        "id": 28,
+        "lineId": 9,
+        "line": "Piccadilly",
+        "destination": "Heathrow Terminals 4, 2 & 3",
+        "nightTube": false
+    },
+    {
+        "id": 29,
+        "lineId": 9,
+        "line": "Piccadilly",
+        "destination": "Heathrow Terminals 2 & 3, 5",
+        "nightTube": true
+    },
+    {
+        "id": 30,
+        "lineId": 9,
+        "line": "Piccadilly",
+        "destination": "Uxbridge",
+        "nightTube": false
+    },
+    {
+        "id": 31,
+        "lineId": 9,
+        "line": "Piccadilly",
+        "destination": "Cockfosters",
+        "nightTube": true
+    },
+    {
+        "id": 32,
+        "lineId": 10,
+        "line": "Waterloo & City",
+        "destination": "Bank",
+        "nightTube": false
+    },
+    {
+        "id": 33,
+        "lineId": 10,
+        "line": "Waterloo & City",
+        "destination": "Waterloo",
+        "nightTube": false
+    },
+    {
+        "id": 34,
+        "lineId": 5,
+        "line": "Central",
+        "destination": "Epping",
+        "nightTube": true
+    },
+    {
+        "id": 35,
+        "lineId": 5,
+        "line": "Central",
+        "destination": "Woodford via Hainault",
+        "nightTube": false
+    },
+    {
+        "id": 36,
+        "lineId": 5,
+        "line": "Central",
+        "destination": "Ealing Broadway",
+        "nightTube": true
+    },
+    {
+        "id": 37,
+        "lineId": 5,
+        "line": "Central",
+        "destination": "West Ruislip",
+        "nightTube": false
+    },
+    {
+        "id": 38,
+        "lineId": 5,
+        "line": "Central",
+        "destination": "Hainault",
+        "nightTube": true
+    },
+    {
+        "id": 39,
+        "lineId": 12,
+        "line": "DLR",
+        "destination": "Beckton",
+        "nightTube": false
+    },
+    {
+        "id": 40,
+        "lineId": 12,
+        "line": "DLR",
+        "destination": "Woolwich Arsenal",
+        "nightTube": false
+    },
+    {
+        "id": 41,
+        "lineId": 12,
+        "line": "DLR",
+        "destination": "Tower Gateway",
+        "nightTube": false
+    },
+    {
+        "id": 42,
+        "lineId": 12,
+        "line": "DLR",
+        "destination": "Bank",
+        "nightTube": false
+    },
+    {
+        "id": 43,
+        "lineId": 12,
+        "line": "DLR",
+        "destination": "Stratford",
+        "nightTube": false
+    },
+    {
+        "id": 44,
+        "lineId": 12,
+        "line": "DLR",
+        "destination": "Stratford International",
+        "nightTube": false
+    },
+    {
+        "id": 45,
+        "lineId": 12,
+        "line": "DLR",
+        "destination": "Lewisham",
+        "nightTube": false
+    },
+    {
+        "id": 46,
+        "lineId": 12,
+        "line": "DLR",
+        "destination": "Canning Town",
+        "nightTube": false
+    }
+]

@@ -14,8 +14,8 @@ module Entry =
         printfn "\n You can catch the following trains from this station:"
 
         let trains =
-            startStation.lines
-            |> List.collect(fun s -> s.stations |> List.map(fun m -> (s.line, m.branch)))
+            startStation.routes
+            |> List.collect(fun s -> s.fullTrains |> List.map(fun m -> (m.lineId, m.destination)))
         
         trains
         |> List.iteri(fun i (l, s) -> printfn "%d: %s - %s" i (l.ToString()) s)
@@ -26,13 +26,27 @@ module Entry =
             |> fun s -> trains.[s]
         
         while true do
-            Console.Clear()
-            printfn "\n Find the quickest route between the two stations:"
-            printfn "\n %s --> %s" startStation.name endStation.name
-
             let currentStation = startStation
             let currentLine, currentTrain = chosenTrain
+            
+            Console.Clear()
+            printfn "\n Find the quickest route between the two stations:"
+            printfn "%s --> %s" startStation.name endStation.name
 
-            printfn "Current Station: %s" currentStation.name
+            printfn "\n Current Station: %s" currentStation.name
+            
+            printfn " This is a %s train to: %s" (currentLine.ToString()) currentTrain 
 
+            let nextStation =
+                currentStation.routes
+                |> List.find(fun f -> f.fullTrains |> List.exists(fun c -> c.lineId = currentLine))
+                |> (fun s -> s.fullTrains |> List.find(fun l -> l.destination = currentTrain))
+                |> (fun x -> x.id)
+                |> Data.findStationById
+
+            printfn " The next station is: %s" nextStation.name
+
+            let _ = Console.ReadLine()
+            
+            ()
         0;

@@ -21,33 +21,23 @@ module DomainTypes =
       | AirLine = 15
       | Walking = 16
     
-    type Directions =
-      | Northbound = 'n'
-      | Southbound = 's'
-      | Eastbound = 'e'
-      | Westbound = 'w'
-
-    type Route = {
-      branch: string
+    type Train = {
       id: int
-      weight: int
+      lineId: Lines
+      line: string
+      destination: string
+      nightTube: bool
     }
 
-    type Line = {
-      line: Lines
-      stations: Route list
+    type Route = {
+      station: int
+      trains: int[]
+      fullTrains: Train list
+      weight: int
     }
 
     type Station = {
       id: int
       name: string
-      lines: Line list
-    }
-
-    type Routes = {
-      startS: int
-      endS: int
-      weight: int
-      branch: string
-      line: string
+      routes: Route list
     }
