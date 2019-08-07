@@ -14,3 +14,5 @@ module Helpers =
     let cprintfn color str = Printf.kprintf (fun s -> use c = consoleColor color in printfn "%s" s) str
 
     let enumToList<'a> = (Enum.GetValues(typeof<'a>) :?> ('a [])) |> Array.toList
+
+    let shuffleList next xs = xs |> Seq.sortBy(fun _ -> next())

@@ -5,14 +5,29 @@ open Newtonsoft.Json
 open FSharp.Data
 
 module Data =
+    let trainData =
+        let value = JsonValue.Load(__SOURCE_DIRECTORY__ + "\\Data\\LU_Trains.json").ToString()
+        JsonConvert.DeserializeObject<Train list>(value)
+
     let loadData =
         let value = JsonValue.Load(__SOURCE_DIRECTORY__ + "\\Data\\LU_Data.json").ToString()
         JsonConvert.DeserializeObject<Station list>(value)
+        |> List.map(fun c -> {
+            id = c.id
+            name = c.name
+            routes = c.routes |> List.map(fun r -> {
+                station = r.station
+                weight = r.weight
+                trains = r.trains
+                fullTrains = trainData |> List.filter(fun f -> r.trains |> Array.contains(f.id))})})
 
     let findStationById (id: int) =
         loadData
         |> List.find (fun s -> s.id = id)
 
-    let findStations (line: Lines) =
+    let findRandomStation () =
+        let r = Random()
         loadData
-        |> List.filter (fun s -> s.lines |> List.exists (fun x -> x.line = line))
+        |> shuffleList(fun _ -> r.Next())
+        |> Seq.take 1
+        |> Seq.item 0
