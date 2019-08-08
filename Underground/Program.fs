@@ -14,7 +14,7 @@ module Entry =
 
             let mutable (currentS, currentT) = (startS, train)
 
-            while currentS <> startS do
+            while currentS <> endS do
                 let (newCurrentS, newCurrentT, cost) = Menu.loadDisplay(startS, endS, currentS, currentT)
                 currentS <- newCurrentS
                 currentT <- newCurrentT
