@@ -31,3 +31,14 @@ module Data =
         |> shuffleList(fun _ -> r.Next())
         |> Seq.take 1
         |> Seq.item 0
+
+    let findNextStation (station: Station, train: Train) =
+        let route =
+            station.routes
+            |> List.find(fun f -> f.fullTrains |> List.exists(fun s -> s.destination = train.destination && s.lineId = train.lineId))
+        
+        let next =
+            route.station
+            |> findStationById
+
+        (next, route.weight)

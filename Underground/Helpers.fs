@@ -16,3 +16,8 @@ module Helpers =
     let enumToList<'a> = (Enum.GetValues(typeof<'a>) :?> ('a [])) |> Array.toList
 
     let shuffleList next xs = xs |> Seq.sortBy(fun _ -> next())
+
+    let (|Int|_|) (str: string) =
+       match Int32.TryParse(str) with
+       | (true,int) -> Some(int)
+       | _ -> None
