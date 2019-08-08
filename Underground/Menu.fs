@@ -17,26 +17,42 @@ module Menu =
         printfn "\n This is a %s train to: %s" currentT.line currentT.destination
         printfn " The next station is: %s" nextS.name
 
-    let start () =
+    let generateStart () =
         Console.Clear()
-        let startStation = Data.findRandomStation()
-        let endStation = Data.findRandomStation()
+        let startS = Data.findRandomStation()
+        let endS = Data.findRandomStation()
 
-        header (startStation, endStation)
+        header (startS, endS)
 
-        printfn "\n You can catch the following trains from this station:"
+        (startS, endS)
+
+    let start () =
+        let mutable loop = true
+        let mutable (startS, endS) = generateStart ()
+
+        while loop do
+            printfn "\n Do you want to re-roll? (Y/N)\n"
+            let answer = Console.ReadKey()
+            if answer.Key = ConsoleKey.Y then
+                let (nSS, nES) = generateStart ()
+                startS <- nSS
+                endS <- nES
+            else
+                loop <- false
+
         let trains =
-            startStation.routes
+            startS.routes
             |> List.collect(fun s -> s.fullTrains)
-
+        
+        printfn "\n You can catch the following trains from this station:"
         destinations (trains)
 
         let currentT =
             Console.ReadLine()
             |> Int32.Parse
-            |> fun s -> trains.[s]  
+            |> fun s -> trains.[s]
 
-        (startStation, endStation, currentT)
+        (startS, endS, currentT)
 
     let mainDisplay (startS: Station, endS: Station, currentS: Station, currentT: Train) =
         Console.Clear()
