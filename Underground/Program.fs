@@ -19,5 +19,12 @@ module Entry =
                 currentS <- newCurrentS
                 currentT <- newCurrentT
                 score <- score + cost
+
+            Menu.scoreDisplay(startS, endS, score)
+
+            printfn "\n Do you want to play again? (Y/N)"                        
+            mainLoop <-match Console.ReadKey().Key with
+                       | ConsoleKey.Y -> true
+                       | _ -> false
             ()
         0;

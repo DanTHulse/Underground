@@ -19,8 +19,10 @@ module Menu =
 
     let generateStart () =
         Console.Clear()
-        let startS = Data.findRandomStation()
-        let endS = Data.findRandomStation()
+        // let startS = Data.findRandomStation()
+        // let endS = Data.findRandomStation()
+        let startS = Data.findStationById(35) // Brixton
+        let endS = Data.findStationById(270) // Walthamstow Central
 
         header (startS, endS)
 
@@ -81,3 +83,11 @@ module Menu =
         let (nextS, cost) = Data.findNextStation(currentS, train)
         
         (nextS, train, cost + lineCost)
+
+    let scoreDisplay (startS: Station, endS: Station, score: int) =
+        Console.Clear()
+        let minutes = score / 60
+        let seconds = score % 60
+
+        printfn "\n You made it from %s --> %s in:" startS.name endS.name
+        printfn " %dm and %ds" minutes seconds
