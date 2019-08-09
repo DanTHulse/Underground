@@ -42,3 +42,7 @@ module Data =
             |> findStationById
 
         (next, route.weight)
+
+    let findTrainById (id: int) =
+        trainData
+        |> List.find (fun s -> s.id = id)    

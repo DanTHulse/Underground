@@ -3,9 +3,14 @@
 open System
 
 module Menu =
-    let header (startS: Station, endS: Station) =
+    let mutable startStation: Station = Data.findRandomStation()
+    let mutable endStation: Station = Data.findRandomStation()
+    let mutable currentStation: Station = startStation
+    let mutable currentTrain: Train = Data.findTrainById(0)
+
+    let header () =
         printfn "\n Find the quickest route between the two stations:"
-        printfn "\n %s --> %s" startS.name endS.name
+        printfn "\n %s --> %s" startStation.name endStation.name
 
     let destinations (trains: Train list) =
         trains
@@ -19,31 +24,25 @@ module Menu =
 
     let generateStart () =
         Console.Clear()
-        // let startS = Data.findRandomStation()
-        // let endS = Data.findRandomStation()
-        let startS = Data.findStationById(35) // Brixton
-        let endS = Data.findStationById(270) // Walthamstow Central
+        startStation <- Data.findStationById(35) // Brixton
+        endStation <- Data.findStationById(270) // Walthamstow Central
 
-        header (startS, endS)
-
-        (startS, endS)
+        header ()
 
     let start () =
         let mutable loop = true
-        let mutable (startS, endS) = generateStart ()
+        generateStart()
 
         while loop do
             printfn "\n Do you want to re-roll? (Y/N)\n"
             let answer = Console.ReadKey()
             if answer.Key = ConsoleKey.Y then
-                let (nSS, nES) = generateStart ()
-                startS <- nSS
-                endS <- nES
+                generateStart()
             else
                 loop <- false
 
         let trains =
-            startS.routes
+            startStation.routes
             |> List.collect(fun s -> s.fullTrains)
         
         printfn "\n You can catch the following trains from this station:"
@@ -54,12 +53,12 @@ module Menu =
             |> Int32.Parse
             |> fun s -> trains.[s]
 
-        (startS, endS, currentT)
+        (startStation, endStation, currentT)
 
     let mainDisplay (startS: Station, endS: Station, currentS: Station, currentT: Train) =
         Console.Clear()
         
-        header (startS, endS)
+        header ()
         printfn "\n Current Station: %s" currentS.name
         trainInfo (currentS, currentT)
 
