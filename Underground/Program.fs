@@ -10,17 +10,16 @@ module Entry =
         let mutable score = 0
 
         while mainLoop do            
-            let (startS, endS, train) = Menu.start()
+            let (startS, endS) = Menu.start()
 
-            let mutable (currentS, currentT) = (startS, train)
+            let mutable currentS = startS
 
             while currentS <> endS do
-                let (newCurrentS, newCurrentT, cost) = Menu.loadDisplay(startS, endS, currentS, currentT)
-                currentS <- newCurrentS
-                currentT <- newCurrentT
+                let (nextS, cost) = Menu.loadDisplay()
                 score <- score + cost
+                currentS <- nextS
 
-            Menu.scoreDisplay(startS, endS, score)
+            Menu.scoreDisplay(score)
 
             printfn "\n Do you want to play again? (Y/N)"                        
             mainLoop <-match Console.ReadKey().Key with

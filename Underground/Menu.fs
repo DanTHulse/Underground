@@ -16,10 +16,10 @@ module Menu =
         trains
         |> List.iteri(fun i t -> printfn " %d: %s - %s" i t.line t.destination)
 
-    let trainInfo (currentS: Station, currentT: Train) = 
-        let (nextS, cost) = Data.findNextStation (currentS, currentT)
+    let trainInfo () = 
+        let (nextS, cost) = Data.findNextStation (currentStation, currentTrain)
 
-        printfn "\n This is a %s train to: %s" currentT.line currentT.destination
+        printfn "\n This is a %s train to: %s" currentTrain.line currentTrain.destination
         printfn " The next station is: %s" nextS.name
 
     let generateStart () =
@@ -53,40 +53,45 @@ module Menu =
             |> Int32.Parse
             |> fun s -> trains.[s]
 
-        (startStation, endStation, currentT)
+        (startStation, endStation)
 
-    let mainDisplay (startS: Station, endS: Station, currentS: Station, currentT: Train) =
+    let mainDisplay () =
         Console.Clear()
         
         header ()
-        printfn "\n Current Station: %s" currentS.name
-        trainInfo (currentS, currentT)
+        printfn "\n Current Station: %s" currentStation.name
+        trainInfo ()
 
-    let interchange (currentS: Station, currentT: Train) =
+    let interchange () =
         printfn "\n\n What would you like to do?"
         printfn " X - Stay on the current train\n"
 
         let trains =
-            currentS.routes
-            |> List.collect(fun s -> s.fullTrains |> List.filter(fun f -> f.id <> currentT.id))
+            currentStation.routes
+            |> List.collect(fun s -> s.fullTrains |> List.filter(fun f -> f.id <> currentTrain.id))
         
         destinations (trains)
 
-        match Console.ReadLine() with
-        | Int i -> (trains.[i], 120)
-        | _ -> (currentT, 0)
-
-    let loadDisplay (startS: Station, endS: Station, currentS: Station, currentT: Train) = 
-        mainDisplay (startS, endS, currentS, currentT)
-        let (train, lineCost) = interchange (currentS, currentT)
-        let (nextS, cost) = Data.findNextStation(currentS, train)
+        let (newTrain, cost) = match Console.ReadLine() with
+                               | Int i -> (trains.[i], 120)
+                               | _ -> (currentTrain, 0)
         
-        (nextS, train, cost + lineCost)
+        currentTrain <- newTrain
+        cost 
+        
 
-    let scoreDisplay (startS: Station, endS: Station, score: int) =
+    let loadDisplay () = 
+        mainDisplay ()
+        let lineCost = interchange ()
+        let (nextS, cost) = Data.findNextStation(currentStation, currentTrain)
+        
+        currentStation <- nextS
+        (currentStation, cost + lineCost)
+
+    let scoreDisplay (score: int) =
         Console.Clear()
         let minutes = score / 60
         let seconds = score % 60
 
-        printfn "\n You made it from %s --> %s in:" startS.name endS.name
+        printfn "\n You made it from %s --> %s in:" startStation.name endStation.name
         printfn " %dm and %ds" minutes seconds
