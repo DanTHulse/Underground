@@ -13,6 +13,12 @@ module TrainData =
         trainData
         |> List.find (fun s -> s.id = id)
 
+    let findLinesForStation (station: Station) =
+        station.routes
+        |> List.collect (fun c -> c.fullTrains)
+        |> List.map (fun t -> t.lineId)
+        |> List.distinct
+
 module StationData =
     let loadData =
         let value = JsonValue.Load(__SOURCE_DIRECTORY__ + "\\Data\\LU_Data.json").ToString()

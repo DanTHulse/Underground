@@ -1,6 +1,7 @@
 ﻿namespace Underground
 
 open System
+open System.Text
 
 [<AutoOpen>]
 module Helpers =
@@ -29,3 +30,11 @@ module Helpers =
         Console.ReadLine()
         |> int
         |> (fun i -> items.[i])
+
+    let join (items : seq<string>) =
+        let buff = 
+            Seq.fold 
+                (fun (buff :StringBuilder) (s:string) -> buff.Append(s).Append(",")) 
+                (StringBuilder()) 
+                items
+        buff.Remove(buff.Length-1, 1).ToString()
