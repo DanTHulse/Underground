@@ -24,6 +24,7 @@ module Helpers =
        | _ -> None
 
     let chooser (items: 'a list) =
+        printfn ""
         items
         |> List.iteri (fun i l -> printfn " %d - %s" i (l.ToString()))
 

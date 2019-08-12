@@ -51,7 +51,7 @@ module Menus =
         |> findLinesForStation
         |> chooser
         |> (fun s -> currentS.routes |> List.collect(fun f -> f.fullTrains |> List.filter(fun x -> x.lineId = s)))
-        |> chooser
+        |> chooseTrain
 
     let gameLoop () =
         let (startS, endS) = start ()
