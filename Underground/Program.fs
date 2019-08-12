@@ -1,7 +1,6 @@
 ﻿namespace Underground
 
 open System
-open Data
 
 module Entry =
     [<EntryPoint>]
@@ -9,7 +8,7 @@ module Entry =
         let mutable mainLoop = true
         let mutable score = 0
 
-        while mainLoop do            
+        while mainLoop do
             let (startS, endS) = Menu.start()
 
             let mutable currentS = startS

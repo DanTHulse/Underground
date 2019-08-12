@@ -21,3 +21,11 @@ module Helpers =
        match Int32.TryParse(str) with
        | (true,int) -> Some(int)
        | _ -> None
+
+    let chooser (items: 'a list) =
+        items
+        |> List.iteri (fun i l -> printfn " %d - %s" i (l.ToString()))
+
+        Console.ReadLine()
+        |> int
+        |> (fun i -> items.[i])
