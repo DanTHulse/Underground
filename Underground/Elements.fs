@@ -9,7 +9,7 @@ module Elements =
 
     let startScreen =
         ()
-        
+
     let objective (startStation: Station, endStation: Station) =
         printfn "\n Find the quickest route between the two stations:"
         printfn "\n %s --> %s" startStation.name endStation.name
@@ -27,7 +27,7 @@ module Elements =
         printfn ""
         lines
         |> List.iteri (fun i l -> printfn " %d - %s" i (l.ToString()))
-        
+
         lines
 
     let trainsDisplay (trains: Train list) =
@@ -39,15 +39,14 @@ module Elements =
 
     let interchange (station: Station) =
         let styleSheet = StyleSheet (Color.White)
-        let routeStr =
-            (List.map ((fun i ->
-                styleSheet.AddStyle(i.ToString(), lineColour (i)) |> ignore
-                i) >> (fun f -> f.ToString())) (TrainData.findLinesForStation (station)))
-            |> Seq.ofList
-            |> join
-            
-        Console.WriteLineStyled (" -> Change for " + routeStr, styleSheet)
-    
+        let routeStr = sprintf " -> Change for %s" ((List.map ((fun i ->
+                                                    styleSheet.AddStyle(i.ToString(), lineColour (i)) |> ignore
+                                                    i) >> (fun f -> f.ToString())) (TrainData.findLinesForStation (station)))
+                                                    |> Seq.ofList
+                                                    |> join)
+
+        Console.WriteLineStyled (routeStr, styleSheet)
+
     let trainInfo (currentStation: Station, train: Train) =
         printfn "\n This is a %s train terminating at: %s" train.line train.destination
         StationData.findNextStation (currentStation, train)
