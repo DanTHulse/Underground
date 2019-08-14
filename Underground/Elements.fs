@@ -38,22 +38,15 @@ module Elements =
         trains
 
     let interchange (station: Station) =
-        let routes = TrainData.findLinesForStation (station)
-        // let routeStr =
-        //     routes
-        //     |> List.map (fun f -> f.ToString())
-        //     |> Seq.ofList
-        //     |> join        
-        // let formatters = 
-        //     routes
-        //     |> List.map (fun i -> Formatter(i.ToString(), lineColour (i)))
-        //     |> Array.ofList
-        
-        // Console.WriteLineFormatted (" -> Change for " + routeStr, Color.White, formatters)
-        printfn " -> Change for %s" (routes
-                                      |> List.map (fun f -> f.ToString())
-                                      |> Seq.ofList
-                                      |> join)
+        let styleSheet = StyleSheet (Color.White)
+        let routeStr =
+            (List.map ((fun i ->
+                styleSheet.AddStyle(i.ToString(), lineColour (i)) |> ignore
+                i) >> (fun f -> f.ToString())) (TrainData.findLinesForStation (station)))
+            |> Seq.ofList
+            |> join
+            
+        Console.WriteLineStyled (" -> Change for " + routeStr, styleSheet)
     
     let trainInfo (currentStation: Station, train: Train) =
         printfn "\n This is a %s train terminating at: %s" train.line train.destination
