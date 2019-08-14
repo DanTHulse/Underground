@@ -5,7 +5,7 @@ open System
 module Entry =
     [<EntryPoint>]
     let main _ =
-        Elements.scores (StationData.findStationById(148), StationData.findStationById(148), 368)
+        Elements.endScreen (StationData.findStationById(148), StationData.findStationById(148), 368)
 
         //Elements.logo
         Console.ReadKey() |> ignore

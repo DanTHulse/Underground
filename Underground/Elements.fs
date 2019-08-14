@@ -10,9 +10,6 @@ module Elements =
     let startScreen =
         ()
 
-    let endScreen =
-        Colorful.Console.WriteAscii("CONGLATURATIONS !!!", Color.FromArgb(147, 206, 186))
-
     let objective (startStation: Station, endStation: Station) =
         printfn "\n Find the quickest route between the two stations:"
         printfn "\n %s --> %s" startStation.name endStation.name
@@ -59,15 +56,15 @@ module Elements =
             printfn " The next station is: %s" s.name
             interchange (s))
 
-    let scores (startS: Station, endS: Station, score: int) =
-        Console.Clear()
-        let minutes = score / 60
-        let seconds = score % 60
+    let scores (score: int) =
+        let score = sprintf " %dm , %ds" (score / 60) (score % 60)
 
-        let endMessage = sprintf "\n\n\n %s --> %s in:\n\n\n" startS.name endS.name
-        let score = sprintf " %dm , %ds" minutes seconds
-
-        endScreen
-        Console.WriteLine (endMessage, Color.FromArgb(0, 125, 50))
-        //let font = FigletFont.Load("shadow.flf")
         Console.WriteAscii(score, Color.FromArgb(0, 125, 50))
+
+    let endScreen (startS: Station, endS: Station, score: int) =
+        Console.Clear()
+        let endMessage = sprintf "\n\n\n %s --> %s in:\n\n\n" startS.name endS.name
+
+        Colorful.Console.WriteAscii("CONGLATURATIONS !!!", Color.FromArgb(147, 206, 186))
+        Console.WriteLine (endMessage, Color.FromArgb(0, 125, 50))
+        scores (score)
