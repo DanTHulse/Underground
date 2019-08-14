@@ -19,15 +19,6 @@ module TrainData =
         |> List.map (fun t -> t.lineId)
         |> List.distinct
 
-    let chooseTrain (items: Train list) =
-        printfn ""
-        items
-        |> List.iteri (fun i l -> printfn " %d - %s" i (l.destination))
-
-        Console.ReadLine()
-        |> int
-        |> (fun i -> items.[i])
-
 module StationData =
     let loadData =
         let value = JsonValue.Load(__SOURCE_DIRECTORY__ + "\\Data\\LU_Data.json").ToString()
