@@ -1,27 +1,20 @@
 ﻿namespace Underground
 
 open System
-open Data
 
 module Entry =
     [<EntryPoint>]
     let main _ =
+        Elements.endScreen (StationData.findStationById(148), StationData.findStationById(148), 368)
+
+        //Elements.logo
+        Console.ReadKey() |> ignore
         let mutable mainLoop = true
-        let mutable score = 0
 
-        while mainLoop do            
-            let (startS, endS) = Menu.start()
+        while mainLoop do
+            Menus.gameLoop()
 
-            let mutable currentS = startS
-
-            while currentS <> endS do
-                let (nextS, cost) = Menu.loadDisplay()
-                score <- score + cost
-                currentS <- nextS
-
-            Menu.scoreDisplay(score)
-
-            printfn "\n Do you want to play again? (Y/N)"                        
+            printfn "\n Do you want to play again? (Y/N)"
             mainLoop <-match Console.ReadKey().Key with
                        | ConsoleKey.Y -> true
                        | _ -> false

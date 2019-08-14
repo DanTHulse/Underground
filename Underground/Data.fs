@@ -4,11 +4,22 @@ open System
 open Newtonsoft.Json
 open FSharp.Data
 
-module Data =
+module TrainData =
     let trainData =
         let value = JsonValue.Load(__SOURCE_DIRECTORY__ + "\\Data\\LU_Trains.json").ToString()
         JsonConvert.DeserializeObject<Train list>(value)
 
+    let findTrainById (id: int) =
+        trainData
+        |> List.find (fun s -> s.id = id)
+
+    let findLinesForStation (station: Station) =
+        station.routes
+        |> List.collect (fun c -> c.fullTrains)
+        |> List.map (fun t -> t.lineId)
+        |> List.distinct
+
+module StationData =
     let loadData =
         let value = JsonValue.Load(__SOURCE_DIRECTORY__ + "\\Data\\LU_Data.json").ToString()
         JsonConvert.DeserializeObject<Station list>(value)
@@ -19,7 +30,7 @@ module Data =
                 station = r.station
                 weight = r.weight
                 trains = r.trains
-                fullTrains = trainData |> List.filter(fun f -> r.trains |> Array.contains(f.id))})})
+                fullTrains = TrainData.trainData |> List.filter(fun f -> r.trains |> Array.contains(f.id))})})
 
     let findStationById (id: int) =
         loadData
@@ -42,7 +53,3 @@ module Data =
             |> findStationById
 
         (next, route.weight)
-
-    let findTrainById (id: int) =
-        trainData
-        |> List.find (fun s -> s.id = id)    
