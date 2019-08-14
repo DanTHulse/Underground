@@ -5,7 +5,7 @@ open System
 module Entry =
     [<EntryPoint>]
     let main _ =
-        Elements.interchange (StationData.findStationById(148))
+        Elements.scores (StationData.findStationById(148), StationData.findStationById(148), 368)
 
         //Elements.logo
         Console.ReadKey() |> ignore
@@ -14,7 +14,7 @@ module Entry =
         while mainLoop do
             Menus.gameLoop()
 
-            printfn "\n Do you want to play again? (Y/N)"                        
+            printfn "\n Do you want to play again? (Y/N)"
             mainLoop <-match Console.ReadKey().Key with
                        | ConsoleKey.Y -> true
                        | _ -> false
