@@ -9,6 +9,9 @@
     <Content Include="Data/LU_Data.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Data/Fonts/**">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Data/LU_Stations_Short.json" />
     <Content Include="Data/LU_Trains.json" />
     <None Include="Data/LU_Data.yml" />

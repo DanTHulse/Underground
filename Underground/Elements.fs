@@ -4,6 +4,9 @@ open Colorful
 open System.Drawing
 
 module Elements =
+    let loadFont (font: string) =
+        FigletFont.Load(sprintf "Data/Fonts/%s.flf" font)
+
     let logo =
         Colorful.Console.WriteAscii("UNDERGROUND", Color.FromArgb(147, 206, 186))
 
@@ -54,7 +57,7 @@ module Elements =
             interchange (s))
 
     let scores (score: int) =
-        let score = sprintf " %dm , %ds" (score / 60) (score % 60)
+        let score = sprintf "%dm , %ds" (score / 60) (score % 60)
 
         Console.WriteAscii(score, Color.FromArgb(0, 125, 50))
 
@@ -63,8 +66,9 @@ module Elements =
 
     let endScreen (startS: Station, endS: Station, score: int) =
         Console.Clear()
-        let endMessage = sprintf "\n\n\n %s --> %s in:\n\n\n" startS.name endS.name
+        let endMessage = sprintf "\n\n %s --> %s in:\n\n" startS.name endS.name
 
-        Colorful.Console.WriteAscii("CONGLATURATIONS !!!", Color.FromArgb(147, 206, 186))
+        let font = loadFont ("cosmic")
+        Colorful.Console.WriteAscii("CONGLATURATIONS !", font, Color.FromArgb(147, 206, 186))
         Console.WriteLine (endMessage, Color.FromArgb(0, 125, 50))
         scores (score)
