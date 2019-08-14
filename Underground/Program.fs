@@ -5,6 +5,7 @@ open System
 module Entry =
     [<EntryPoint>]
     let main _ =
+        Elements.interchange (StationData.findStationById(148))
 
         //Elements.logo
         Console.ReadKey() |> ignore
