@@ -39,11 +39,13 @@ module Elements =
 
     let interchange (station: Station) =
         let styleSheet = StyleSheet (Color.White)
-        let routeStr = sprintf " -> Change for %s" ((List.map ((fun i ->
-                                                    styleSheet.AddStyle(i.ToString(), lineColour (i)) |> ignore
-                                                    i) >> (fun f -> f.ToString())) (TrainData.findLinesForStation (station)))
-                                                    |> Seq.ofList
-                                                    |> join)
+        let services =
+            (List.map ((fun i ->
+            styleSheet.AddStyle(fullLineName(i), lineColour (i)) |> ignore
+            i) >> (fun f -> fullLineName(f))) (TrainData.findLinesForStation (station)))
+            |> Seq.ofList
+            |> join
+        let routeStr = sprintf " -> Change for %s services" services
 
         Console.WriteLineStyled (routeStr, styleSheet)
 

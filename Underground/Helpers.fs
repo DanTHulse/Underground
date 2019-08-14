@@ -22,12 +22,12 @@ module Helpers =
         |> (fun i -> items.[i])
 
     let join (items : seq<string>) =
-        let buff = 
-            Seq.fold 
-                (fun (buff :StringBuilder) (s:string) -> buff.Append(s).Append(",")) 
-                (StringBuilder()) 
+        let buff =
+            Seq.fold
+                (fun (buff :StringBuilder) (s:string) -> buff.Append(s).Append(", "))
+                (StringBuilder())
                 items
-        buff.Remove(buff.Length-1, 1).ToString()
+        buff.Remove(buff.Length-2, 2).ToString()
 
     let lineColour (line: Lines) =
         match line with
@@ -47,3 +47,12 @@ module Helpers =
         | Lines.AirLine -> Color.FromArgb(220, 36, 31)
         | Lines.DLR -> Color.FromArgb(0, 175, 173)
         | _ -> Color.FromArgb(255, 255, 255)
+
+    let fullLineName (line: Lines) =
+        match line with
+        | Lines.WaterlooCity -> "Waterloo & City"
+        | Lines.HammersmithCity -> "Hammersmith & City"
+        | Lines.Overground -> "London Overground"
+        | Lines.AirLine -> "Emirates Air Line"
+        | Lines.Trams -> "London Trams"
+        | _ -> line.ToString()
