@@ -5,7 +5,7 @@ open System.Drawing
 
 module Elements =
     let logo =
-        ()
+        Colorful.Console.WriteAscii("UNDERGROUND", Color.Turquoise)
 
     let startScreen =
         ()
