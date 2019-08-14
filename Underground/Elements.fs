@@ -23,7 +23,7 @@ module Elements =
     let linesDisplay (lines: Lines list) =
         printfn ""
         lines
-        |> List.iteri (fun i l -> printfn " %d - %s" i (l.ToString()))
+        |> List.iteri (fun i l -> Console.WriteLine (sprintf " %d - %s" i (fullLineName(l)), lineColour(l)))
 
         lines
 
