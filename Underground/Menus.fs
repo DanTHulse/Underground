@@ -22,7 +22,7 @@ module Menus =
     let mainDisplay (startS: Station, endS: Station, currentS: Station, currentT: Train) =
         Console.Clear()
 
-        Elements.objective (startS, endS)  
+        Elements.objective (startS, endS)
         Elements.trainInfo (currentS, currentT)
         Elements.station (currentS)
         Elements.interchange (currentS)
@@ -54,5 +54,5 @@ module Menus =
             let (nextS, cost) = findNextStation (currentS, nextT)
             currentS <- nextS
             totalCost <- (totalCost + cost + lineCost)
-        
-        Elements.scores (startS, endS, totalCost)
+
+        Elements.endScreen (startS, endS, totalCost)
