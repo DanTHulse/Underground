@@ -7,9 +7,6 @@ module Elements =
     let logo =
         Colorful.Console.WriteAscii("UNDERGROUND", Color.FromArgb(147, 206, 186))
 
-    let startScreen =
-        ()
-
     let objective (startStation: Station, endStation: Station) =
         printfn "\n Find the quickest route between the two stations:"
         printfn "\n %s --> %s" startStation.name endStation.name
@@ -60,6 +57,9 @@ module Elements =
         let score = sprintf " %dm , %ds" (score / 60) (score % 60)
 
         Console.WriteAscii(score, Color.FromArgb(0, 125, 50))
+
+    let startScreen =
+        logo
 
     let endScreen (startS: Station, endS: Station, score: int) =
         Console.Clear()
