@@ -38,7 +38,7 @@ module Elements =
         trains
 
     let interchange (station: Station) =
-        // let routes = TrainData.findLinesForStation (station)
+        let routes = TrainData.findLinesForStation (station)
         // let routeStr =
         //     routes
         //     |> List.map (fun f -> f.ToString())
