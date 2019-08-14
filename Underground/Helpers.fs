@@ -40,7 +40,7 @@ module Helpers =
         | Lines.Central -> Color.FromArgb(220, 36, 31)
         | Lines.Bakerloo -> Color.FromArgb(178, 99, 0)
         | Lines.HammersmithCity -> Color.FromArgb(244, 169, 190)
-        | Lines.Piccadilly -> Color.FromArgb(0, 25, 168)
+        | Lines.Piccadilly -> Color.FromArgb(55, 73, 176)
         | Lines.Elizabeth -> Color.FromArgb(147, 100, 204)
         | Lines.Overground -> Color.FromArgb(239, 123, 16)
         | Lines.Trams -> Color.FromArgb(0, 189, 25)

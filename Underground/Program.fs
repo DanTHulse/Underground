@@ -5,8 +5,9 @@ open System
 module Entry =
     [<EntryPoint>]
     let main _ =
+
         //Elements.logo
-        //Console.ReadKey() |> ignore
+        Console.ReadKey() |> ignore
         let mutable mainLoop = true
 
         while mainLoop do
