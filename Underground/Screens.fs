@@ -1,12 +1,14 @@
 namespace Underground
 
 open System
+open TrainData
 
 module Screens =
     let splashScreen =
         Console.Clear()
 
-        writeAscii ("UNDERGROUND")
+        Elements.logo
+        printfn "\n Press any key to start....\n"
 
     let startScreen (startS: Station, endS: Station) =
         Console.Clear()
@@ -24,7 +26,6 @@ module Screens =
 
     let endScreen (startS: Station, endS: Station, score: int) =
         Console.Clear()
-        writeAscii ("CONGLATURATIONS !")
 
-        let score = sprintf "%dm , %ds" (score / 60) (score % 60)
-        writeAscii (score)
+        Elements.scoreDisplay (score)
+        printfn "\n Do you want to play again? (Y/N)\n"

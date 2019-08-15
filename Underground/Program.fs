@@ -11,11 +11,7 @@ module Entry =
         let mutable mainLoop = true
 
         while mainLoop do
-            Menus.gameLoop()
-
-            printfn "\n Do you want to play again? (Y/N)"
-            mainLoop <-match Console.ReadKey().Key with
-                       | ConsoleKey.Y -> true
-                       | _ -> false
-            ()
+            mainLoop <- Game.start ()
+            |> Game.main
+            |> Game.finish
         0;

@@ -4,6 +4,15 @@ open Colorful
 open System.Drawing
 
 module Elements =
+    let logo =
+        writeAscii ("UNDERGROUND")
+
+    let scoreDisplay (score: int) =
+        writeAscii ("CONGLATURATIONS !")
+
+        let score = sprintf "%dm , %ds" (score / 60) (score % 60)
+        writeAscii (score)
+
     let header (startStation: Station, endStation: Station, previousStation: Station, score: int) =
         let styleSheet = StyleSheet (Color.FromArgb(161, 165, 167))
         let highlights = Color.FromArgb(244, 169, 190)

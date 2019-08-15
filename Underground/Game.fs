@@ -5,7 +5,7 @@ open StationData
 open TrainData
 open Screens
 
-module Menus =
+module Game =
     let rec start () =
         // let startStation = findRandomStation()
         // let endStation = findRandomStation()
@@ -27,8 +27,7 @@ module Menus =
         |> Elements.trainsDisplay
         |> chooser
 
-    let gameLoop () =
-        let (startS, endS) = start ()
+    let main (startS: Station, endS: Station) =
         let mutable currentS = startS
         let mutable currentT = boardTrain (currentS)
         let mutable totalCost = 0
@@ -45,4 +44,11 @@ module Menus =
             currentS <- nextS
             totalCost <- (totalCost + cost + lineCost)
 
+        (startS, endS, totalCost)
+
+    let finish (startS: Station, endS: Station, totalCost: int) =
         endScreen (startS, endS, totalCost)
+
+        match Console.ReadKey().Key with
+        | ConsoleKey.Y -> true
+        | _ -> false

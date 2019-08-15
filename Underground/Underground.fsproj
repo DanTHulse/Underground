@@ -19,7 +19,7 @@
     <Compile Include="Data.fs" />
     <Compile Include="Elements.fs" />
     <Compile Include="Screens.fs" />
-    <Compile Include="Menus.fs" />
+    <Compile Include="Game.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
   <ItemGroup>
