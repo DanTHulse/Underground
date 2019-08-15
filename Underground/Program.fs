@@ -5,9 +5,8 @@ open System
 module Entry =
     [<EntryPoint>]
     let main _ =
-        Elements.header (StationData.findStationById(148), StationData.findStationById(148), 1, StationData.findStationById(148))
+        Elements.header (StationData.findStationById(148), StationData.findStationById(148), StationData.findStationById(148), 1)
 
-        //Elements.logo
         Console.ReadKey() |> ignore
         let mutable mainLoop = true
 

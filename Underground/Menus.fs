@@ -3,6 +3,7 @@ namespace Underground
 open System
 open StationData
 open TrainData
+open Screens
 
 module Menus =
     let rec start () =
@@ -11,22 +12,11 @@ module Menus =
         let startStation = findStationById(35)
         let endStation = findStationById(270)
 
-        Console.Clear()
-        Elements.objective (startStation, endStation)
-        Elements.reroll
+        startScreen (startStation, endStation)
 
         match Console.ReadKey().Key with
         | ConsoleKey.Y -> start ()
         | _ -> (startStation, endStation)
-
-    let mainDisplay (startS: Station, endS: Station, currentS: Station, currentT: Train) =
-        Console.Clear()
-
-        Elements.objective (startS, endS)
-        Elements.trainInfo (currentS, currentT)
-        Elements.station (currentS)
-        Elements.interchange (currentS)
-        Elements.changeTrains
 
     let boardTrain (currentS: Station) =
         currentS
@@ -44,7 +34,7 @@ module Menus =
         let mutable totalCost = 0
 
         while currentS <> endS do
-            mainDisplay (startS, endS, currentS, currentT)
+            mainScreen (startS, endS, currentS, currentT, totalCost)
 
             let (nextT, lineCost) =
                 match Console.ReadKey().Key with
@@ -55,4 +45,4 @@ module Menus =
             currentS <- nextS
             totalCost <- (totalCost + cost + lineCost)
 
-        Elements.endScreen (startS, endS, totalCost)
+        endScreen (startS, endS, totalCost)
