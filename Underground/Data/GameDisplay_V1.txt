@@ -1,0 +1,17 @@
+> Objective
+ Find the quickest route between the two stations:
+ 'StartStation' --> 'EndStation'
+
+> Train Info
+ This is a 'Line' train terminating at: 'Destination'
+ The next station is 'NextStation'
+> Interchange
+ -> Change for 'NextStationAllLines' services
+
+> Station
+ This station is 'CurrentStation'
+ -> Change for 'AllLines' services
+
+> ChangeTrains
+ Do you want to stay on this train? (Y/n)
+
