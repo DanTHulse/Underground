@@ -4,11 +4,8 @@ open Colorful
 open System.Drawing
 
 module Elements =
-    let loadFont (font: string) =
-        FigletFont.Load(sprintf "Data/Fonts/%s.flf" font)
-
     let logo =
-        Colorful.Console.WriteAscii("UNDERGROUND", Color.FromArgb(147, 206, 186))
+        writeAscii ("UNDERGROUND")
 
     let objective (startStation: Station, endStation: Station) =
         printfn "\n Find the quickest route between the two stations:"
@@ -59,7 +56,7 @@ module Elements =
     let scores (score: int) =
         let score = sprintf "%dm , %ds" (score / 60) (score % 60)
 
-        Console.WriteAscii(score, Color.FromArgb(0, 125, 50))
+        writeAscii (score)
 
     let startScreen =
         logo
@@ -68,7 +65,6 @@ module Elements =
         Console.Clear()
         let endMessage = sprintf "\n\n %s --> %s in:\n\n" startS.name endS.name
 
-        let font = loadFont ("cosmic")
-        Colorful.Console.WriteAscii("CONGLATURATIONS !", font, Color.FromArgb(147, 206, 186))
+        writeAscii ("CONGLATURATIONS !")
         Console.WriteLine (endMessage, Color.FromArgb(0, 125, 50))
         scores (score)

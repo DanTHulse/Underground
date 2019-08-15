@@ -9,41 +9,37 @@
 - id: 1
   name: Abbey Road
   routes:
-  - station: 0
+  - station: 303
     trains:
-    - 0
+    - 45
     weight: 0
-  - station: 0
+  - station: 281
     trains:
-    - 0
-    weight: 0
-  - station: 0
-    trains:
-    - 0
-    weight: 0
-  - station: 0
-    trains:
-    - 0
+    - 39
+    - 40
     weight: 0
 - id: 2
   name: Acton Town
   routes:
-  - station: 0
+  - station: 111
     trains:
-    - 0
-    weight: 0
-  - station: 0
+    - 31
+    weight: 332
+  - station: 232
     trains:
-    - 0
-    weight: 0
-  - station: 0
+    - 28
+    - 29
+    weight: 181
+  - station: 74
     trains:
-    - 0
-    weight: 0
-  - station: 0
+    - 30
+    - 12
+    weight: 121
+  - station: 53
     trains:
-    - 0
-    weight: 0
+    - 9
+    - 10
+    weight: 120
 - id: 3
   name: Aldgate
   routes:
@@ -3253,7 +3249,7 @@
     - 0
     weight: 0
 - id: 231
-  name: Snaresbrook 
+  name: Snaresbrook
   routes:
   - station: 0
     trains:

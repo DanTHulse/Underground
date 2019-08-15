@@ -7,6 +7,12 @@ open Colorful
 
 [<AutoOpen>]
 module Helpers =
+    let loadFont (font: string) =
+        FigletFont.Load(sprintf "Data/Fonts/%s.flf" font)
+
+    let writeAscii (message: string) =
+        Console.WriteAscii(message, loadFont ("cosmic"))
+
     let enumToList<'a> = (Enum.GetValues(typeof<'a>) :?> ('a [])) |> Array.toList
 
     let shuffleList next xs = xs |> Seq.sortBy(fun _ -> next())
