@@ -45,12 +45,12 @@ module Game =
 
             let (nextT, lineCost) =
                 match terminus (currentS, currentT) with
-                    | true ->
+                    | false ->
                         WriteEx.writeLine("\n Do you want to stay on this train? (Y/n)\n")
                         match Console.ReadKey().Key with
                         | ConsoleKey.N -> (changeTrains (currentS), 120)
                         | _ -> (currentT, 0)
-                    | false ->
+                    | true ->
                         WriteEx.writeLine ("\n This is where this train terminates, all change")
                         (changeTrains (currentS), 120)
 

@@ -47,7 +47,7 @@ module Elements =
 
     let stationInfo (currentStation: Station) =
         WriteEx.writeLine(sprintf "\n This station is %s" currentStation.name)
-        interchange (currentStation)
+        //interchange (currentStation)
 
     let trainInfo (currentStation: Station, train: Train) =
         WriteEx.writeLine(sprintf "\n This is a %s train terminating at: %s" train.line train.destination)

@@ -19,8 +19,8 @@ module Screens =
         Console.Clear()
 
         Elements.header (startS, endS, currentS, cost)
-        Elements.trainInfo (currentS, currentT)
         Elements.stationInfo (currentS)
+        Elements.trainInfo (currentS, currentT)
 
     let endScreen (startS: Station, endS: Station, score: int) =
         Console.Clear()
