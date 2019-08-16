@@ -9,7 +9,7 @@ module Game =
     let rec start () =
         // let startStation = findRandomStation()
         // let endStation = findRandomStation()
-        let startStation = findStationById(35)
+        let startStation = findStationById(198)
         let endStation = findStationById(270)
 
         startScreen (startStation, endStation)
@@ -18,7 +18,7 @@ module Game =
         | ConsoleKey.Y -> start ()
         | _ -> (startStation, endStation)
 
-    let boardTrain (currentS: Station) =
+    let changeTrains (currentS: Station) =
         currentS
         |> findLinesForStation
         |> Elements.linesDisplay
@@ -26,6 +26,10 @@ module Game =
         |> (fun s -> currentS.routes |> List.collect(fun f -> f.fullTrains |> List.filter(fun x -> x.lineId = s)))
         |> Elements.trainsDisplay
         |> chooser
+
+    let boardTrain (currentS: Station) =
+
+        changeTrains (currentS)
 
     let main (startS: Station, endS: Station) =
         let mutable currentS = startS
@@ -37,7 +41,7 @@ module Game =
 
             let (nextT, lineCost) =
                 match Console.ReadKey().Key with
-                | ConsoleKey.N -> (boardTrain (currentS), 120)
+                | ConsoleKey.N -> (changeTrains (currentS), 120)
                 | _ -> (currentT, 0)
 
             let (nextS, cost) = findNextStation (currentS, nextT)
@@ -50,5 +54,5 @@ module Game =
         endScreen (startS, endS, totalCost)
 
         match Console.ReadKey().Key with
-        | ConsoleKey.Y -> true
-        | _ -> false
+        | ConsoleKey.N -> false
+        | _ -> true

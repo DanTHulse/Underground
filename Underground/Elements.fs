@@ -1,62 +1,59 @@
 namespace Underground
 
-open Colorful
-open System.Drawing
-
 module Elements =
     let logo =
-        writeAscii ("UNDERGROUND")
+        WriteEx.writeAscii ("UNDERGROUND")
 
     let scoreDisplay (score: int) =
-        writeAscii ("CONGLATURATIONS !")
+        //writeAscii ("CONGLATURATIONS !")
 
         let score = sprintf "%dm , %ds" (score / 60) (score % 60)
-        writeAscii (score)
+        WriteEx.writeAscii (score)
 
-    let header (startStation: Station, endStation: Station, previousStation: Station, score: int) =
-        let styleSheet = StyleSheet (Color.FromArgb(161, 165, 167))
-        let highlights = Color.FromArgb(244, 169, 190)
-        [
-            startStation.name
-            endStation.name
-            previousStation.name
-            sprintf "%06i" score
-        ]
-        |> List.distinct
-        |> List.iter (fun f -> styleSheet.AddStyle(f, highlights))
-
-        let headerText = sprintf " Score: %06i - Objective: %s --> %s - Last Stop: %s" score startStation.name endStation.name previousStation.name
-        Console.WriteLineStyled(headerText, styleSheet)
+    let header (startS: Station, endS: Station, currentS: Station, score: int) =
+        WriteEx.writeStyled(
+            sprintf " Score: %06i - Objective: %s --> %s - Current: %s" score startS.name endS.name currentS.name,
+            [|
+                startS.name
+                endS.name
+                currentS.name
+                sprintf "%06i" score
+            |])
 
     let linesDisplay (lines: Lines list) =
-        printfn ""
+        WriteEx.writeLine("\n What line do you want to change to?")
         lines
-        |> List.iteri (fun i l -> Console.WriteLine (sprintf " %d - %s" i (fullLineName(l)), lineColour(l)))
+        |> List.iteri (fun i l -> WriteEx.writeColouredLine (sprintf " %d - %s" i (fullLineName(l)), lineColour(l)))
 
         lines
 
     let trainsDisplay (trains: Train list) =
-        printfn ""
+        WriteEx.writeLine("\n What train do you want to catch?")
         trains
-        |> List.iteri (fun i l -> printfn " %d - %s" i (l.destination))
+        |> List.iteri (fun i l -> WriteEx.writeLine(sprintf " %d - %s" i (l.destination)))
 
         trains
 
     let interchange (station: Station) =
-        let styleSheet = StyleSheet (Color.White)
-        let services =
-            (List.map ((fun i ->
-            styleSheet.AddStyle(fullLineName(i), lineColour (i)) |> ignore
-            i) >> (fun f -> fullLineName(f))) (TrainData.findLinesForStation (station)))
-            |> Seq.ofList
-            |> join
-        let routeStr = sprintf " -> Change for %s services" services
+        let lines = TrainData.findLinesForStation (station)
 
-        Console.WriteLineStyled (routeStr, styleSheet)
+        WriteEx.writeMultiStyled2 (
+            sprintf " -> Change for %s services" (
+                lines
+                |> List.map (fun m -> fullLineName (m))
+                |> Seq.ofList
+                |> join),
+            lines
+            |> List.map (fun f -> (fullLineName (f), lineColour (f)))
+            |> Array.ofList)
+
+    let stationInfo (currentStation: Station) =
+        WriteEx.writeLine(sprintf "\n This station is %s" currentStation.name)
+        interchange (currentStation)
 
     let trainInfo (currentStation: Station, train: Train) =
-        printfn "\n This is a %s train terminating at: %s" train.line train.destination
+        WriteEx.writeLine(sprintf "\n This is a %s train terminating at: %s" train.line train.destination)
         StationData.findNextStation (currentStation, train)
         |> (fun (s, _) ->
-            printfn " The next station is: %s" s.name
+            WriteEx.writeLine(sprintf " The next station is: %s" s.name)
             interchange (s))

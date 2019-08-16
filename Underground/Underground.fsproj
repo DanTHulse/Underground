@@ -15,6 +15,7 @@
     <Content Include="Data/LU_Stations_Short.json" />
     <Content Include="Data/LU_Trains.json" />
     <None Include="Data/LU_Data.yml" />
+    <Compile Include="WriteEx.fs" />
     <Compile Include="Helpers.fs" />
     <Compile Include="Data.fs" />
     <Compile Include="Elements.fs" />

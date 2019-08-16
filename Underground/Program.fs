@@ -1,12 +1,10 @@
 ﻿namespace Underground
 
-open System
-
 module Entry =
     [<EntryPoint>]
     let main _ =
-        Screens.splashScreen
-        Console.ReadKey() |> ignore
+        //Screens.splashScreen
+        //Console.ReadKey() |> ignore
 
         Seq.initInfinite (fun _ ->
            Game.start ()
