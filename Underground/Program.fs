@@ -4,7 +4,7 @@ open System
 module Entry =
     [<EntryPoint>]
     let main _ =
-        Console.SetWindowSize(140, 45)
+        Console.SetWindowSize(160, 45)
 
         Screens.splashScreen
         Console.ReadKey() |> ignore

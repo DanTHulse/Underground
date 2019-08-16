@@ -25,12 +25,24 @@ module Colours =
     let highlightColour = hammersmith
     let accentColour = jubilee
 
+module Fonts =
+    let cosmic = "cosmic.flf"
+    let isometric = "isometric1.flf"
+    let ogre = "ogre.flf"
+    let slant = "slant.flf"
+    let small = "small.flf"
+    let smallIsometric = "smisome1.flf"
+    let smallScript = "smscript.flf"
+    let smallSlant = "smslant.flf"
+    let smallShadow = "smshadow.flf"
+    let speed = "speed.flf"
+
 module WriteEx =
     let loadFont (font: string) =
-        FigletFont.Load (sprintf "Data/Fonts/%s.flf" font)
+        FigletFont.Load (sprintf "Data/Fonts/%s" font)
 
-    let writeAscii (message: string) =
-        Console.WriteAscii (message, loadFont ("cosmic"), Colours.highlightColour)
+    let writeAscii (message: string, font: string) =
+        Console.WriteAscii (message, loadFont (font), Colours.highlightColour)
 
     let writeLine (message: string) =
         Console.WriteLine (message, Colours.textColour)

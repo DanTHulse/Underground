@@ -2,13 +2,13 @@ namespace Underground
 
 module Elements =
     let logo =
-        WriteEx.writeAscii ("UNDERGROUND")
+        WriteEx.writeAscii ("UNDERGROUND", Fonts.speed)
 
     let scoreDisplay (score: int) =
         //writeAscii ("CONGLATURATIONS !")
 
         let score = sprintf "%dm , %ds" (score / 60) (score % 60)
-        WriteEx.writeAscii (score)
+        WriteEx.writeAscii (score, Fonts.cosmic)
 
     let header (startS: Station, endS: Station, currentS: Station, score: int) =
         WriteEx.writeStyled(
