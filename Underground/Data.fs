@@ -52,3 +52,8 @@ module StationData =
         match route with
         | Some value -> (value.station |> findStationById, value.weight)
         | None -> (station, 0)
+
+    let terminus (currentS: Station, currentT: Train) =
+        let (nextS, _) = findNextStation (currentS, currentT)
+
+        nextS = currentS

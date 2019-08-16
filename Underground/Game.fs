@@ -42,10 +42,9 @@ module Game =
 
         while currentS <> endS do
             mainScreen (startS, endS, currentS, currentT, totalCost)
-            let (check, _) = findNextStation (currentS, currentT)
 
             let (nextT, lineCost) =
-                match check <> currentS with
+                match terminus (currentS, currentT) with
                     | true ->
                         WriteEx.writeLine("\n Do you want to stay on this train? (Y/n)\n")
                         match Console.ReadKey().Key with
