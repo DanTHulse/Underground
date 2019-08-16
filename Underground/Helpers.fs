@@ -9,11 +9,6 @@ module Helpers =
 
     let shuffleList next xs = xs |> Seq.sortBy (fun _ -> next())
 
-    let (|Int|_|) (str: string) =
-       match Int32.TryParse (str) with
-       | (true,int) -> Some (int)
-       | _ -> None
-
     let chooser (items: 'a list) =
         Console.ReadLine()
         |> int

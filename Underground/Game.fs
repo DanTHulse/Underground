@@ -7,8 +7,8 @@ open Screens
 
 module Game =
     let rec start () =
-        // let startStation = findRandomStation()
-        // let endStation = findRandomStation()
+        //let startStation = findRandomStation()
+        //let endStation = findRandomStation()
         let startStation = findStationById(198)
         let endStation = findStationById(270)
 

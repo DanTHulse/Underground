@@ -37,9 +37,8 @@ module StationData =
         |> List.find (fun s -> s.id = id)
 
     let findRandomStation () =
-        let r = Random()
         loadData
-        |> shuffleList(fun _ -> r.Next())
+        |> shuffleList(fun _ -> Random().Next())
         |> Seq.take 1
         |> Seq.item 0
 
