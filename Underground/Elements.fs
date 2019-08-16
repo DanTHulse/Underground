@@ -53,5 +53,9 @@ module Elements =
         WriteEx.writeLine(sprintf "\n This is a %s train terminating at: %s" train.line train.destination)
         StationData.findNextStation (currentStation, train)
         |> (fun (s, _) ->
-            WriteEx.writeLine(sprintf " The next station is: %s" s.name)
-            interchange (s))
+            match currentStation <> s with
+            | true ->
+                WriteEx.writeLine(sprintf " The next station is: %s" s.name)
+                interchange (s)
+            | false -> ()
+        )

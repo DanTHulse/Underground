@@ -9,7 +9,7 @@ module Game =
     let rec start () =
         //let startStation = findRandomStation()
         //let endStation = findRandomStation()
-        let startStation = findStationById(198)
+        let startStation = findStationById(245)
         let endStation = findStationById(270)
 
         startScreen (startStation, endStation)
@@ -42,14 +42,24 @@ module Game =
 
         while currentS <> endS do
             mainScreen (startS, endS, currentS, currentT, totalCost)
+            let (check, _) = findNextStation (currentS, currentT)
 
             let (nextT, lineCost) =
-                match Console.ReadKey().Key with
-                | ConsoleKey.N -> (changeTrains (currentS), 120)
-                | _ -> (currentT, 0)
+                match check <> currentS with
+                    | true ->
+                        WriteEx.writeLine("\n Do you want to stay on this train? (Y/n)\n")
+                        match Console.ReadKey().Key with
+                        | ConsoleKey.N -> (changeTrains (currentS), 120)
+                        | _ -> (currentT, 0)
+                    | false ->
+                        WriteEx.writeLine ("\n This is where this train terminates, all change")
+                        (changeTrains (currentS), 120)
 
-            let (nextS, cost) = findNextStation (currentS, nextT)
+            currentT <- nextT
+
+            let (nextS, cost) = findNextStation (currentS, currentT)
             currentS <- nextS
+
             totalCost <- (totalCost + cost + lineCost)
 
         (startS, endS, totalCost)

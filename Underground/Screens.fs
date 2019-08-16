@@ -21,7 +21,6 @@ module Screens =
         Elements.header (startS, endS, currentS, cost)
         Elements.trainInfo (currentS, currentT)
         Elements.stationInfo (currentS)
-        WriteEx.writeLine("\n Do you want to stay on this train? (Y/n)\n")
 
     let endScreen (startS: Station, endS: Station, score: int) =
         Console.Clear()
