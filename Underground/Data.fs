@@ -46,8 +46,10 @@ module StationData =
     let findNextStation (station: Station, train: Train) =
         let route =
             station.routes
-            |> List.find(fun f -> f.fullTrains |> List.exists(fun s -> s.destination = train.destination && s.lineId = train.lineId))
-        
+            |> List.find(fun f ->
+                f.fullTrains
+                |> List.exists(fun s -> s.destination = train.destination && s.lineId = train.lineId))
+
         let next =
             route.station
             |> findStationById

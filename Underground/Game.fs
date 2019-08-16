@@ -23,7 +23,11 @@ module Game =
         |> findLinesForStation
         |> Elements.linesDisplay
         |> chooser
-        |> (fun s -> currentS.routes |> List.collect(fun f -> f.fullTrains |> List.filter(fun x -> x.lineId = s)))
+        |> (fun s ->
+            currentS.routes
+            |> List.collect(fun f ->
+                f.fullTrains
+                |> List.filter(fun x -> x.lineId = s)))
         |> Elements.trainsDisplay
         |> chooser
 

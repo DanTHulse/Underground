@@ -37,11 +37,10 @@ module Elements =
     let interchange (station: Station) =
         let lines = TrainData.findLinesForStation (station)
 
-        WriteEx.writeMultiStyled2 (
+        WriteEx.writeMultiStyled (
             sprintf " -> Change for %s services" (
                 lines
                 |> List.map (fun m -> fullLineName (m))
-                |> Seq.ofList
                 |> join),
             lines
             |> List.map (fun f -> (fullLineName (f), lineColour (f)))

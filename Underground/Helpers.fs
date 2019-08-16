@@ -19,9 +19,9 @@ module Helpers =
         |> int
         |> (fun i -> items.[i])
 
-    let join (items : seq<string>) =
+    let join (items : list<string>) =
         let buff =
-            Seq.fold
+            List.fold
                 (fun (buff :StringBuilder) (s:string) -> buff.Append(s).Append(", "))
                 (StringBuilder())
                 items

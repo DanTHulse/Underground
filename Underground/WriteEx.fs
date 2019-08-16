@@ -52,10 +52,7 @@ module WriteEx =
 
         Console.WriteLineStyled(message, styleSheet)
 
-    let writeMultiStyled (message: string, styleSheet: StyleSheet) =
-        Console.WriteLineStyled (message, styleSheet)
-
-    let writeMultiStyled2 (message: string, highlights: (string * Color) []) =
+    let writeMultiStyled (message: string, highlights: (string * Color) []) =
         let styleSheet = StyleSheet (Colours.textColour)
         highlights
         |> Array.iter (fun (f, l) -> styleSheet.AddStyle(f, l))
