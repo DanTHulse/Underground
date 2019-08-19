@@ -51,7 +51,7 @@ module Game =
                         | ConsoleKey.N -> (changeTrains (currentS), 120)
                         | _ -> (currentT, 0)
                     | true ->
-                        WriteEx.writeLine ("\n This is where this train terminates, all change")
+                        WriteEx.writeLine ("\n This is where this train terminates, all change\n")
                         (changeTrains (currentS), 120)
 
             currentT <- nextT
