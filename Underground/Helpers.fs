@@ -5,12 +5,12 @@ open System.Text
 
 [<AutoOpen>]
 module Helpers =
-    let enumToList<'a> = (Enum.GetValues(typeof<'a>) :?> ('a [])) |> Array.toList
+    let enumToList<'a> = (Enum.GetValues (typeof<'a>) :?> ('a [])) |> Array.toList
 
-    let shuffleList next xs = xs |> Seq.sortBy (fun _ -> next())
+    let shuffleList next xs = xs |> Seq.sortBy (fun _ -> next ())
 
     let chooser (items: 'a list) =
-        Console.ReadLine()
+        Console.ReadLine ()
         |> int
         |> (fun i -> items.[i])
 
@@ -18,9 +18,9 @@ module Helpers =
         let buff =
             List.fold
                 (fun (buff :StringBuilder) (s:string) -> buff.Append(s).Append(", "))
-                (StringBuilder())
+                (StringBuilder ())
                 items
-        buff.Remove(buff.Length-2, 2).ToString()
+        buff.Remove(buff.Length-2, 2).ToString ()
 
     let lineColour (line: Lines) =
         match line with
@@ -48,4 +48,4 @@ module Helpers =
         | Lines.Overground -> "London Overground"
         | Lines.AirLine -> "Emirates Air Line"
         | Lines.Trams -> "London Trams"
-        | _ -> line.ToString()
+        | _ -> line.ToString ()

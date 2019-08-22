@@ -1,29 +1,30 @@
 namespace Underground
 
-open System
+open Underground.WriteEx
 
+[<RequireQualifiedAccess>]
 module Screens =
     let splashScreen =
-        Console.Clear()
+        clear
 
         Elements.logo
-        WriteEx.writeLine("\n Press any key to start....\n")
+        writeHighlights ("\n Press ANY key to start....\n", [| "ANY" |])
 
     let startScreen (startS: Station, endS: Station) =
-        Console.Clear()
+        clear
 
         Elements.header (startS, endS, startS, 0)
-        WriteEx.writeLine("\n Do you want to re-roll? (y/N)\n")
+        writeAdvanceOption ("\n Do you want to re-roll?", false)
 
     let mainScreen (startS: Station, endS: Station, currentS: Station, currentT: Train, cost: int) =
-        Console.Clear()
+        clear
 
         Elements.header (startS, endS, currentS, cost)
         Elements.stationInfo (currentS)
         Elements.trainInfo (currentS, currentT)
 
     let endScreen (startS: Station, endS: Station, score: int) =
-        Console.Clear()
+        clear
 
         Elements.scoreDisplay (score)
-        WriteEx.writeLine("\n Do you want to play again? (Y/n)\n")
+        writeAdvanceOption ("\n Do you want to play again?", true)

@@ -1,13 +1,15 @@
 ﻿namespace Underground
 
 open System
+
 open Newtonsoft.Json
+
 open FSharp.Data
 
 module TrainData =
     let trainData =
-        let value = JsonValue.Load(__SOURCE_DIRECTORY__ + "\\Data\\LU_Trains.json").ToString()
-        JsonConvert.DeserializeObject<Train list>(value)
+        let value = JsonValue.Load (__SOURCE_DIRECTORY__ + "\\Data\\LU_Trains.json")
+        JsonConvert.DeserializeObject<Train list> (value.ToString ())
 
     let findTrainById (id: int) =
         trainData
@@ -45,9 +47,9 @@ module StationData =
     let findNextStation (station: Station, train: Train) =
         let route =
             station.routes
-            |> List.tryFind(fun f ->
+            |> List.tryFind (fun f ->
                 f.fullTrains
-                |> List.exists(fun s -> s.destination = train.destination && s.lineId = train.lineId))
+                |> List.exists (fun s -> s.destination = train.destination && s.lineId = train.lineId))
 
         match route with
         | Some value -> (value.station |> findStationById, value.weight)

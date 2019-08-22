@@ -1,18 +1,20 @@
 namespace Underground
 
 open System
-open StationData
-open TrainData
-open Screens
 
+open Underground.StationData
+open Underground.TrainData
+open Underground.WriteEx
+
+[<RequireQualifiedAccess>]
 module Game =
     let rec start () =
-        //let startStation = findRandomStation()
-        //let endStation = findRandomStation()
-        let startStation = findStationById(245)
-        let endStation = findStationById(270)
+        //let startStation = findRandomStation ()
+        //let endStation = findRandomStation ()
+        let startStation = findStationById (245)
+        let endStation = findStationById (270)
 
-        startScreen (startStation, endStation)
+        Screens.startScreen (startStation, endStation)
 
         match Console.ReadKey().Key with
         | ConsoleKey.Y -> start ()
@@ -25,9 +27,9 @@ module Game =
         |> chooser
         |> (fun s ->
             currentS.routes
-            |> List.collect(fun f ->
+            |> List.collect (fun f ->
                 f.fullTrains
-                |> List.filter(fun x -> x.lineId = s)))
+                |> List.filter (fun x -> x.lineId = s)))
         |> Elements.trainsDisplay
         |> chooser
 
@@ -41,17 +43,17 @@ module Game =
         let mutable totalCost = 0
 
         while currentS <> endS do
-            mainScreen (startS, endS, currentS, currentT, totalCost)
+            Screens.mainScreen (startS, endS, currentS, currentT, totalCost)
 
             let (nextT, lineCost) =
                 match terminus (currentS, currentT) with
                     | false ->
-                        WriteEx.writeLine("\n Do you want to stay on this train? (Y/n)\n")
+                        writeAdvanceOption("\n Do you want to stay on this train?", true)
                         match Console.ReadKey().Key with
                         | ConsoleKey.N -> (changeTrains (currentS), 120)
                         | _ -> (currentT, 0)
                     | true ->
-                        WriteEx.writeLine ("\n This is where this train terminates, all change\n")
+                        writeLine ("\n This is where this train terminates, all change\n")
                         (changeTrains (currentS), 120)
 
             currentT <- nextT
@@ -64,7 +66,7 @@ module Game =
         (startS, endS, totalCost)
 
     let finish (startS: Station, endS: Station, totalCost: int) =
-        endScreen (startS, endS, totalCost)
+        Screens.endScreen (startS, endS, totalCost)
 
         match Console.ReadKey().Key with
         | ConsoleKey.N -> false
