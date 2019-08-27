@@ -2,9 +2,9 @@
 
 open System
 
-open Newtonsoft.Json
-
 open FSharp.Data
+
+open Newtonsoft.Json
 
 module TrainData =
     let trainData =

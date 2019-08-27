@@ -1,22 +1,21 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
     <RootNamespace>Underground_Test</RootNamespace>
-
-    <IsPackable>false</IsPackable>
-    <GenerateProgramFile>false</GenerateProgramFile>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
-
   <ItemGroup>
-    <Compile Include="Tests.fs" />
+    <ProjectReference Include="..\Underground\Underground.fsproj">
+      <Name>Underground.fsproj</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="HelpersTests.fs" />
+    <Compile Include="DataTests.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
-
   <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.0.1" />
     <PackageReference Include="MSTest.TestAdapter" Version="1.4.0" />
     <PackageReference Include="MSTest.TestFramework" Version="1.4.0" />
   </ItemGroup>
-
 </Project>
