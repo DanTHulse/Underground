@@ -8,7 +8,7 @@ module Entry =
         Console.SetWindowSize (160, 45)
 
         Screens.splashScreen
-        Console.ReadKey () |> ignore
+        ReadEx.waitForInput ()
 
         Seq.initInfinite (fun _ ->
            Game.start ()

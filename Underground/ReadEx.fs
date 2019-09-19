@@ -50,3 +50,5 @@ module ReadEx =
         match readKeyChoice ([| "Y"; "N" |]) with
         | ConsoleKey.Y -> true
         | _ -> false
+
+    let inline waitForInput () = Console.ReadKey() |> ignore
