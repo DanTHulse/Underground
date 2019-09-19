@@ -5,6 +5,12 @@ open System
 module Entry =
     [<EntryPoint>]
     let main _ =
+        ReadEx.readOption ([|
+            1
+            2
+            3
+        |])
+
         Console.SetWindowSize (160, 45)
 
         Screens.splashScreen
