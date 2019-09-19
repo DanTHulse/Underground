@@ -10,7 +10,7 @@ module ReadEx =
 
         match valid with
         | true -> ()
-        | false -> WriteEx.writeLine (sprintf "%d is not a valid option" read)
+        | false -> Console.WriteLine (sprintf "%d is not a valid option" read)
 
         (valid, read)
 
@@ -25,7 +25,7 @@ module ReadEx =
 
         match valid with
         | true -> ()
-        | false -> WriteEx.writeLine (sprintf "%s is not a valid option" (key.ToString()))
+        | false -> Console.WriteLine (sprintf "%s is not a valid option" (key.ToString()))
 
         (valid, key)
 

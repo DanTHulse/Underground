@@ -2,13 +2,15 @@
 
 open System
 
+open Underground.ReadEx
+
 module Entry =
     [<EntryPoint>]
     let main _ =
         Console.SetWindowSize (160, 45)
 
         Screens.splashScreen
-        ReadEx.waitForInput ()
+        waitForInput ()
 
         Seq.initInfinite (fun _ ->
            Game.start ()

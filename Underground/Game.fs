@@ -1,7 +1,6 @@
 namespace Underground
 
-open System
-
+open Underground.ReadEx
 open Underground.StationData
 open Underground.TrainData
 open Underground.WriteEx
@@ -16,7 +15,7 @@ module Game =
 
         Screens.startScreen (startStation, endStation)
 
-        match ReadEx.readYesNo () with
+        match readYesNo () with
         | true -> start ()
         | false -> (startStation, endStation)
 
@@ -49,7 +48,7 @@ module Game =
                 match terminus (currentS, currentT) with
                     | false ->
                         writeAdvanceOption("\n Do you want to stay on this train?", true)
-                        match ReadEx.readYesNo () with
+                        match readYesNo () with
                         | true -> (currentT, 0)
                         | false -> (changeTrains (currentS), 120)
                     | true ->
@@ -68,4 +67,4 @@ module Game =
     let finish (startS: Station, endS: Station, totalCost: int) =
         Screens.endScreen (startS, endS, totalCost)
 
-        ReadEx.readYesNo ()
+        readYesNo ()

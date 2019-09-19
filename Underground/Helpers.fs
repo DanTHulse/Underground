@@ -3,6 +3,8 @@
 open System
 open System.Text
 
+open Underground.ReadEx
+
 [<AutoOpen>]
 module Helpers =
     let enumToList<'a> = (Enum.GetValues (typeof<'a>) :?> ('a [])) |> Array.toList
@@ -11,7 +13,7 @@ module Helpers =
 
     let chooser (items: 'a list) =
         [|0..items.Length-1|]
-        |> ReadEx.readOption
+        |> readOption
         |> (fun i -> items.[i])
 
     let join (items : list<string>) =

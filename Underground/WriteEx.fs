@@ -80,5 +80,5 @@ module WriteEx =
 
         Console.WriteLineStyled (message, styleSheet)
 
-    let clear =
+    let clearScreen =
         Console.Clear ()
