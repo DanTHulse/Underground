@@ -33,7 +33,6 @@ module Game =
         |> chooser
 
     let boardTrain (currentS: Station) =
-
         changeTrains (currentS)
 
     let main (startS: Station, endS: Station) =
