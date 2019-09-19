@@ -16,9 +16,9 @@ module Game =
 
         Screens.startScreen (startStation, endStation)
 
-        match Console.ReadKey().Key with
-        | ConsoleKey.Y -> start ()
-        | _ -> (startStation, endStation)
+        match ReadEx.readYesNo () with
+        | true -> start ()
+        | false -> (startStation, endStation)
 
     let changeTrains (currentS: Station) =
         currentS
@@ -49,9 +49,9 @@ module Game =
                 match terminus (currentS, currentT) with
                     | false ->
                         writeAdvanceOption("\n Do you want to stay on this train?", true)
-                        match Console.ReadKey().Key with
-                        | ConsoleKey.N -> (changeTrains (currentS), 120)
-                        | _ -> (currentT, 0)
+                        match ReadEx.readYesNo () with
+                        | true -> (currentT, 0)
+                        | false -> (changeTrains (currentS), 120)
                     | true ->
                         writeLine ("\n This is where this train terminates, all change\n")
                         (changeTrains (currentS), 120)
@@ -68,6 +68,4 @@ module Game =
     let finish (startS: Station, endS: Station, totalCost: int) =
         Screens.endScreen (startS, endS, totalCost)
 
-        match Console.ReadKey().Key with
-        | ConsoleKey.N -> false
-        | _ -> true
+        ReadEx.readYesNo ()

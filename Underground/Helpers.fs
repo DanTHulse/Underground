@@ -10,8 +10,8 @@ module Helpers =
     let shuffleList next xs = xs |> Seq.sortBy (fun _ -> next ())
 
     let chooser (items: 'a list) =
-        Console.ReadLine ()
-        |> int
+        [|0..items.Length-1|]
+        |> ReadEx.readOption
         |> (fun i -> items.[i])
 
     let join (items : list<string>) =
