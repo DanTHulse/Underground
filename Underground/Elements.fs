@@ -5,7 +5,7 @@ open Underground.WriteEx
 
 [<RequireQualifiedAccess>]
 module Elements =
-    let logo =
+    let logo () =
         writeAscii ("UNDERGROUND", Fonts.speed)
 
     let scoreDisplay (score: int) =
@@ -50,16 +50,20 @@ module Elements =
             |> Array.ofList)
 
     let stationInfo (currentStation: Station) =
-        writeLine(sprintf "\n This station is %s" currentStation.name)
+        writeHighlights (sprintf "\n This station is %s" currentStation.name, [| currentStation.name |])
         //interchange (currentStation)
 
     let trainInfo (currentStation: Station, train: Train) =
-        writeLine (sprintf "\n This is a %s train terminating at: %s" train.line train.destination)
+        let trainDisplayInfo = sprintf "\n This is a %s train terminating at: %s" (fullLineName (train.lineId)) train.destination
+        writeMultiStyled (trainDisplayInfo, [|
+            fullLineName (train.lineId), lineColour (train.lineId)
+            train.destination, Colours.highlightColour
+        |])
         findNextStation (currentStation, train)
         |> (fun (s, _) ->
             match currentStation <> s with
             | true ->
-                writeLine (sprintf " The next station is: %s" s.name)
+                writeHighlights (sprintf " The next station is: %s" s.name, [| s.name |])
                 interchange (s)
             | false -> ()
         )

@@ -7,7 +7,7 @@ module Screens =
     let splashScreen =
         clearScreen ()
 
-        Elements.logo
+        Elements.logo ()
         writeHighlights ("\n Press ANY key to start....\n", [| "ANY" |])
 
     let startScreen (startS: Station, endS: Station) =
@@ -28,3 +28,11 @@ module Screens =
 
         Elements.scoreDisplay (score)
         writeAdvanceOption ("\n Do you want to play again?", true)
+
+    let lineDisplayScreen () =
+        clearScreen ()
+
+        enumToList<Lines>
+        |> List.iter (fun l -> writeLineBackground (l.ToString(), lineColour (l)))
+
+        writeHighlights ("\n Press ANY key to continue....\n", [| "ANY" |])

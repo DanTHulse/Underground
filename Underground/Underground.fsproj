@@ -14,6 +14,7 @@
     <Content Include="Data/LU_Stations_Short.json" />
     <Content Include="Data/LU_Trains.json" />
     <None Include="Data/LU_Data.yml" />
+    <Compile Include="Graphics.fs" />
     <Compile Include="DomainTypes.fs" />
     <Compile Include="Extensions.fs" />
     <Compile Include="WriteEx.fs" />

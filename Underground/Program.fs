@@ -7,6 +7,7 @@ open Underground.ReadEx
 module Entry =
     [<EntryPoint>]
     let main _ =
+
         // HACK: This shouldn't be necessary
         Console.SetWindowSize (160, 45)
 

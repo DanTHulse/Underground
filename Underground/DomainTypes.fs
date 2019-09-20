@@ -24,7 +24,6 @@ module DomainTypes =
     type Train = {
       id: int
       lineId: Lines
-      line: string
       destination: string
       nightTube: bool
     }
