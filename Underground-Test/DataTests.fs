@@ -21,7 +21,7 @@ type DataTests () =
         let station = findStationById (35)
         let lines = findLinesForStation (station)
 
-        Assert.IsFalse(lines |> List.isEmpty)
+        Assert.IsFalse(lines |> Seq.isEmpty)
 
     [<TestMethod>]
     member __.FindStationByIdReturnsStation () =
