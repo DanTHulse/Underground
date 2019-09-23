@@ -24,17 +24,17 @@ module Elements =
                 sprintf "%06i" score
             |])
 
-    let linesDisplay (lines: Lines list) =
+    let linesDisplay (lines: Lines seq) =
         writeLine ("\n What line do you want to change to?")
         lines
-        |> List.iteri (fun i l -> writeColouredLine (sprintf " %d - %s" i (fullLineName (l)), lineColour (l)))
+        |> Seq.iteri (fun i l -> writeColouredLine (sprintf " %d - %s" i (fullLineName (l)), lineColour (l)))
 
         lines
 
-    let trainsDisplay (trains: Train list) =
+    let trainsDisplay (trains: Train seq) =
         writeLine ("\n What train do you want to catch?")
         trains
-        |> List.iteri (fun i l -> writeLine(sprintf " %d - %s" i (l.destination)))
+        |> Seq.iteri (fun i l -> writeLine(sprintf " %d - %s" i (l.destination)))
 
         trains
 
@@ -43,15 +43,14 @@ module Elements =
         writeMultiStyled (
             sprintf " -> Change for %s services" (
                 lines
-                |> List.map (fun m -> fullLineName (m))
+                |> Seq.map (fun m -> fullLineName (m))
                 |> join),
             lines
-            |> List.map (fun f -> (fullLineName (f), lineColour (f)))
-            |> Array.ofList)
+            |> Seq.map (fun f -> (fullLineName (f), lineColour (f)))
+            |> Array.ofSeq)
 
     let stationInfo (currentStation: Station) =
         writeHighlights (sprintf "\n This station is %s" currentStation.name, [| currentStation.name |])
-        //interchange (currentStation)
 
     let trainInfo (currentStation: Station, train: Train) =
         let trainDisplayInfo = sprintf "\n This is a %s train terminating at: %s" (fullLineName (train.lineId)) train.destination

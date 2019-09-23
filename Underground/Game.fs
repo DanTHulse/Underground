@@ -26,9 +26,9 @@ module Game =
         |> chooser
         |> (fun s ->
             currentS.routes
-            |> List.collect (fun f ->
+            |> Seq.collect (fun f ->
                 f.fullTrains
-                |> List.filter (fun x -> x.lineId = s)))
+                |> Seq.filter (fun x -> x.lineId = s)))
         |> Elements.trainsDisplay
         |> chooser
 
@@ -40,7 +40,7 @@ module Game =
         let mutable currentT = boardTrain (currentS)
         let mutable totalCost = 0
 
-        while currentS <> endS do
+        while currentS.id <> endS.id do
             Screens.mainScreen (startS, endS, currentS, currentT, totalCost)
 
             let (nextT, lineCost) =

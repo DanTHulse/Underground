@@ -9,16 +9,16 @@ open Underground.ReadEx
 module Helpers =
     let enumToList<'a> = (Enum.GetValues (typeof<'a>) :?> ('a [])) |> Array.toList
 
-    let shuffleList next xs = xs |> Seq.sortBy (fun _ -> next ())
+    let shuffleSeq next xs = xs |> Seq.sortBy (fun _ -> next ())
 
-    let chooser (items: 'a list) =
-        [|0..items.Length-1|]
+    let chooser (items: 'a seq) =
+        [|0..(items |> Seq.length) - 1|]
         |> readOption
-        |> (fun i -> items.[i])
+        |> (fun i -> items |> Seq.item (i))
 
-    let join (items : list<string>) =
+    let join (items : seq<string>) =
         let buff =
-            List.fold
+            Seq.fold
                 (fun (buff :StringBuilder) (s:string) -> buff.Append(s).Append(", "))
                 (StringBuilder ())
                 items

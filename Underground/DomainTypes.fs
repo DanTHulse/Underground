@@ -31,12 +31,12 @@ module DomainTypes =
     type Route = {
       station: int
       trains: int[]
-      fullTrains: Train list
+      fullTrains: Train seq
       weight: int
     }
 
     type Station = {
       id: int
       name: string
-      routes: Route list
+      routes: Route seq
     }

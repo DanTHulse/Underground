@@ -11,7 +11,7 @@ module Entry =
         // HACK: This shouldn't be necessary
         Console.SetWindowSize (160, 45)
 
-        Screens.splashScreen
+        //Screens.splashScreen
         waitForInput ()
 
         Seq.initInfinite (fun _ ->
